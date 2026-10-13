@@ -2,7 +2,7 @@
  * Vanguard Studio Official Brand Vector Logo
  * Features gold techno chevron mark with electric cyan circuit traces
  */
-export const VANGUARD_LOGO_PATH = '/vanguard-logo.svg';
+export const VANGUARD_LOGO_PATH = '/logo.png';
 
 // Fully self-contained SVG Data URI for 100% zero-latency offline rendering
 export const VANGUARD_LOGO_DATA_URI = `data:image/svg+xml;utf8,${encodeURIComponent(`
