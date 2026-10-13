@@ -1,0 +1,354 @@
+// Utility to safely parse, normalize, sanitize, and render rich text content.
+// Handles both visual HTML (from WYSIWYG editor) and Markdown seamlessly,
+// eliminating stray raw tags, unescaped entities, or literal markup leaking to the screen.
+
+/**
+ * Strips all HTML tags and markdown markers to produce clean, plain text.
+ * Perfect for card summaries, table previews, and search indexing.
+ */
+export function stripHtml(input: string): string {
+  if (!input || typeof input !== 'string') return '';
+  return input
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/^#+\s+/gm, '')
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    .replace(/\*(.*?)\*/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Checks if input contains HTML markup or escaped HTML markup.
+ */
+export function isHtmlContent(input: string): boolean {
+  if (!input) return false;
+  return /<[a-z][\s\S]*>/i.test(input) || /&lt;[a-z]/i.test(input);
+}
+
+/**
+ * Unescapes accidentally escaped HTML entities (e.g. &lt;p&gt; -> <p>)
+ */
+export function unescapeHtmlEntities(input: string): string {
+  if (!input) return '';
+  return input
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, '&');
+}
+
+/**
+ * Converts Markdown or legacy text to semantic HTML with text-justify.
+ */
+export function markdownToHtml(raw: string): string {
+  if (!raw || typeof raw !== 'string') return '';
+
+  let text = raw.trim();
+
+  // If accidentally entity-escaped, unescape first
+  if (text.includes('&lt;') && (text.includes('&lt;p') || text.includes('&lt;h') || text.includes('&lt;div'))) {
+    text = unescapeHtmlEntities(text);
+  }
+
+  // Clean up stray double asterisks wrapped around HTML tags
+  text = text.replace(/\*\*\s*(<[a-z][^>]*>)/gi, '$1');
+  text = text.replace(/(<\/[a-z][^>]*>)\s*\*\*/gi, '$1');
+
+  // Check if it's already well-structured HTML
+  const hasHtmlTags = /<(\/)?(h[1-6]|p|div|ul|ol|li|blockquote|table|section|article|figure)[^>]*>/i.test(text);
+
+  if (hasHtmlTags) {
+    // Light inline fix: convert markdown bold/italic inside HTML
+    return text
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/(?<!\*)\*(?!\*)(.*?)\*/g, '<em>$1</em>')
+      .replace(/`([^`]+)`/g, '<code class="px-1 py-0.5 rounded bg-neutral-200 dark:bg-neutral-800 text-amber-500 font-mono text-[11px]">$1</code>');
+  }
+
+  // Otherwise parse line by line from Markdown to clean semantic HTML
+  const lines = text.split('\n');
+  const result: string[] = [];
+  let inUl = false;
+  let inOl = false;
+  let currentParagraph: string[] = [];
+
+  const flushParagraph = () => {
+    if (currentParagraph.length > 0) {
+      const pText = currentParagraph.join(' ').trim();
+      if (pText) {
+        result.push(`<p class="text-justify leading-relaxed">${formatInline(pText)}</p>`);
+      }
+      currentParagraph = [];
+    }
+  };
+
+  const closeLists = () => {
+    if (inUl) {
+      result.push('</ul>');
+      inUl = false;
+    }
+    if (inOl) {
+      result.push('</ol>');
+      inOl = false;
+    }
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+
+    if (!line) {
+      flushParagraph();
+      closeLists();
+      continue;
+    }
+
+    // Horizontal rule
+    if (line === '---' || line === '***' || line === '___') {
+      flushParagraph();
+      closeLists();
+      result.push('<hr class="my-4 border-neutral-200 dark:border-neutral-800" />');
+      continue;
+    }
+
+    // Headings
+    if (line.startsWith('### ')) {
+      flushParagraph();
+      closeLists();
+      result.push(`<h3 class="text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left">${formatInline(line.slice(4))}</h3>`);
+      continue;
+    }
+    if (line.startsWith('## ')) {
+      flushParagraph();
+      closeLists();
+      result.push(`<h2 class="text-lg sm:text-xl font-bold font-display text-neutral-950 dark:text-white pt-4 pb-1.5 border-b border-neutral-200 dark:border-neutral-800 text-left">${formatInline(line.slice(3))}</h2>`);
+      continue;
+    }
+    if (line.startsWith('# ')) {
+      flushParagraph();
+      closeLists();
+      result.push(`<h1 class="text-xl sm:text-2xl font-black font-display text-neutral-950 dark:text-white pt-4 pb-2 border-b border-neutral-200 dark:border-neutral-800 text-left">${formatInline(line.slice(2))}</h1>`);
+      continue;
+    }
+
+    // Blockquote
+    if (line.startsWith('> ')) {
+      flushParagraph();
+      closeLists();
+      result.push(`<blockquote class="p-4 rounded-xl bg-amber-500/10 border-l-4 border-amber-400 text-neutral-800 dark:text-amber-200/90 text-justify my-2 italic leading-relaxed">${formatInline(line.slice(2))}</blockquote>`);
+      continue;
+    }
+
+    // Bullet List
+    const bulletMatch = line.match(/^(?:[*•–—]|-)\s+(.*)/);
+    if (bulletMatch) {
+      flushParagraph();
+      if (!inUl) {
+        closeLists();
+        result.push('<ul class="list-disc pl-6 space-y-1.5 my-2.5">');
+        inUl = true;
+      }
+      const cleanBulletText = bulletMatch[1].replace(/^(?:&nbsp;|\u00A0|\s)+/g, '').trim();
+      result.push(`<li class="text-justify leading-relaxed">${formatInline(cleanBulletText)}</li>`);
+      continue;
+    }
+
+    // Numbered List
+    const numMatch = line.match(/^(\d+)\.\s+(.*)/);
+    if (numMatch) {
+      flushParagraph();
+      if (!inOl) {
+        closeLists();
+        result.push('<ol class="list-decimal pl-5 space-y-1.5 my-2">');
+        inOl = true;
+      }
+      result.push(`<li class="text-justify leading-relaxed">${formatInline(numMatch[2])}</li>`);
+      continue;
+    }
+
+    // Direct HTML block
+    if (line.startsWith('<div') || line.startsWith('<p') || line.startsWith('<blockquote') || line.startsWith('<table') || line.startsWith('<section')) {
+      flushParagraph();
+      closeLists();
+      result.push(line);
+      continue;
+    }
+
+    // Regular text in paragraph
+    currentParagraph.push(line);
+  }
+
+  flushParagraph();
+  closeLists();
+
+  return result.join('\n');
+}
+
+// Inline formatting (bold, italic, code, links)
+function formatInline(str: string): string {
+  return str
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/(?<!\*)\*(?!\*)(.*?)\*/g, '<em>$1</em>')
+    .replace(/`([^`]+)`/g, '<code class="px-1.5 py-0.5 rounded bg-neutral-200 dark:bg-neutral-800 font-mono text-[11px] text-amber-500">$1</code>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-amber-500 underline font-semibold hover:text-amber-400 transition-colors">$1</a>');
+}
+
+/**
+ * Ensures all <p> and <li> tags have two-sided justification (`text-justify`)
+ * and readable line-height (`leading-relaxed`), unless explicitly aligned center or right.
+ */
+export function ensureTextJustify(html: string): string {
+  if (!html) return '';
+
+  let output = html;
+
+  // If starts with raw markdown, convert to HTML first
+  if (!/<[a-z][\s\S]*>/i.test(output)) {
+    output = markdownToHtml(output);
+  }
+
+  // Ensure <p> tags have text-justify
+  output = output
+    .replace(/<p(?![^>]*class=)([^>]*)>/gi, '<p class="text-justify leading-relaxed"$1>')
+    .replace(/<p([^>]*)class="([^"]*)"([^>]*)>/gi, (match, before, classes, after) => {
+      if (!classes.includes('text-justify') && !classes.includes('text-center') && !classes.includes('text-right')) {
+        return `<p${before}class="${classes} text-justify leading-relaxed"${after}>`;
+      }
+      return match;
+    });
+
+  // Ensure <ul> and <ol> tags have inline style="text-align: left; list-style-position: inside;" to prevent text-justify list scattering
+  output = output.replace(/<(ul|ol)([^>]*)>/gi, (_match, tag, attrs) => {
+    let newAttrs = attrs;
+    if (/style=["']([^"']*)["']/i.test(newAttrs)) {
+      newAttrs = newAttrs.replace(/style=["']([^"']*)["']/i, (_sMatch: string, styleVal: string) => {
+        let s = styleVal;
+        if (!/text-align/i.test(s)) s += '; text-align: left;';
+        if (!/list-style-position/i.test(s)) s += '; list-style-position: inside;';
+        return `style="${s.replace(/^;\s*/, '')}"`;
+      });
+    } else {
+      newAttrs += ' style="text-align: left; list-style-position: inside;"';
+    }
+    return `<${tag}${newAttrs}>`;
+  });
+
+  // Ensure <ul> tags have visible disc list style and indentation
+  output = output
+    .replace(/<ul(?![^>]*class=)([^>]*)>/gi, '<ul class="list-disc pl-6 space-y-1 my-2"$1>')
+    .replace(/<ul([^>]*)class="([^"]*)"([^>]*)>/gi, (match, before, classes, after) => {
+      if (!classes.includes('list-disc') && !classes.includes('list-none')) {
+        return `<ul${before}class="${classes} list-disc pl-6 space-y-1 my-2"${after}>`;
+      }
+      return match;
+    });
+
+  // Ensure <ol> tags have visible decimal list style and indentation
+  output = output
+    .replace(/<ol(?![^>]*class=)([^>]*)>/gi, '<ol class="list-decimal pl-6 space-y-1 my-2"$1>')
+    .replace(/<ol([^>]*)class="([^"]*)"([^>]*)>/gi, (match, before, classes, after) => {
+      if (!classes.includes('list-decimal') && !classes.includes('list-none')) {
+        return `<ol${before}class="${classes} list-decimal pl-6 space-y-1 my-2"${after}>`;
+      }
+      return match;
+    });
+
+  // Clean up redundant <p> wrappers inside <li> tags that cause double line jumps or bullet misalignments
+  output = output.replace(/<li([^>]*)>\s*<p[^>]*>([\s\S]*?)<\/p>\s*<\/li>/gi, '<li$1>$2</li>');
+
+  // Ensure <li> tags have text-justify and clean line-height
+  output = output
+    .replace(/<li(?![^>]*class=)([^>]*)>/gi, '<li class="text-justify leading-relaxed"$1>')
+    .replace(/<li([^>]*)class="([^"]*)"([^>]*)>/gi, (match, before, classes, after) => {
+      if (!classes.includes('text-justify') && !classes.includes('text-center') && !classes.includes('text-right')) {
+        return `<li${before}class="${classes} text-justify leading-relaxed"${after}>`;
+      }
+      return match;
+    });
+
+  return output;
+}
+
+/**
+ * High-level cleaner: transforms any raw content into ready-to-render,
+ * perfectly justified and semantic HTML without any visual anomalies,
+ * stray literal bullets, uneven leading spaces, or raw tags.
+ */
+export function cleanAndNormalizeRichText(raw: string): string {
+  if (!raw || typeof raw !== 'string') return '';
+
+  let cleaned = raw.trim();
+
+  // If escaped entities exist, unescape
+  if (cleaned.includes('&lt;') && /&lt;(p|div|h[1-6]|ul|ol|li|blockquote|strong|b|em|i)/i.test(cleaned)) {
+    cleaned = unescapeHtmlEntities(cleaned);
+  }
+
+  // 1. Convert consecutive <p> tags starting with literal bullets (•, -, *, –, —) or &bull; into proper <ul><li>
+  cleaned = cleaned.replace(/(?:<p[^>]*>\s*(?:•|&bull;|&#8226;|[-*–—])[\s\S]*?<\/p>\s*)+/gi, (match) => {
+    const pItems = match.match(/<p[^>]*>[\s\S]*?<\/p>/gi);
+    if (!pItems || pItems.length === 0) return match;
+
+    const listItems = pItems.map(p => {
+      let content = p
+        .replace(/^<p[^>]*>/i, '')
+        .replace(/<\/p>$/i, '')
+        .trim();
+
+      // Strip literal bullet markers and any leading &nbsp;, \u00A0, tabs, or spaces
+      content = content
+        .replace(/^(?:&nbsp;|\u00A0|\s)*(?:•|&bull;|&#8226;|[-*–—])(?:&nbsp;|\u00A0|\s)*/gi, '')
+        .replace(/^(?:&nbsp;|\u00A0|\s)+/gi, '')
+        .trim();
+
+      return `<li class="text-justify leading-relaxed">${content}</li>`;
+    }).join('\n');
+
+    return `<ul class="list-disc pl-6 space-y-1.5 my-2.5">\n${listItems}\n</ul>`;
+  });
+
+  // 2. If it's Markdown or mixed, convert
+  cleaned = markdownToHtml(cleaned);
+
+  // 3. Clean up existing <li> elements (strip double bullet dots, leading spaces/nbsp/tabs)
+  cleaned = cleaned.replace(/<li([^>]*)>([\s\S]*?)<\/li>/gi, (_, attrs, inner) => {
+    // Unwrap inner <p> if present
+    let text = inner.replace(/^\s*<p[^>]*>([\s\S]*?)<\/p>\s*$/gi, '$1').trim();
+
+    // Strip leading literal bullet symbols (•, -, *, etc.), &nbsp;, \u00A0, tabs, and multiple spaces
+    text = text
+      .replace(/^(?:&nbsp;|\u00A0|\s)*(?:•|&bull;|&#8226;|[-*–—])(?:&nbsp;|\u00A0|\s)*/gi, '')
+      .replace(/^(?:&nbsp;|\u00A0|\s)+/gi, '')
+      .trim();
+
+    // Ensure text-justify class on li if not present
+    let finalAttrs = attrs;
+    if (!finalAttrs.includes('class=')) {
+      finalAttrs = `${finalAttrs} class="text-justify leading-relaxed"`;
+    } else if (!finalAttrs.includes('text-justify')) {
+      finalAttrs = finalAttrs.replace(/class="([^"]*)"/i, 'class="$1 text-justify leading-relaxed"');
+    }
+
+    return `<li${finalAttrs}>${text}</li>`;
+  });
+
+  // 4. Clean up <ol> <li> items (strip redundant typed numbers like "1. ", "2. ")
+  cleaned = cleaned.replace(/<ol([^>]*)>([\s\S]*?)<\/ol>/gi, (_olMatch: string, olAttrs: string, olInner: string) => {
+    const cleanInner = olInner.replace(/<li([^>]*)>([\s\S]*?)<\/li>/gi, (_liMatch: string, liAttrs: string, liText: string) => {
+      let text = liText.replace(/^\s*<p[^>]*>([\s\S]*?)<\/p>\s*$/gi, '$1').trim();
+      text = text
+        .replace(/^(?:&nbsp;|\u00A0|\s)*(?:\d+\.)(?:&nbsp;|\u00A0|\s)*/gi, '')
+        .replace(/^(?:&nbsp;|\u00A0|\s)+/gi, '')
+        .trim();
+      return `<li${liAttrs}>${text}</li>`;
+    });
+    return `<ol${olAttrs}>${cleanInner}</ol>`;
+  });
+
+  // 5. Apply text-justify and consistent styling
+  cleaned = ensureTextJustify(cleaned);
+
+  return cleaned;
+}

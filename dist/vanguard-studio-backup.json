@@ -1,0 +1,2562 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-10-10T00:00:00.000Z",
+  "products": [
+    {
+      "id": "prod-dental-clinic",
+      "title": "Aura Dental & Estetik Klinik",
+      "sector": "Sağlık & Klinik",
+      "slug": "aura-dental-clinic",
+      "tagline": "Hasta randevu akışını artıran prestijli klinik web sitesi",
+      "description": "Özel diş hekimleri, estetik poliklinikleri ve doktor muayenehaneleri için tasarlanmış; WhatsApp hızlı randevu butonu, hekim kadrosu vitrini ve mobil uyumlu tedavi rehberi içeren elit hazır web platformu.",
+      "priceEconomicTRY": 12500,
+      "priceProfessionalTRY": 19500,
+      "features": [
+        "WhatsApp ve Online Ön Randevu Sistemi",
+        "Hekimler ve Tedavi Branşları Tanıtım Sayfaları",
+        "Önce / Sonra Tedavi Sonuçları Galeri Modülü",
+        "Google Haritalar ve Klinik Konumu Entegrasyonu",
+        "Mobil Uyumlu, Süper Hızlı (99+ Lighthouse)",
+        "Temel SEO ve SSL Güvenlik Sertifikası"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=70",
+        "https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=600&q=70"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "isVideoLocal": false,
+      "badge": "Popüler",
+      "deliveryDays": 2,
+      "demoType": "medical",
+      "isFeaturedInMegaMenu": true,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Aura Dental & Aesthetic Clinic",
+          "sector": "Healthcare & Clinic",
+          "tagline": "Prestigious clinic storefront driving continuous patient bookings",
+          "description": "Engineered for private dentists, aesthetic practices, and medical doctors. Equipped with fast WhatsApp appointment dispatch, doctor team showcase, and mobile treatment catalog.",
+          "badge": "Popular",
+          "features": [
+            "WhatsApp & Instant Online Booking System",
+            "Doctor Profiles & Treatment Branch Showcase",
+            "Before & After Clinical Results Gallery",
+            "Google Maps Location & Driving Directions",
+            "Mobile-First & Ultra Fast (99+ Lighthouse)",
+            "Core SEO Setup & Free SSL Certificate"
+          ]
+        },
+        "ru": {
+          "title": "Аура Дентал и Эстетическая Клиника",
+          "sector": "Медицина и Клиники",
+          "tagline": "Премиальный сайт для клиник с высоким потоком записей пациентов",
+          "description": "Готовый сайт для частных стоматологий, эстетических поликлиник и врачей. Быстрая запись через WhatsApp, каталог процедур и презентация врачебного состава.",
+          "badge": "Популярно",
+          "features": [
+            "Онлайн-запись и модуль быстрой связи в WhatsApp",
+            "Страницы врачей и направлений лечения",
+            "Галерея результатов До / После",
+            "Интеграция с Яндекс.Картами и Google Maps",
+            "Мгновенная загрузка на смартфонах (99+ Lighthouse)",
+            "Базовая SEO-оптимизация и SSL-сертификат безопасности"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-law-firm",
+      "title": "Lexington Hukuk & Danışmanlık",
+      "sector": "Hukuk & Müşavirlik",
+      "slug": "lexington-law-firm",
+      "tagline": "Güven ve saygınlık aşılayan avukatlık bürosu platformu",
+      "description": "Hukuk büroları, arabulucular ve mali müşavirler için sade, otoriter ve güven tesis eden kurumsal web sitesi. Makale yayını, müvekkil danışma formu ve uzmanlık alanları vitrini ile donatılmıştır.",
+      "priceEconomicTRY": 13500,
+      "priceProfessionalTRY": 21000,
+      "features": [
+        "Uzmanlık Alanları & Dava Referansları Bölümü",
+        "Hukuki Makale ve Blog Yayınlama Modülü",
+        "Gizli Müvekkil Ön Danışma İletişim Formu",
+        "Avukat ve Ortak Özgeçmiş Kartları",
+        "KVKK & Aydınlatma Metinleri Uyumluluğu",
+        "Çok Dilli Altyapı Desteği (TR / EN / RU)"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=600&q=70",
+        "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=70"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "isVideoLocal": false,
+      "badge": "Prestij",
+      "deliveryDays": 2,
+      "demoType": "law",
+      "isFeaturedInMegaMenu": true,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Lexington Legal & Advisory",
+          "sector": "Law & Consulting",
+          "tagline": "Authoritative law practice platform inspiring trust and authority",
+          "description": "Crafted for legal practices, mediators, and tax advisors. Features legal publication articles, confidential client intake forms, and practice area showcases.",
+          "badge": "Prestige",
+          "features": [
+            "Practice Areas & Landmark Case Studies",
+            "Legal Insights & Articles Publishing Engine",
+            "Confidential Client Intake & Consultation Form",
+            "Partner & Associate Background Dossiers",
+            "Compliance & Privacy Notice Templates",
+            "Multilingual Architecture (EN / TR / RU)"
+          ]
+        },
+        "ru": {
+          "title": "Лексингтон Юридическое Бюро",
+          "sector": "Юриспруденция и Консалтинг",
+          "tagline": "Авторитетный сайт для адвокатов и консалтинговых компаний",
+          "description": "Строгий и солидный корпоративный сайт для адвокатских коллегий, медиаторов и аудиторов. Публикация статей, форма первичной консультации и карточки партнеров.",
+          "badge": "Престиж",
+          "features": [
+            "Практики и кейсы успешных судебных дел",
+            "Блог и юридические статьи для экспертности",
+            "Конфиденциальная форма первичной консультации",
+            "Портфолио партнеров и адвокатов",
+            "Соответствие законам о персональных данных",
+            "Мультиязычная платформа (RU / TR / EN)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-artisan-bistro",
+      "title": "Artisan Roast & Gastronomi",
+      "sector": "Restoran & Kafe",
+      "slug": "artisan-roast-bistro",
+      "tagline": "Görsel zenginlik ve QR menü destekli mekan deneyimi",
+      "description": "Butik kahveciler, fırınlar ve şık bistro restoranlar için iştah kabartan lezzet fotoğrafları, güncellenebilir dijital menü, masa rezervasyonu ve etkinlik duyuruları içeren sıcak tasarımlı web sitesi.",
+      "priceEconomicTRY": 11000,
+      "priceProfessionalTRY": 18000,
+      "features": [
+        "Mobil Uyumlu Görsel QR Menü Sistemi",
+        "Hızlı Masa Rezervasyonu & WhatsApp Siparişi",
+        "Haftalık Özel Menü ve Etkinlik Takvimi",
+        "Instagram Canlı Akış & Sosyal Medya Entegrasyonu",
+        "Çalışma Saatleri & Akıllı Konum Yol Tarifi",
+        "Google Yorumları Vitrini"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70"
+      ],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "badge": "Çok Satan",
+      "deliveryDays": 2,
+      "demoType": "restaurant",
+      "isFeaturedInMegaMenu": true,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Artisan Roast & Gastronomy",
+          "sector": "Restaurant & Cafe",
+          "tagline": "Visual culinary experience with interactive QR menu and reservations",
+          "description": "For boutique roasteries, bakeries, and bistro dining. Features high-res gastronomic photography, editable digital menu, table reservation requests, and event calendar.",
+          "badge": "Best Seller",
+          "features": [
+            "Mobile-Optimized Visual QR Menu System",
+            "Fast Table Reservations & WhatsApp Ordering",
+            "Weekly Specials & Seasonal Chef Calendar",
+            "Social Media & Instagram Stream Integration",
+            "Operating Hours & Dynamic Map Directions",
+            "Verified Google Reviews Showcase"
+          ]
+        },
+        "ru": {
+          "title": "Артизан Роаст & Гастрономия",
+          "sector": "Рестораны и Кофейни",
+          "tagline": "Атмосферный сайт для кафе и бистро с электронным QR-меню",
+          "description": "Для кофеен, пекарен и уютных ресторанов. Аппетитная презентация блюд, онлайн-бронирование столиков, заказ через WhatsApp и удобное цифровое меню.",
+          "badge": "Хит Продаж",
+          "features": [
+            "Красивое мобильное QR-меню с ценами и фото",
+            "Бронирование столов и заказ через WhatsApp/Telegram",
+            "Календарь мероприятий и сезонное меню",
+            "Интеграция с Instagram и социальными сетями",
+            "Часы работы и построение маршрута на карте",
+            "Витрина реальных отзывов гостей"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-khora-arch",
+      "title": "Khora Mimarlık & İç Tasarım",
+      "sector": "Mimarlık & İnşaat",
+      "slug": "khora-architecture",
+      "tagline": "Projelerinizi sanat eseri gibi sergileyen minimalist portföy",
+      "description": "İç mimarlar, proje ofisleri ve müteahhitler için yüksek çözünürlüklü proje galerileri, kat planı inceleme pencereleri ve teklif isteme modülü ile donatılmış sessiz lüks tasarım.",
+      "priceEconomicTRY": 15000,
+      "priceProfessionalTRY": 24000,
+      "features": [
+        "Tam Ekran Proje & Render Galerisi",
+        "Kategoriye Göre Filtrelenebilir Portföy",
+        "Tasarım Süreci & Aşama Anlatım Blokları",
+        "PDF Proje Kataloğu İndirme Butonu",
+        "Hızlı Proje Teklif Talep Formu",
+        "Koyu & Açık Tema Entegrasyonu"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=70"
+      ],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "badge": "Elit Çizgi",
+      "deliveryDays": 2,
+      "demoType": "architecture",
+      "isFeaturedInMegaMenu": true,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Khora Architecture & Interiors",
+          "sector": "Architecture & Design",
+          "tagline": "Minimalist editorial portfolio showcasing spaces as fine art",
+          "description": "For interior designers, architectural bureaus, and boutique developers. Features full-bleed project renders, floor-plan viewer modals, and brief request funnels.",
+          "badge": "Silent Luxury",
+          "features": [
+            "Full-Bleed Project Renders & Photo Gallery",
+            "Categorized & Filterable Project Archive",
+            "Design Methodology & Phase Storytelling",
+            "Downloadable PDF Architecture Portfolio",
+            "Fast Project Estimation & Brief Request Form",
+            "Seamless Dark & Light Architectural Modes"
+          ]
+        },
+        "ru": {
+          "title": "Хора Архитектура и Дизайн",
+          "sector": "Архитектура и Интерьер",
+          "tagline": "Минималистичное портфолио для архитектурных бюро и дизайнеров",
+          "description": "Для студий интерьера, архитекторов и застройщиков. Полноэкранные галереи проектов, планировки, этапы работы и заявка на расчет стоимости дизайн-проекта.",
+          "badge": "Элитный Стиль",
+          "features": [
+            "Полноэкранная галерея рендеров и проектов",
+            "Фильтрация портфолио по типам объектов",
+            "Описание этапов проектирования и надзора",
+            "Кнопка скачивания PDF-каталога проектов",
+            "Форма запроса коммерческого предложения",
+            "Идеальная адаптация под светлую и темную тему"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-nordic-logistics",
+      "title": "Nordic Global Lojistik",
+      "sector": "Lojistik & Taşımacılık",
+      "slug": "nordic-logistics",
+      "tagline": "Uluslararası taşımacılık ve navlun teklif motoru",
+      "description": "Uluslararası nakliye, gümrükleme ve antrepo firmaları için çok dilli, anlık navlun teklif hesaplama formlu ve güven veren kurumsal altyapı.",
+      "priceEconomicTRY": 13000,
+      "priceProfessionalTRY": 21500,
+      "features": [
+        "Anlık Navlun & Fiyat Teklif Talep Aracı",
+        "Taşıma Rotaları & Hizmet Filosu Rehberi",
+        "Çok Dilli (Türkçe, Rusça, İngilizce) Hazır Yapı",
+        "Konteyner ve Parsiyel Yük Bilgi Formları",
+        "Sertifikalar ve Güvenilirlik Göstergeleri",
+        "7/24 Acil Operasyon İletişim Butonu"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "badge": "Uluslararası",
+      "deliveryDays": 2,
+      "demoType": "logistics",
+      "isFeaturedInMegaMenu": false,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Nordic Global Freight & Logistics",
+          "sector": "Logistics & Cargo",
+          "tagline": "International freight forwarding engine with quick quote dispatch",
+          "description": "Tailored for cargo forwarders, customs brokers, and warehouse operators. Features instant multimodal route guides and freight quotation calculation request forms.",
+          "badge": "International",
+          "features": [
+            "Instant Multimodal Freight Quote Request Tool",
+            "Global Trade Routes & Fleet Capabilities",
+            "Multilingual Out of the Box (EN, RU, TR)",
+            "FCL / LCL Container Cargo Specifications",
+            "Official ISO Credentials & Carrier Trust Signals",
+            "24/7 Operations Hotline & Telegram Connection"
+          ]
+        },
+        "ru": {
+          "title": "Нордик Глобал Логистика",
+          "sector": "Логистика и Грузоперевозки",
+          "tagline": "Сайт для транспортных компаний с калькулятором запроса фрахта",
+          "description": "Для экспедиторских компаний, таможенных брокеров и перевозчиков РФ-Турция-Мир. Быстрый запрос расчета ставки, географии маршрутов и автопарка.",
+          "badge": "Международный",
+          "features": [
+            "Модуль запроса расчета ставки на перевозку",
+            "Схема международных маршрутов и автопарка",
+            "Готовая мультиязычность (RU / TR / EN)",
+            "Сборные грузы и контейнерные перевозки",
+            "Сертификаты, лицензии и гарантии надежности",
+            "Кнопка экстренной связи 24/7 с диспетчером"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-velo-store",
+      "title": "Velo Butik & E-Katalog",
+      "sector": "Butik E-Ticaret",
+      "slug": "velo-boutique-store",
+      "tagline": "WhatsApp ve havale ile sipariş alan hafif e-ticaret vitrini",
+      "description": "Küçük butikler, takı tasarımcıları ve özel üretim atölyeleri için karmaşık sanal pos sözleşmeleri olmadan doğrudan WhatsApp veya havale ile sipariş alan şık ürün kataloğu.",
+      "priceEconomicTRY": 14500,
+      "priceProfessionalTRY": 23500,
+      "features": [
+        "WhatsApp Doğrudan Sipariş Sepeti",
+        "Varyant Seçimi (Renk, Beden, Malzeme)",
+        "Instagram Alışveriş Kataloğu Uyumu",
+        "Hızlı Arama & Kategori Filtresi",
+        "Müşteri Fotoğraflı Değerlendirmeleri",
+        "Mobil Öncelikli Alışveriş Deneyimi"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "badge": "Yeni",
+      "deliveryDays": 2,
+      "demoType": "ecommerce",
+      "isFeaturedInMegaMenu": false,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Velo Boutique & Product Catalog",
+          "sector": "Boutique E-Commerce",
+          "tagline": "Lightweight product showcase taking orders directly via WhatsApp",
+          "description": "For artisan studios, handmade designers, and specialty fashion. Eliminate complicated payment gateway contracts with direct one-click WhatsApp checkout.",
+          "badge": "New",
+          "features": [
+            "Direct WhatsApp One-Click Order Cart",
+            "Variant Options (Color, Size, Material)",
+            "Instagram Shopping Sync Compatibility",
+            "Instant Search & Faceted Category Filter",
+            "Customer Photo Reviews & Testimonials",
+            "Mobile-First Touch Shopping Experience"
+          ]
+        },
+        "ru": {
+          "title": "Вело Бутик и Онлайн-Каталог",
+          "sector": "Бутик и E-Commerce",
+          "tagline": "Легкий интернет-магазин с приемом заказов в WhatsApp и Telegram",
+          "description": "Для локальных шоурумов, ювелирных брендов и мастерских. Позволяет продавать без сложных договоров эквайринга — клиенты оформляют корзину прямо в мессенджер.",
+          "badge": "Новинка",
+          "features": [
+            "Корзина с отправкой заказа в WhatsApp/Telegram",
+            "Выбор вариантов (размер, цвет, материал)",
+            "Синхронизация с каталогом Instagram",
+            "Быстрый поиск и фильтрация по категориям",
+            "Фотоотзывы довольных покупателей",
+            "Идеально удобная мобильная покупка"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-veritas-realty",
+      "title": "Veritas Gayrimenkul Portföyü",
+      "sector": "Emlak & Gayrimenkul",
+      "slug": "veritas-real-estate",
+      "tagline": "Lüks konut ve ticari mülk sergileme platformu",
+      "description": "Gayrimenkul danışmanları ve emlak ofisleri için portföy ilanları, konum haritası, mülk özellikleri listesi ve doğrudan WhatsApp danışman bağlantısı.",
+      "priceEconomicTRY": 14000,
+      "priceProfessionalTRY": 22500,
+      "features": [
+        "Detaylı İlan Kartları ve Fotoğraf Galerisi",
+        "Fiyat, Oda ve Konum Filtreleme Modülü",
+        "İlan Paylaşım & PDF Bilgi Kartı Oluşturucu",
+        "Danışman İletişim ve Tek Tıkla Arama",
+        "Ekspertiz ve Değerleme Talep Formu",
+        "Harita Üzerinde Mülk Konumlandırma"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "deliveryDays": 2,
+      "demoType": "realestate",
+      "isFeaturedInMegaMenu": false,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Veritas Real Estate & Properties",
+          "sector": "Real Estate & Assets",
+          "tagline": "Luxury residential and commercial property showcase platform",
+          "description": "For private brokers and agency offices. Features high-res listing cards, price & area filters, dynamic location map, and direct broker contact links.",
+          "features": [
+            "Detailed Property Dossiers & Photo Tour",
+            "Filter by Price, Rooms, and Neighborhood",
+            "Social Share & Instant PDF Flyer Generator",
+            "One-Tap Agent Direct Call & WhatsApp",
+            "Property Appraisal Request Funnel",
+            "Interactive Neighborhood Map Pinning"
+          ]
+        },
+        "ru": {
+          "title": "Веритас Недвижимость",
+          "sector": "Недвижимость и Инвестиции",
+          "tagline": "Презентация премиальных жилых и коммерческих объектов",
+          "description": "Для риелторов и агентств недвижимости в Турции и РФ. Карточки объектов, поэтажные планы, фильтры по бюджету и локации, прямая связь с брокером.",
+          "features": [
+            "Детальные карточки квартир и вилл с фото",
+            "Фильтр по стоимости, числу комнат и району",
+            "Генератор PDF-буклета по выбранному объекту",
+            "Быстрый звонок и чат с ведущим брокером",
+            "Заявка на оценку и подбор недвижимости",
+            "Интерактивная карта расположения объектов"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-pulse-fitness",
+      "title": "Pulse Elite Wellness & PT",
+      "sector": "Spor & Sağlıklı Yaşam",
+      "slug": "pulse-fitness-studio",
+      "tagline": "Ders programı ve üyelik paketleri satış sitesi",
+      "description": "Özel spor salonları, yoga stüdyoları ve kişisel antrenörler için haftalık ders takvimi, üyelik fiyat paketleri ve ücretsiz deneme dersi başvuru formu.",
+      "priceEconomicTRY": 11500,
+      "priceProfessionalTRY": 18500,
+      "features": [
+        "Haftalık Grup Dersi Program Tablosu",
+        "Üyelik Paketleri ve Karşılaştırma Tablosu",
+        "Ücretsiz Deneme Dersi Rezervasyon Formu",
+        "Eğitmen Kadrosu ve Uzmanlık Alanları",
+        "Öğrenci Başarı Hikayeleri & Değişimler",
+        "Hızlı WhatsApp İletişim Entegrasyonu"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "deliveryDays": 2,
+      "demoType": "fitness",
+      "isFeaturedInMegaMenu": false,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Pulse Elite Wellness & PT",
+          "sector": "Fitness & Health",
+          "tagline": "Schedule timetable and membership packages sales hub",
+          "description": "For private fitness studios, yoga centers, and personal coaches. Equipped with weekly schedule timetables, tier comparison, and free trial workout intake.",
+          "features": [
+            "Weekly Group Class Schedule & Timetable",
+            "Membership Tier Cards & Comparison Table",
+            "Free Trial Workout Booking Form",
+            "Trainer Credentials & Specializations",
+            "Client Body Transformations & Outcomes",
+            "Fast WhatsApp Community Engagement"
+          ]
+        },
+        "ru": {
+          "title": "Пульс Элит Фитнес и Персональный Тренинг",
+          "sector": "Спорт и Здоровье",
+          "tagline": "Сайт фитнес-студии с расписанием тренировок и абонементами",
+          "description": "Для фитнес-клубов, студий пилатеса и персональных тренеров. Удобное расписание занятий, прайс-лист абонементов и запись на бесплатную вводную тренировку.",
+          "features": [
+            "Интерактивное расписание групповых занятий",
+            "Таблица тарифов и клубных карт",
+            "Запись на бесплатную пробную тренировку",
+            "Презентация тренеров и их регалий",
+            "Истории трансформации и отзывы клиентов",
+            "Быстрая связь с администратором в WhatsApp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-creative-portfolio",
+      "title": "Aethel Portfolyo & Tasarım Stüdyosu",
+      "sector": "Portfolyo",
+      "slug": "aethel-creative-portfolio",
+      "tagline": "Kreatif ajanslar, fotoğrafçılar ve sanat yönetmenleri için elit portfolyo",
+      "description": "Yaratıcı stüdyolar, bağımsız tasarımcılar ve fotoğrafçılar için büyük boyutlu vaka analizi görselleri, etkileşimli proje vitrini ve doğrudan müşteri iletişim formu içeren ödüllü portfolyo platformu.",
+      "priceEconomicTRY": 13500,
+      "priceProfessionalTRY": 21500,
+      "features": [
+        "Geniş Ekran Proje Vitrini & Grid Düzeni",
+        "Etkileşimli Portfolyo Vaka Analizi Sayfaları",
+        "Müşteri Referansları ve Ödüller Bölümü",
+        "WhatsApp ve E-posta Hızlı Brief Formu",
+        "Özelleştirilebilir Tipografi ve Koyu Tema",
+        "Yüksek Hızlı Görsel Optimizasyonu"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=70"
+      ],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "badge": "Yeni",
+      "deliveryDays": 2,
+      "demoType": "portfolio",
+      "isFeaturedInMegaMenu": true,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "Aethel Portfolio & Creative Studio",
+          "sector": "Portfolio",
+          "tagline": "Elite digital portfolio for creative agencies, art directors, and photographers",
+          "description": "Engineered for creative bureaus, independent designers, and visual artists. Featuring cinematic case study galleries, interactive project grid, and high-conversion client brief intake.",
+          "badge": "New",
+          "features": [
+            "Full-Bleed Project Grid & Interactive Showcase",
+            "Cinematic Case Study Presentation Pages",
+            "Client Testimonials & Industry Awards Reel",
+            "Direct WhatsApp & Instant Brief Inquiry Funnel",
+            "Editorial Typography with Adaptive Dark Mode",
+            "Ultra-Fast Next-Gen Image Compression"
+          ]
+        },
+        "ru": {
+          "title": "Этель Портфолио & Креативная Студия",
+          "sector": "Портфолио",
+          "tagline": "Элитное портфолио для креативных агентств, дизайнеров и фотографов",
+          "description": "Готовый сайт для дизайн-студий, арт-директоров и креативных специалистов. Полноэкранные кейсы, интерактивная сетка проектов и форма быстрого брифа клиентов.",
+          "badge": "Новинка",
+          "features": [
+            "Полноэкранная презентация кейсов и проектов",
+            "Интерактивная сетка работ в стиле editorial",
+            "Блок наград, публикаций и отзывов клиентов",
+            "Быстрый бриф на проект через WhatsApp/Email",
+            "Изысканная типографика и темная тема",
+            "Молниеносная оптимизация медиа-контента"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prod-ufo-world",
+      "title": "UFO Dünyası & Kozmik Medya Portalı",
+      "sector": "Uzay & Dijital Medya",
+      "slug": "ufo-dunyasi-kozmik-medya",
+      "tagline": "Evrenin gizemlerini ve siber teorileri keşfeden yapay zeka destekli medya portalı",
+      "description": "Yapay zeka analizli uydu telemetrileri, doğrulanmış ufo ihbarları ve siber uzay araştırmalarıyla kitleleri büyüleyen yeni nesil dijital medya şablonu.",
+      "priceEconomicTRY": 12000,
+      "priceProfessionalTRY": 19500,
+      "features": [
+        "Tiptap Zengin Metin Makale Yayın Motoru",
+        "GEO (AI SEO) Optimizasyonu & Yapay Zeka Özeti",
+        "Telegram & Discord Topluluk Hub Eklentisi",
+        "Doğrulanmış UFO İhbar & Anomali Gönderim Formu",
+        "Kozmik Siber Temalı Karanlık Mod Arayüzü",
+        "Otomatik Çok Dilli Çeviri Desteği (TR, EN, RU)"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=600&q=70",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=70"
+      ],
+      "videoUrl": "",
+      "isVideoLocal": false,
+      "badge": "AI Desteği",
+      "deliveryDays": 2,
+      "demoType": "custom",
+      "isFeaturedInMegaMenu": true,
+      "active": true,
+      "translations": {
+        "en": {
+          "title": "UFO World & Cosmic Media Portal",
+          "sector": "Space & Digital Media",
+          "tagline": "AI-powered media portal unlocking universe mysteries & cyber theories",
+          "description": "Next-generation digital publication template captivating audiences with AI-analyzed satellite telemetries, verified UFO reports, and space research.",
+          "badge": "AI Powered",
+          "features": [
+            "Tiptap Rich Content Article Publishing Engine",
+            "GEO (AI SEO) Optimization & Automated AI Summary",
+            "Telegram & Discord Community Hub Integration",
+            "Verified UFO Sighting & Anomaly Submission Form",
+            "Cosmic Cyber-Themed Futuristic Dark UI",
+            "Built-In Multilingual Support (TR, EN, RU)"
+          ]
+        },
+        "ru": {
+          "title": "UFO World & Космический Медиа Портал",
+          "sector": "Космос и Медиа",
+          "tagline": "Медиа-портал на базе ИИ о тайнах вселенной и кибер-теориях",
+          "description": "Шаблон цифрового издания нового поколения с ИИ-анализом спутниковой телеметрии, проверенными отчетами об НЛО и космическими исследованиями.",
+          "badge": "ИИ Модуль",
+          "features": [
+            "Движок публикаций Tiptap Rich Text",
+            "GEO (AI SEO) Оптимизация и ИИ-Анонсы",
+            "Интеграция сообщества Telegram и Discord",
+            "Форма отправки отчетов о наблюдениях НЛО",
+            "Космический кибер-дизайн в темной теме",
+            "Встроенная мультиязычность (TR, EN, RU)"
+          ]
+        }
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "serv-01",
+      "number": "01",
+      "title": "Anahtar Teslim Sektörel Web Siteleri",
+      "subtitle": "48 Saat İçinde Canlıya Alınan Satış Odaklı Tasarımlar",
+      "description": "Küçük işletmelerin bütçesini zorlamayan, sektörünüze özel olarak hazırlanmış, mobil uyumlu ve yüksek dönüşümlü web siteleri. Alan adı, hosting, SSL ve içerik yerleşimi dahil eksiksiz teslim edilir.",
+      "deliverables": [
+        "Sektörünüze özel hazır şablon uyarlaması",
+        "WhatsApp ve arama butonları entegrasyonu",
+        "Hızlı açılan, temiz kodlanmış modern altyapı",
+        "48 saat içinde alan adınızda canlıya geçiş"
+      ],
+      "iconName": "Layout",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "title": "Turnkey Industry Websites",
+          "subtitle": "High-Converting Digital Storefronts Live in 48 Hours",
+          "description": "Cost-effective, industry-tailored websites built specifically for SMEs. Delivered complete with domain setup, high-speed hosting, SSL, and ready-to-sell content.",
+          "deliverables": [
+            "Industry-specific prototype adaptation",
+            "Direct WhatsApp and click-to-call integration",
+            "Clean, ultra-fast codebase architecture",
+            "Live on your custom domain in 48 hours"
+          ]
+        },
+        "ru": {
+          "title": "Готовые Отраслевые Сайты Под Ключ",
+          "subtitle": "Продающие сайты с запуском за 48 часов",
+          "description": "Доступные сайты для малого бизнеса с учетом специфики вашей ниши. Домен, быстрый хостинг, SSL-сертификат и наполнение контентом включены под ключ.",
+          "deliverables": [
+            "Адаптация дизайна под фирменный стиль",
+            "Кнопки быстрой связи через WhatsApp и звонки",
+            "Чистый код и моментальная скорость загрузки",
+            "Полный запуск на вашем домене за 48 часов"
+          ]
+        }
+      }
+    },
+    {
+      "id": "serv-02",
+      "number": "02",
+      "title": "Yönetilen Web Bakım & Güncelleme",
+      "subtitle": "Siz İşinize Odaklanın, Sitenizi Biz Yönetelim",
+      "description": "Yönetim paneliyle uğraşmak istemeyen ve ekstra personel tutamayan işletmeler için ekonomik model. Menü değişikliği, fiyat güncellemesi veya yeni fotoğraf eklemelerini tek bir mesajla bize iletin, aynı gün güncelleyelim.",
+      "deliverables": [
+        "Panel öğrenme derdi olmadan zahmetsiz yönetim",
+        "Aylık içerik, metin ve görsel güncellemeleri",
+        "Düzenli yedekleme ve güvenlik gözetimi",
+        "Yıllık hosting ve SSL sertifika idaresi"
+      ],
+      "iconName": "ShieldCheck",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "title": "Managed Maintenance & Updates",
+          "subtitle": "Focus on Your Business, We Run Your Site",
+          "description": "The economic tier for business owners who want zero tech headaches. Send price updates, photos, or text changes via simple message, and we update it same day.",
+          "deliverables": [
+            "No complex admin consoles to learn",
+            "Regular text, pricing, and image updates",
+            "Continuous security audits and backups",
+            "Annual hosting and SSL management included"
+          ]
+        },
+        "ru": {
+          "title": "Техническая Поддержка и Ведение Сайта",
+          "subtitle": "Занимайтесь бизнесом, сайт ведем мы",
+          "description": "Эконом-модель для владельцев без лишнего персонала. Изменение цен, меню или добавление новых фото — просто напишите нам в мессенджер, и мы обновим всё в тот же день.",
+          "deliverables": [
+            "Никаких сложных админок и траты времени",
+            "Регулярное обновление текстов, цен и фото",
+            "Бекапы и круглосуточная защита от сбоев",
+            "Годовой хостинг и продление SSL включены"
+          ]
+        }
+      }
+    },
+    {
+      "id": "serv-03",
+      "number": "03",
+      "title": "Profesyonel Özelleştirilebilir CMS",
+      "subtitle": "Tam Kontrol İsteyen Büyüyen İşletmeler İçin",
+      "description": "Kendi içeriklerini, ürünlerini veya blog yazılarını bağımsız yönetmek isteyen firmalar için modern, kullanımı son derece kolay ve güçlü profesyonel yönetim paneli.",
+      "deliverables": [
+        "Gelişmiş ama sade Türkçe / Rusça / İngilizce panel",
+        "Sınırsız sayfa, ürün ve görsel yükleme",
+        "Kullanıcı rolleri ve veri güvenliği",
+        "Ekip için 1 saatlik canlı eğitim ve video rehber"
+      ],
+      "iconName": "Settings",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "title": "Full-Access Custom CMS",
+          "subtitle": "Total Control for Growing Businesses",
+          "description": "Designed for companies needing daily independent publishing. An intuitive, modern admin interface to post catalog items, blog articles, and photo galleries.",
+          "deliverables": [
+            "Intuitive multilingual admin dashboard",
+            "Unlimited products, pages, and media uploads",
+            "Role-based permissions and data safeguards",
+            "1-hour live staff training and video guide"
+          ]
+        },
+        "ru": {
+          "title": "Собственная Профессиональная CMS",
+          "subtitle": "Полный контроль для развивающихся компаний",
+          "description": "Для компаний, которым нужно самостоятельно публиковать товары, статьи и фотогалереи через понятную, современную и быструю систему управления.",
+          "deliverables": [
+            "Стильная русскоязычная панель управления",
+            "Неограниченное добавление товаров и страниц",
+            "Разграничение прав доступа и защита данных",
+            "1 час персонального видео-обучения для сотрудников"
+          ]
+        }
+      }
+    },
+    {
+      "id": "serv-04",
+      "number": "04",
+      "title": "Çok Dilli Altyapı & Rusya/TR Lokalizasyonu",
+      "subtitle": "Uluslararası Pazarlara Açılan Çift Yönlü Güç",
+      "description": "Türkiye ve Rusya pazarlarında faaliyet gösteren firmalar için Rusça, Türkçe ve İngilizce dil altyapısı. Kültürel dinamiklere uygun içerik yerleşimi ve yerel arama motoru optimizasyonu.",
+      "deliverables": [
+        "Yandex ve Google arama motorları uyumluluğu",
+        "Doğal çeviri ve bölgesel iletişim kanalları (Telegram vb.)",
+        "Çoklu para birimi gösterimi (TL / RUB / USD)",
+        "Yerel hosting ve hızlı erişim altyapısı"
+      ],
+      "iconName": "Globe",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "title": "Multi-Market Localization (TR / RU / EN)",
+          "subtitle": "Bilingual Power for Cross-Border Ventures",
+          "description": "Engineered for businesses serving Turkey, Russia, and global markets. Cultural UX adaptations, local search engine indexing, and regional currency options.",
+          "deliverables": [
+            "Yandex & Google SEO compliance",
+            "Fluent localized copy and Telegram integration",
+            "Multi-currency price toggle (TRY / USD / RUB)",
+            "High-speed geo-distributed CDN delivery"
+          ]
+        },
+        "ru": {
+          "title": "Мультиязычность и Локализация (РФ / Турция)",
+          "subtitle": "Выход на международные рынки без барьеров",
+          "description": "Для компаний, работающих на рынках России, Турции и мира. Адаптация под поисковики Яндекс и Google, интеграция Telegram и показ цен в рублях, лирах и долларах.",
+          "deliverables": [
+            "Полная оптимизация под Яндекс и Google",
+            "Грамотный перевод и интеграция с Telegram/WhatsApp",
+            "Переключение валют (Рубли / Лиры / USD / Евро)",
+            "Быстрый серверный отклик в РФ и Турции"
+          ]
+        }
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-01",
+      "clientName": "Dr. Selin Bozkurt Estetik Diş",
+      "sector": "Sağlık / İstanbul",
+      "year": "2026",
+      "metric": "+210% WhatsApp Randevu Talebi",
+      "quote": "{{PRICE_12500}} gibi çok makul bir bütçeyle 2 gün içinde harika bir siteye kavuştuk. Hastalarım sitenin şıklığını ve doğrudan randevu butonunu çok beğeniyor.",
+      "author": "Dr. Selin Bozkurt",
+      "authorRole": "Kurucu Hekim",
+      "siteUrl": "#",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "sector": "Healthcare / Istanbul",
+          "metric": "+210% WhatsApp Consultation Inquiries",
+          "quote": "With a modest budget of ~{{PRICE_12500}}, we received an exceptional clinic portal in just 2 days. Patients consistently praise its elegance and 1-tap booking.",
+          "authorRole": "Founder & Chief Dentist"
+        },
+        "ru": {
+          "sector": "Медицина / Стамбул",
+          "metric": "+210% Заявок на Запись в WhatsApp",
+          "quote": "За очень разумный бюджет в {{PRICE_12500}} мы получили роскошный сайт всего за 2 дня. Пациенты регулярно отмечают удобство быстрой записи на прием.",
+          "authorRole": "Главный Врач и Основатель"
+        }
+      }
+    },
+    {
+      "id": "ref-02",
+      "clientName": "Volkov & Partners Hukuk Bürosu",
+      "sector": "Hukuk / Moskova & İstanbul",
+      "year": "2026",
+      "metric": "Rusya-TR Müvekkil Hacminde 3x Büyüme",
+      "quote": "Hem Türkçe hem Rusça dillerinde prestijli bir duruş yakaladık. Yönetim Bizde paketi sayesinde tek satır kodla uğraşmadan tüm güncellemelerimiz yapılıyor.",
+      "author": "Aleksey Volkov",
+      "authorRole": "Kıdemli Ortak Avukat",
+      "siteUrl": "#",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "sector": "Legal / Moscow & Istanbul",
+          "metric": "3x Expansion in Cross-Border Client Pipeline",
+          "quote": "We established an authoritative footprint in both Turkish and Russian. Under the Managed Tier, our updates are processed same-day with zero technical hassle.",
+          "authorRole": "Senior Managing Partner"
+        },
+        "ru": {
+          "sector": "Юриспруденция / Москва и Стамбул",
+          "metric": "В 3 раза больше обращений по делам РФ-Турция",
+          "quote": "Мы получили солидный статус сразу на русском и турецком языках. Благодаря тарифу \"Управление на Агентстве\" нам не нужно тратить время на админку.",
+          "authorRole": "Старший Партнер Бюро"
+        }
+      }
+    },
+    {
+      "id": "ref-03",
+      "clientName": "Atelier Artisan Fırın & Kafe",
+      "sector": "Gastronomi / Kadıköy",
+      "year": "2026",
+      "metric": "Günde 45+ Masa Rezervasyonu",
+      "quote": "Büyük ajansların servet istediği işi {{PRICE_11000}} bütçeyle tertemiz hallettik. QR menümüz ve fotoğraflarımız tam istediğimiz zariflikte.",
+      "author": "Emre Karaca",
+      "authorRole": "İşletme Sahibi",
+      "siteUrl": "#",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "sector": "Gastronomy / Istanbul",
+          "metric": "45+ Daily Reserved Tables",
+          "quote": "Big agencies quoted excessive fees. Vanguard delivered a flawless solution for {{PRICE_11000}}. Our visual QR menu and photo presentation are impeccable.",
+          "authorRole": "Owner & Head Baker"
+        },
+        "ru": {
+          "sector": "Гастрономия / Кадыкёй",
+          "metric": "45+ Броней Столиков Ежедневно",
+          "quote": "Большие агентства просили от 80 тысяч лир, а здесь мы решили задачу за 11 тысяч лир. QR-меню и фотографии выглядят потрясающе стильно.",
+          "authorRole": "Владелец Заведения"
+        }
+      }
+    },
+    {
+      "id": "ref-04",
+      "clientName": "Nordic Trans Lojistik Ltd.",
+      "sector": "Lojistik / St. Petersburg",
+      "year": "2026",
+      "metric": "48 Saatte Canlıya Çıkış",
+      "quote": "Acil bir fuar öncesinde 48 saatte yayına aldığımız navlun teklif sayfası sayesinde ilk haftadan 12 yeni kurumsal müşteriye ulaştık.",
+      "author": "Mikhail Sidorov",
+      "authorRole": "Operasyon Direktörü",
+      "siteUrl": "#",
+      "isFeaturedInMegaMenu": true,
+      "translations": {
+        "en": {
+          "sector": "Logistics / St. Petersburg",
+          "metric": "Live in Exactly 48 Hours",
+          "quote": "Launched just 48 hours prior to an international trade expo. We secured 12 enterprise contracts in our first week via the freight inquiry engine.",
+          "authorRole": "Operations Director"
+        },
+        "ru": {
+          "sector": "Логистика / Санкт-Петербург",
+          "metric": "Запуск Ровно за 48 Часов",
+          "quote": "Запустили страницу расчета ставок за 48 часов до начала международной выставки и уже в первую неделю заключили 12 контрактов с новыми клиентами.",
+          "authorRole": "Директор по Логистике"
+        }
+      }
+    }
+  ],
+  "languages": [
+    {
+      "code": "tr",
+      "name": "Türkçe",
+      "flag": "🇹🇷",
+      "isDefault": true,
+      "active": true
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "flag": "🇬🇧",
+      "isDefault": false,
+      "active": true
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "flag": "🇷🇺",
+      "isDefault": false,
+      "active": true
+    }
+  ],
+  "translations": {
+    "tr": {
+      "nav.home": "Ana Sayfa",
+      "nav.corporate": "Kurumsal",
+      "nav.support": "Destek & Bilgi",
+      "nav.readySites": "Hazır Siteler",
+      "nav.about": "Hakkımızda",
+      "nav.products": "Hazır Siteler",
+      "nav.services": "Hizmetlerimiz",
+      "nav.turnkeyProjects": "Turnkey Projects",
+      "nav.references": "Referanslar",
+      "nav.pricing": "Fiyatlandırma & Modeller",
+      "nav.contact": "Hemen Başla",
+      "nav.contactLink": "İletişim",
+      "nav.career": "Kariyer",
+      "nav.careerMobile": "Kariyer & İş Başvurusu",
+      "nav.legal": "Yasal Bildirimler",
+      "corporate.vision": "Vizyon",
+      "corporate.mission": "Misyon",
+      "nav.paymentPortal": "Güvenli Ödeme & Havale Portalı",
+      "nav.viewAll": "Tümünü Gör",
+      "nav.viewAllSites": "Tüm Hazır Siteleri İncele (Maks. 10)",
+      "nav.viewAllServices": "Tüm Ajans Hizmetlerimizi Gör",
+      "nav.viewAllReferences": "Tüm Başarı Hikayelerini İncele",
+      "nav.adminPortal": "Yönetici Paneli",
+      "hero.badge": "Küçük İşletmelere Özel · 48 Saatte Canlıda",
+      "hero.title": "Bütçenizi Zorlamayan, Prestijli Hazır Web Siteleri.",
+      "hero.subtitle": "Büyük ajanslara servet ödemeden; {{PRICE_10000}} – {{PRICE_20000}} aralığında, sektörünüze özel tasarlanmış, satış odaklı ve hemen teslim dijital varlıklar.",
+      "hero.ctaPrimary": "Hazır Siteleri Keşfet",
+      "hero.ctaSecondary": "Hangi Paket Size Uygun?",
+      "hero.watchVideo": "Nasıl Çalışıyoruz? (Video)",
+      "hero.stat1.val": "48 Saat",
+      "hero.stat1.label": "Ortalama Teslimat Süresi",
+      "hero.stat2.val": "{{PRICE_10000}}’den",
+      "hero.stat2.label": "Başlayan Şeffaf Fiyatlar",
+      "hero.stat3.val": "TR · RU · EN",
+      "hero.stat3.label": "Çok Dilli & Pazar Odaklı",
+      "products.sectionNumber": "01. Vitrin & Portföy",
+      "products.listingCount": "Site Listeleniyor (Maksimum 10)",
+      "products.sectionTitle": "Satışa Hazır Sektörel Siteler",
+      "products.sectionSubtitle": "Özenle seçilmiş, test edilmiş ve anahtar teslim devreye alınmaya hazır maksimum 10 özel çözüm.",
+      "products.all": "Tüm Sektörler",
+      "products.economicBadge": "Yönetim Bizde",
+      "products.proBadge": "Profesyonel CMS",
+      "products.readyIn": "Teslimat: 48 Saat",
+      "products.viewDemo": "Canlı Önizleme",
+      "products.viewDetails": "Detay & Satın Al",
+      "products.orderNow": "Bu Siteyi Satın Al",
+      "products.emptyCategory": "Bu kategoride şu anda listelenen hazır site bulunmuyor.",
+      "products.viewAll": "Tüm Hazır Siteleri Gör",
+      "models.sectionNumber": "02. Şeffaf Teslimat Modelleri",
+      "models.sectionTitle": "Şeffaf Teslimat & İş Modelleri",
+      "models.sectionSubtitle": "İster tüm teknik güncellemeleri bize devredip işinize bakın, ister tam yetkili panelinizle yönetin, isterseniz firmanıza özel sıfırdan mimari kuralım.",
+      "models.mostPopular": "En Çok Tercih Edilen Model",
+      "models.turnkey": "/ anahtar teslim",
+      "models.fullIndependence": "Tam Bağımsızlık & Kontrol",
+      "models.advancedPanel": "Gelişmiş Panel Çözümü",
+      "models.ctaStripe": "Stripe / Havale",
+      "models.ctaQuote": "Teklif İste",
+      "models.economic.title": "Ekonomik Paket (Yönetim Bizde)",
+      "models.economic.tagline": "{{PRICE_10000}} – {{PRICE_15000}} Aralığı",
+      "models.economic.desc": "Web paneli öğrenmekle veya şifrelerle vakit kaybetmek istemeyen küçük işletmeler için idealdir. Sitenizi kurar, içeriklerinizi yükleriz. Değişiklik gerektiğinde bize iletirsiniz, biz yaparız.",
+      "models.economic.feat1": "Müşteriye karmaşık panel verilmez; tam yönetim desteği ajanstadır",
+      "models.economic.feat2": "Alan adı, hosting, SSL ve kurumsal e-posta kurulumu dahil",
+      "models.economic.feat3": "Yılda 12 kez metin, fotoğraf ve fiyat güncelleme hakkı",
+      "models.economic.feat4": "Hızlı WhatsApp ve doğrudan arama butonları entegrasyonu",
+      "models.economic.feat5": "Süper hızlı açılış ve mobil kusursuzluk",
+      "models.pro.title": "Profesyonel Paket (Tam Yetkili CMS)",
+      "models.pro.tagline": "{{PRICE_18000}} – {{PRICE_25000}}+ Aralığı",
+      "models.pro.desc": "Kendi ekibi olan, sık içerik/ürün girişi yapan veya sitenin her detayını bağımsız yönetmek isteyen büyüyen firmalar için tam yetkili profesyonel yönetim paneli.",
+      "models.pro.feat1": "Müşteriye teslim edilen tam yetkili, sade profesyonel CMS",
+      "models.pro.feat2": "Sınırsız ürün, yazı ve galeri içeriği ekleme imkanı",
+      "models.pro.feat3": "Çok dilli içerik yönetimi ve otomatik çeviri motoru",
+      "models.pro.feat4": "Gelişmiş analitik ve form bildirimleri entegrasyonu",
+      "models.pro.feat5": "Ekibiniz için 1 saatlik canlı video eğitim ve rehber",
+      "models.custom.title": "Özel Talep & Kurumsal Mimari",
+      "models.custom.tagline": "Özel Kapsam & Teklif Usulü",
+      "models.custom.desc": "Standart şablonların ötesinde; markanıza özel sıfırdan UI/UX tasarımı, harici API/ERP/CRM entegrasyonları, çoklu şube veya e-ticaret altyapısı gerektiren ileri seviye projeler.",
+      "models.custom.feat1": "Markanıza ve sektörünüze özel sıfırdan Figma UI/UX tasarımı",
+      "models.custom.feat2": "Özel backend mimarisi, API servisleri ve ERP/CRM entegrasyonları",
+      "models.custom.feat3": "Çoklu dil, çoklu para birimi ve global ödeme ağ geçitleri",
+      "models.custom.feat4": "Yüksek trafik yük dengelemesi ve özel cloud sunucu kurulumu",
+      "models.custom.feat5": "Öncelikli 7/24 SLA desteği, kaynak kod teslimi ve dokümantasyon",
+      "models.custom.badge": "Özel Talep & Büyüme",
+      "models.custom.price": "Özel Fiyatlandırma",
+      "models.custom.subprice": "/ projeye göre",
+      "services.sectionNumber": "03. Ajans Çözümleri",
+      "services.sectionTitle": "Ajans Hizmetleri",
+      "services.sectionSubtitle": "Hazır sitelerimizin ötesinde, büyümenizi destekleyecek uçtan uca dijital çözümler.",
+      "references.sectionNumber": "04. Kanıtlanmış Başarılar",
+      "references.sectionTitle": "İş Birliklerimiz & Sonuçlar",
+      "references.sectionSubtitle": "Türkiye ve Rusya pazarındaki küçük işletmelerin gerçek başarı deneyimleri.",
+      "viewAll.allProducts": "Tüm Satışa Hazır Sektörel Siteler (Maks. 10)",
+      "viewAll.allServices": "Tüm Ajans Hizmetlerimiz & Yeteneklerimiz",
+      "viewAll.allReferences": "Tüm Referanslar & Müşteri Deneyimleri",
+      "viewAll.catalogSubtitle": "Vanguard Studio resmi kataloğu",
+      "megaMenu.productsSub": "Maksimum 10 hazır site portföyümüzden öne çıkan 4 anahtar teslim vitrin",
+      "megaMenu.servicesSub": "Özel yazılım, tasarım ve büyüme odaklı ajans servislerimiz",
+      "megaMenu.referencesSub": "KOBİ’ler ve kurumsal müşterilerimizle ulaştığımız somut sonuçlar",
+      "megaMenu.corporateTitle": "Kurumsal Ekosistem & Vizyon",
+      "megaMenu.corporateSub": "Vanguard Studio hikayesi, üretim felsefemiz ve açık pozisyonlarımız",
+      "megaMenu.supportTitle": "Destek, Müşteri Rehberi & Ödeme",
+      "megaMenu.supportSub": "Sıkça sorulan sorular, yardım rehberleri, IBAN hesapları ve hizmet garantisi",
+      "megaMenu.aboutTitle": "Hakkımızda",
+      "megaMenu.aboutDesc": "Vanguard Studio'nun kuruluş hikayesi, dijital üretim felsefesi ve tutkulu ekip kültürü.",
+      "megaMenu.visionTitle": "Vizyonumuz",
+      "megaMenu.visionDesc": "Bürokrasisiz 48 saatlik hızlı teslimat ve kusursuz React & Tailwind yazılım altyapısı.",
+      "megaMenu.missionTitle": "Misyonumuz",
+      "megaMenu.missionDesc": "KOBİ ve iştiraklerin fahiş ajans bütçelerinden ve kronik gecikmelerden kurtarılması.",
+      "megaMenu.careerTitle": "Kariyer & Uzaktan Başvuru",
+      "megaMenu.careerDesc": "Açık Performans Pazarlama & Media Buyer pozisyonları ve uzaktan çalışma olanakları.",
+      "megaMenu.faqTitle": "Sıkça Sorulan Sorular (FAQ)",
+      "megaMenu.faqDesc": "Müşterilerimizin en çok merak ettiği sorular ve akordeon yapıda şeffaf yanıt havuzu.",
+      "megaMenu.helpTitle": "Yardım Merkezi (Help Desk)",
+      "megaMenu.helpDesc": "Teknik dokümantasyon, kurumsal e-posta kurulum kılavuzları ve canlı destek hattı.",
+      "megaMenu.paymentTitle": "Güvenli Ödeme & IBAN",
+      "megaMenu.paymentDesc": "Stripe altyapısı, Garanti BBVA / İş Bankası ve SBP resmi transfer kanalları.",
+      "megaMenu.guaranteeTitle": "Hizmet Garantisi",
+      "megaMenu.guaranteeDesc": "48 saatlik sayaç kuralları, %100 canlıya alma taahhüdü ve 7 günlük ücretsiz revizyon.",
+      "detail.packageOptions": "Teslimat & Proje Seçenekleri (3 Model)",
+      "detail.twoOptions": "Teslimat & Proje Seçenekleri (3 Model)",
+      "detail.economicOption": "Ekonomik Seçenek",
+      "detail.economicManaged": "Yönetim Bizde (Sıfır Zahmet)",
+      "detail.economicDesc": "Sitenizi kurarız, güncellemeleri bize WhatsApp'tan iletirsiniz, biz yaparız.",
+      "detail.selectPackage": "Bu Paketi Seç",
+      "detail.proOption": "Profesyonel Seçenek",
+      "detail.proTitle": "Tam Yetkili Profesyonel CMS",
+      "detail.proDesc": "Kendi modern yönetim panelinizle sınırsız içerik, fotoğraf ve yazı girişi.",
+      "detail.customOption": "Özel Talep & Kurumsal",
+      "detail.customTitle": "Özel Mimari & Ek Geliştirme",
+      "detail.customPrice": "Teklif Usulü (Özel Kapsam)",
+      "detail.customDesc": "Bu tasarımı firmanıza özel modüller, API entegrasyonları veya sıfırdan ek özelliklerle uyarlayalım.",
+      "detail.customButton": "Özel Teklif İste",
+      "detail.buyStripeWire": "Stripe / Havale İle Satın Al",
+      "form.title": "Projeniz İçin Teklif & Bilgi Alın",
+      "form.subtitle": "48 saatte anahtar teslim yayına alma garantisi",
+      "form.successTitle": "Talebiniz Başarıyla Alındı!",
+      "form.whatsappDirect": "WhatsApp'tan Hemen Yaz",
+      "form.undecided": "Genel Danışmanlık / Kararsızım",
+      "form.economicPackage": "Ekonomik Paket",
+      "form.economicTagline": "{{PRICE_10000}} - {{PRICE_15000}} · Yönetim Bizde",
+      "form.proPackage": "Profesyonel CMS",
+      "form.proTagline": "{{PRICE_18000}} - {{PRICE_25000}}+ · Tam Yetkili Panel",
+      "form.customPackage": "Özel Talep",
+      "form.customTagline": "Özel Kapsam · Teklif Usulü",
+      "form.name": "Adınız Soyadınız",
+      "form.email": "E-Posta Adresiniz",
+      "form.phone": "Telefon Numaranız",
+      "form.company": "Firma / İşletme Adı",
+      "form.hasWhatsapp": "WhatsApp bu numaradan farklı veya ayrıca belirtmek istiyorum",
+      "form.whatsappExtra": "WhatsApp Numaranız (Opsiyonel)",
+      "form.productSelect": "İlgilendiğiniz Hazır Site",
+      "form.packageSelect": "Tercih Ettiğiniz Model",
+      "form.message": "Notunuz veya İşletmeniz Hakkında Bilgi",
+      "form.submit": "Talebimi Gönder",
+      "form.success": "Talebiniz başarıyla alındı! En geç 2 saat içinde sizinle iletişime geçeceğiz.",
+      "footer.corporateTitle": "KURUMSAL",
+      "footer.modelsTitle": "HAZIR SİTELER & PAKETLER",
+      "footer.legalTitle": "YASAL BİLDİRİMLER",
+      "footer.acceptingClients": "Yeni Müşteri Kabulü Açık",
+      "footer.officesFocus": "Ofisler & Bölgesel Odak",
+      "footer.directContact": "Doğrudan İletişim",
+      "footer.whatsappLine": "WhatsApp Hattı",
+      "footer.quickLinks": "Hızlı Erişim",
+      "footer.catalogLink": "Hazır Siteler Kataloğu",
+      "footer.packagesLink": "Teslimat Paketleri",
+      "footer.maintenanceLink": "Yönetilen Web Bakım Hizmeti",
+      "footer.allRights": "Tüm hakları saklıdır.",
+      "footer.regions": "Türkiye · Rusya · Global",
+      "footer.privacy": "KVKK & Gizlilik",
+      "footer.turnaround": "48 Saatte Anahtar Teslim",
+      "footer.hubTurkey": "Türkiye & Genel",
+      "footer.hubRussia": "Rusya & Avrasya",
+      "contact.onlyWhatsapp": "Sadece WhatsApp",
+      "contact.whatsappAndCall": "WhatsApp & Arama",
+      "demo.desktop": "Masaüstü Görünüm",
+      "demo.tablet": "Tablet Görünüm",
+      "demo.mobile": "Mobil Görünüm",
+      "demo.orderProposal": "Sipariş / Teklif",
+      "nav.payment": "Ödeme & IBAN",
+      "header.currency": "Para Birimi:",
+      "ticker.title": "TCMB & CBR Resmi Kurlar",
+      "ticker.subtitle": "(Anlık Dönüştürücü)",
+      "ticker.activeCurrency": "Aktif Birim:",
+      "ticker.cbrtRate": "Merkez Bankası Kuru (TCMB)",
+      "ticker.cbrRate": "Rusya Merkez Bankası Kuru (CBR)",
+      "payment.portalTitle": "Güvenli Ödeme & Havale Portalı",
+      "payment.launchFee": "48 Saat İçinde Yayına Alma Bedeli",
+      "payment.tabCard": "Kredi / Banka Kartı (Stripe)",
+      "payment.tabBank": "Banka Havalesi / FAST / СБП",
+      "payment.cardName": "Kart Üzerindeki İsim",
+      "payment.cardNumber": "Kart Numarası",
+      "payment.cardExpiry": "Son Kullanma Tarihi",
+      "payment.cardCvc": "Güvenlik Kodu (CVC / CVV)",
+      "payment.completePay": "Güvenli Ödemeyi Tamamla",
+      "payment.processing": "Stripe Üzerinden İşleniyor...",
+      "payment.successTitle": "Ödeme Başarıyla Tamamlandı!",
+      "payment.successDesc": "İşleminiz Stripe altyapısı üzerinden güvenle onaylandı. Projeniz hemen sıraya alındı ve teknik ekibimiz 2 saat içinde iletişime geçecektir.",
+      "payment.copy": "Kopyala",
+      "payment.copied": "Kopyalandı",
+      "payment.sendReceiptWhatsapp": "Havale Sonrası WhatsApp'tan Dekont İlet",
+      "products.manageWithCustomerPanel": "Müşteri Paneli ile Yönet",
+      "products.customerPanelTooltip": "Bu sitenin müşteri yönetim panelini aç",
+      "products.videoAvailable": "Video Tanıtım Mevcut",
+      "products.startingPrice": "Başlangıç Fiyatı",
+      "header.customerPanel": "Müşteri Paneli",
+      "header.customerPanelTooltip": "Müşteri Yönetim Paneli (Hazır Sitenizi Yönetin)",
+      "header.adminLockTooltip": "Vanguard Yönetici Terminali (PIN: admin123)",
+      "header.menuToggle": "Menüyü Aç / Kapat",
+      "header.language": "Dil",
+      "demo.customerPanelTooltip": "Müşteri Paneli ile Bu Siteyi Düzenleyin",
+      "detail.featuresIncluded": "Dahil Olan Özellikler & Fonksiyonlar",
+      "common.viewDetails": "Detayları İncele",
+      "payment.bank": "Banka",
+      "payment.accountHolder": "Hesap Sahibi",
+      "form.attachmentLabel": "Logo / Doküman / Brief Ekle (Maksimum 10MB)",
+      "megaMenu.startingPrice": "Başlangıç Fiyatı",
+      "megaMenu.examine": "İncele",
+      "megaMenu.viewDetails": "Detayları İncele",
+      "video.modalTitle": "Vanguard Studio · Tanıtım & Demo Videosu",
+      "video.notAvailable": "Video linki henüz tanımlanmadı veya yüklenemedi.",
+      "video.addFromAdmin": "Yönetici panelinden geçerli bir YouTube veya Vimeo video bağlantısı ekleyebilirsiniz.",
+      "video.notSupported": "Tarayıcınız video etiketini desteklemiyor.",
+      "customer.title": "Müşteri Paneli",
+      "customer.subtitle": "Sadeleştirilmiş CMS",
+      "customer.desc": "Hizmetlerinizi, fiyatlarınızı ve çalışma saatlerinizi yapay zekaya gerek kalmadan yönetin.",
+      "customer.managedSite": "Yönetilen:",
+      "customer.livePreview": "Canlı Önizle",
+      "customer.menu": "Menü",
+      "customer.tabBrand": "Firma & Görseller",
+      "customer.tabBrandDesc": "Firma adı, slogan, logo ve vitrin görseli",
+      "customer.tabServices": "Hizmetler",
+      "customer.tabServicesDesc": "Sunduğunuz hizmet listesi, açıklamalar ve fiyatlar",
+      "customer.tabPricing": "Fiyatlandırma & Paketler",
+      "customer.tabPricingDesc": "Ekonomik ve Profesyonel paket satış fiyatları",
+      "customer.tabHours": "Çalışma Saatleri & Durum",
+      "customer.tabHoursDesc": "Hafta içi, cumartesi, pazar ve sipariş kabul durumu",
+      "customer.tabContact": "İletişim & Adres",
+      "customer.tabContactDesc": "Telefon, WhatsApp, kurumsal e-posta ve açık adres",
+      "customer.saveChanges": "Değişiklikleri Kaydet & Yayınla",
+      "customer.saveSuccess": "Değişiklikler başarıyla kaydedildi!",
+      "common.close": "Kapat",
+      "common.save": "Kaydet",
+      "common.delete": "Sil",
+      "common.edit": "Düzenle",
+      "common.add": "Yeni Ekle",
+      "common.cancel": "İptal"
+    },
+    "en": {
+      "nav.home": "Home",
+      "nav.corporate": "Corporate",
+      "nav.support": "Support & Info",
+      "nav.readySites": "Ready Websites",
+      "nav.about": "About Us",
+      "nav.products": "Turnkey Sites",
+      "nav.services": "Services",
+      "nav.turnkeyProjects": "Turnkey Projects",
+      "nav.references": "Case Studies",
+      "nav.pricing": "Pricing & Models",
+      "nav.contact": "Get Started",
+      "nav.contactLink": "Contact",
+      "nav.career": "Careers",
+      "nav.careerMobile": "Careers & Jobs",
+      "nav.legal": "Legal Notices",
+      "corporate.vision": "Vision",
+      "corporate.mission": "Mission",
+      "nav.paymentPortal": "Secure Payment & Wire Transfer",
+      "nav.viewAll": "View All",
+      "nav.viewAllSites": "Explore All Turnkey Sites (Max 10)",
+      "nav.viewAllServices": "View All Studio Services",
+      "nav.viewAllReferences": "Read All Success Stories",
+      "nav.adminPortal": "Admin Console",
+      "hero.badge": "Tailored for Small Businesses · Live in 48 Hours",
+      "hero.title": "Prestigious Turnkey Websites Without Agency Markups.",
+      "hero.subtitle": "Launch production-ready, high-converting digital storefronts crafted for your industry within the {{PRICE_10000}} – {{PRICE_20000}} range.",
+      "hero.ctaPrimary": "Explore Turnkey Sites",
+      "hero.ctaSecondary": "Compare Delivery Tiers",
+      "hero.watchVideo": "How We Work? (Video)",
+      "hero.stat1.val": "48 Hours",
+      "hero.stat1.label": "Average Turnaround",
+      "hero.stat2.val": "From {{PRICE_10000}}",
+      "hero.stat2.label": "Transparent Budget",
+      "hero.stat3.val": "EN · TR · RU",
+      "hero.stat3.label": "Multi-Market Localization",
+      "products.sectionNumber": "01. Showcase & Portfolio",
+      "products.listingCount": "Sites Listed (Max. 10)",
+      "products.sectionTitle": "Curated Ready-to-Sell Portfolio",
+      "products.sectionSubtitle": "A handpicked catalog of up to 10 turnkey web solutions engineered for maximum conversion.",
+      "products.all": "All Industries",
+      "products.economicBadge": "Managed by Agency",
+      "products.proBadge": "Full-Access CMS",
+      "products.readyIn": "Delivery: 48h",
+      "products.viewDemo": "Live Interactive Demo",
+      "products.viewDetails": "Specs & Purchase",
+      "products.orderNow": "Purchase This Solution",
+      "products.emptyCategory": "No turnkey sites are currently listed in this category.",
+      "products.viewAll": "View All Ready-to-Sell Sites",
+      "models.sectionNumber": "02. Transparent Delivery Models",
+      "models.sectionTitle": "Three Transparent Delivery Models",
+      "models.sectionSubtitle": "Choose hands-off agency management, take full control with custom CMS, or engineer a bespoke enterprise architecture from scratch.",
+      "models.mostPopular": "Most Popular Choice",
+      "models.turnkey": "/ turnkey delivery",
+      "models.fullIndependence": "Full Independence & Control",
+      "models.advancedPanel": "Advanced Dashboard",
+      "models.ctaStripe": "Stripe / Wire Transfer",
+      "models.ctaQuote": "Request Proposal",
+      "models.economic.title": "Economic Tier (Agency Managed)",
+      "models.economic.tagline": "{{PRICE_10000}} – {{PRICE_15000}} Range",
+      "models.economic.desc": "Ideal for business owners who want zero tech headaches. We set up everything and handle ongoing updates on your behalf via simple messaging.",
+      "models.economic.feat1": "No complex admin panels to learn; full hands-off support",
+      "models.economic.feat2": "Domain, hosting, SSL certificate & business email setup included",
+      "models.economic.feat3": "12 content, price & photo updates per year included",
+      "models.economic.feat4": "Direct WhatsApp lead buttons & click-to-call integration",
+      "models.economic.feat5": "Sub-second page speeds and flawless mobile UX",
+      "models.pro.title": "Professional Tier (Full-Access CMS)",
+      "models.pro.tagline": "{{PRICE_18000}} – {{PRICE_25000}}+ Range",
+      "models.pro.desc": "Designed for growing enterprises needing an intuitive, full-featured content management dashboard to post products, blogs, and media independently.",
+      "models.pro.feat1": "Delivered with a pristine, intuitive custom admin console",
+      "models.pro.feat2": "Unlimited pages, posts, products, and gallery uploads",
+      "models.pro.feat3": "Multilingual translation engine with AI automated translate",
+      "models.pro.feat4": "Advanced lead inquiries dashboard and export tools",
+      "models.pro.feat5": "1-hour live walkthrough and video onboarding guide for your staff",
+      "models.custom.title": "Custom Request & Enterprise Architecture",
+      "models.custom.tagline": "Custom Scope & Bespoke Quote",
+      "models.custom.desc": "Beyond turnkey templates; full custom UI/UX design, dedicated API/ERP/CRM integrations, multi-branch architectures, and high-load production scalability.",
+      "models.custom.feat1": "Bespoke Figma UI/UX tailored from scratch for your brand identity",
+      "models.custom.feat2": "Custom backend, microservices, and external ERP/CRM connectors",
+      "models.custom.feat3": "Global multi-currency, multi-language & international payment gates",
+      "models.custom.feat4": "Dedicated cloud cluster, load balancing & speed optimization",
+      "models.custom.feat5": "Priority 24/7 SLA maintenance, full IP source code handover",
+      "models.custom.badge": "Custom Request & Growth",
+      "models.custom.price": "Custom Scope & Quote",
+      "models.custom.subprice": "/ per project",
+      "services.sectionNumber": "03. Studio Capabilities",
+      "services.sectionTitle": "Studio Capabilities",
+      "services.sectionSubtitle": "End-to-end digital craft designed to power small business market entries.",
+      "references.sectionNumber": "04. Proven Track Record",
+      "references.sectionTitle": "Proven Track Record",
+      "references.sectionSubtitle": "Real measurable business results across Turkey, Russia, and international borders.",
+      "viewAll.allProducts": "All Turnkey Industry Sites (Max. 10)",
+      "viewAll.allServices": "All Studio Services & Capabilities",
+      "viewAll.allReferences": "All Case Studies & Client Stories",
+      "viewAll.catalogSubtitle": "Vanguard Studio official catalog",
+      "megaMenu.productsSub": "Top 4 turnkey showcases curated from our maximum 10 site portfolio",
+      "megaMenu.servicesSub": "Custom software, design, and growth-driven agency services",
+      "megaMenu.referencesSub": "Tangible growth results achieved with our small business and corporate clients",
+      "megaMenu.corporateTitle": "Corporate Ecosystem & Vision",
+      "megaMenu.corporateSub": "The Vanguard Studio story, production philosophy, and career roles",
+      "megaMenu.supportTitle": "Support, Desk & Payments",
+      "megaMenu.supportSub": "Frequently asked questions, help guides, wire transfer details, and SLA guarantees",
+      "megaMenu.aboutTitle": "About Us",
+      "megaMenu.aboutDesc": "Vanguard Studio story, zero-bureaucracy production philosophy, and team culture.",
+      "megaMenu.visionTitle": "Our Vision",
+      "megaMenu.visionDesc": "48-hour rapid deployment without red tape, powered by React & Tailwind stack.",
+      "megaMenu.missionTitle": "Our Mission",
+      "megaMenu.missionDesc": "Liberating SMEs from exorbitant agency fees and endless delivery delays.",
+      "megaMenu.careerTitle": "Careers & Remote Roles",
+      "megaMenu.careerDesc": "Open Performance Marketing & Media Buyer roles with full remote flexibility.",
+      "megaMenu.faqTitle": "Frequently Asked Questions (FAQ)",
+      "megaMenu.faqDesc": "A transparent accordion repository answering common client questions.",
+      "megaMenu.helpTitle": "Help Center (Help Desk)",
+      "megaMenu.helpDesc": "Technical documentation, business email configuration guides, and direct support.",
+      "megaMenu.paymentTitle": "Secure Payment & IBAN",
+      "megaMenu.paymentDesc": "Stripe gateway, Garanti BBVA / Is Bankasi and SBP official wire transfer channels.",
+      "megaMenu.guaranteeTitle": "Service SLA Guarantee",
+      "megaMenu.guaranteeDesc": "48-hour countdown rule, guaranteed live launch, and 7-day complimentary revisions.",
+      "detail.packageOptions": "Delivery & Project Options (3 Models)",
+      "detail.twoOptions": "Delivery & Project Options (3 Models)",
+      "detail.economicOption": "Economic Option",
+      "detail.economicManaged": "Agency Managed (Zero Hassle)",
+      "detail.economicDesc": "We build your site; whenever you need updates, just message us on WhatsApp.",
+      "detail.selectPackage": "Select This Tier",
+      "detail.proOption": "Professional Option",
+      "detail.proTitle": "Full-Access Professional CMS",
+      "detail.proDesc": "Post unlimited products, photos, and articles via your intuitive modern CMS.",
+      "detail.customOption": "Custom Request & Enterprise",
+      "detail.customTitle": "Bespoke Architecture & Custom Dev",
+      "detail.customPrice": "Bespoke Quote (Custom Scope)",
+      "detail.customDesc": "Tailor this design with bespoke modules, proprietary API/CRM integrations, or custom architecture.",
+      "detail.customButton": "Request Custom Quote",
+      "detail.buyStripeWire": "Buy via Stripe / Wire",
+      "form.title": "Request Project Consultation",
+      "form.subtitle": "Guaranteed turnkey launch within 48 hours",
+      "form.successTitle": "Inquiry Successfully Received!",
+      "form.whatsappDirect": "Message via WhatsApp",
+      "form.undecided": "General Consultation / Not Sure Yet",
+      "form.economicPackage": "Economic Tier",
+      "form.economicTagline": "{{PRICE_10000}} - {{PRICE_15000}} · Managed by Us",
+      "form.proPackage": "Professional CMS",
+      "form.proTagline": "{{PRICE_18000}} - {{PRICE_25000}}+ · Full Client Panel",
+      "form.customPackage": "Custom Request",
+      "form.customTagline": "Custom Scope · Bespoke Quote",
+      "form.name": "Your Full Name",
+      "form.email": "Email Address",
+      "form.phone": "Phone Number",
+      "form.company": "Company / Business Name",
+      "form.hasWhatsapp": "WhatsApp is different or specify separately",
+      "form.whatsappExtra": "WhatsApp Number (Optional)",
+      "form.productSelect": "Selected Turnkey Solution",
+      "form.packageSelect": "Preferred Delivery Tier",
+      "form.message": "Project Details or Special Notes",
+      "form.submit": "Submit Request",
+      "form.success": "Your inquiry has been submitted! Our team will contact you within 2 hours.",
+      "footer.corporateTitle": "CORPORATE",
+      "footer.modelsTitle": "TURNKEY SITES & PACKAGES",
+      "footer.legalTitle": "LEGAL NOTICES",
+      "footer.acceptingClients": "Open for New Client Projects",
+      "footer.officesFocus": "Offices & Regional Presence",
+      "footer.directContact": "Direct Contact",
+      "footer.whatsappLine": "WhatsApp Line",
+      "footer.quickLinks": "Quick Links",
+      "footer.catalogLink": "Turnkey Sites Catalog",
+      "footer.packagesLink": "Delivery Packages",
+      "footer.maintenanceLink": "Managed Web Maintenance",
+      "footer.allRights": "All rights reserved.",
+      "footer.regions": "Turkey · Russia · Global",
+      "footer.privacy": "Privacy & GDPR / KVKK",
+      "footer.turnaround": "48-Hour Turnkey Delivery",
+      "footer.hubTurkey": "Turkey & Global",
+      "footer.hubRussia": "Russia & Eurasia",
+      "contact.onlyWhatsapp": "WhatsApp Only",
+      "contact.whatsappAndCall": "WhatsApp & Call",
+      "demo.desktop": "Desktop View",
+      "demo.tablet": "Tablet View",
+      "demo.mobile": "Mobile View",
+      "demo.orderProposal": "Order / Proposal",
+      "nav.payment": "Payment & IBAN",
+      "header.currency": "Currency:",
+      "ticker.title": "CBRT & CBR Official Exchange Rates",
+      "ticker.subtitle": "(Live FX Converter)",
+      "ticker.activeCurrency": "Active Currency:",
+      "ticker.cbrtRate": "Central Bank of Turkey Rate (CBRT)",
+      "ticker.cbrRate": "Bank of Russia Rate (CBR)",
+      "payment.portalTitle": "Secure Payment & Transfer Portal",
+      "payment.launchFee": "48-Hour Rapid Delivery Fee",
+      "payment.tabCard": "Credit / Debit Card (Stripe)",
+      "payment.tabBank": "Bank Transfer / Wire / SBP",
+      "payment.cardName": "Name on Card",
+      "payment.cardNumber": "Card Number",
+      "payment.cardExpiry": "Expiration Date",
+      "payment.cardCvc": "Security Code (CVC / CVV)",
+      "payment.completePay": "Complete Secure Payment",
+      "payment.processing": "Processing via Stripe...",
+      "payment.successTitle": "Payment Completed Successfully!",
+      "payment.successDesc": "Your transaction has been securely authorized via Stripe. Your project is prioritized and our technical lead will reach out within 2 hours.",
+      "payment.copy": "Copy",
+      "payment.copied": "Copied",
+      "payment.sendReceiptWhatsapp": "Send Transfer Receipt via WhatsApp",
+      "products.manageWithCustomerPanel": "Manage via Client CMS",
+      "products.customerPanelTooltip": "Open client management console for this site",
+      "products.videoAvailable": "Demo Video Available",
+      "products.startingPrice": "Starting Price",
+      "header.customerPanel": "Client Panel",
+      "header.customerPanelTooltip": "Client Management Panel (Manage Your Site)",
+      "header.adminLockTooltip": "Vanguard Admin Terminal (PIN: admin123)",
+      "header.menuToggle": "Toggle Menu",
+      "header.language": "Language",
+      "demo.customerPanelTooltip": "Customize This Site with Client Panel",
+      "detail.featuresIncluded": "Included Features & Functionality",
+      "common.viewDetails": "View Details",
+      "payment.bank": "Bank",
+      "payment.accountHolder": "Account Holder",
+      "form.attachmentLabel": "Attach Logo, Brief or Assets (Max 10MB)",
+      "megaMenu.startingPrice": "Starting Price",
+      "megaMenu.examine": "Explore",
+      "megaMenu.viewDetails": "View Details",
+      "video.modalTitle": "Vanguard Studio · Showcase & Demo Video",
+      "video.notAvailable": "Video link has not been configured yet.",
+      "video.addFromAdmin": "You can add a valid YouTube or Vimeo link via the Admin Terminal.",
+      "video.notSupported": "Your browser does not support the video tag.",
+      "customer.title": "Client CMS Panel",
+      "customer.subtitle": "Simplified Management",
+      "customer.desc": "Manage your services, pricing, and business hours directly without hassle.",
+      "customer.managedSite": "Active Site:",
+      "customer.livePreview": "Live Preview",
+      "customer.menu": "Menu",
+      "customer.tabBrand": "Brand & Visuals",
+      "customer.tabBrandDesc": "Business name, tagline, logo, and cover image",
+      "customer.tabServices": "Services",
+      "customer.tabServicesDesc": "Service catalog, descriptions, and pricing",
+      "customer.tabPricing": "Pricing & Packages",
+      "customer.tabPricingDesc": "Economic and Professional retail pricing",
+      "customer.tabHours": "Hours & Operations",
+      "customer.tabHoursDesc": "Weekdays, Saturday, Sunday, and order intake status",
+      "customer.tabContact": "Contact & Location",
+      "customer.tabContactDesc": "Phone, WhatsApp, email, and office address",
+      "customer.saveChanges": "Save & Publish Changes",
+      "customer.saveSuccess": "Changes saved successfully!",
+      "common.close": "Close",
+      "common.save": "Save Changes",
+      "common.delete": "Delete",
+      "common.edit": "Edit",
+      "common.add": "Create New",
+      "common.cancel": "Cancel"
+    },
+    "ru": {
+      "nav.home": "Главная",
+      "nav.corporate": "О Компании",
+      "nav.support": "Поддержка и Инфо",
+      "nav.readySites": "Готовые Сайты",
+      "nav.about": "О Нас",
+      "nav.products": "Готовые Сайты",
+      "nav.services": "Услуги",
+      "nav.turnkeyProjects": "Turnkey Projects",
+      "nav.references": "Кейсы",
+      "nav.pricing": "Тарифы и Модели",
+      "nav.contact": "Запустить Проект",
+      "nav.contactLink": "Контакты",
+      "nav.career": "Карьера",
+      "nav.careerMobile": "Карьера и Вакансии",
+      "nav.legal": "Правовая Информация",
+      "corporate.vision": "Видение",
+      "corporate.mission": "Миссия",
+      "nav.paymentPortal": "Безопасная Оплата и Реквизиты",
+      "nav.viewAll": "Смотреть Все",
+      "nav.viewAllSites": "Все Готовые Решения (макс. 10)",
+      "nav.viewAllServices": "Все Услуги Агентства",
+      "nav.viewAllReferences": "Все Отзывы и Кейсы",
+      "nav.adminPortal": "Панель Управления",
+      "hero.badge": "Для Малого Бизнеса · Запуск за 48 Часов",
+      "hero.title": "Премиальные Готовые Сайты Без Переплат.",
+      "hero.subtitle": "Современные продающие сайты для малого бизнеса по доступной цене ({{PRICE_10000}} – {{PRICE_20000}}). Без затяжных правок, запуск под ключ.",
+      "hero.ctaPrimary": "Каталог Готовых Сайтов",
+      "hero.ctaSecondary": "Сравнить Тарифы",
+      "hero.watchVideo": "Как мы работаем? (Видео)",
+      "hero.stat1.val": "48 Часов",
+      "hero.stat1.label": "Срок Запуска Проекта",
+      "hero.stat2.val": "от {{PRICE_10000}}",
+      "hero.stat2.label": "Прозрачная Стоимость",
+      "hero.stat3.val": "RU · TR · EN",
+      "hero.stat3.label": "Рынки РФ, Турции и Мира",
+      "products.sectionNumber": "01. Витрина и Портфолио",
+      "products.listingCount": "Сайтов в каталоге (Макс. 10)",
+      "products.sectionTitle": "Готовые Отраслевые Решения",
+      "products.sectionSubtitle": "Компактное портфолио из максимум 10 готовых к продаже сайтов с высокой конверсией.",
+      "products.all": "Все Сферы",
+      "products.economicBadge": "Управление на Нас",
+      "products.proBadge": "Проф. Панель CMS",
+      "products.readyIn": "Срок: 48 ч.",
+      "products.viewDemo": "Интерактивное Демо",
+      "products.viewDetails": "Подробнее и Заказ",
+      "products.orderNow": "Купить Этот Сайт",
+      "products.emptyCategory": "В этой категории пока нет опубликованных готовых сайтов.",
+      "products.viewAll": "Показать Все Готовые Сайты",
+      "models.sectionNumber": "02. Прозрачные Модели Запуска",
+      "models.sectionTitle": "Три Прозрачные Модели Запуска",
+      "models.sectionSubtitle": "Делегируйте рутину нам, управляйте сайтом самостоятельно через CMS или закажите индивидуальную архитектуру под ключ.",
+      "models.mostPopular": "Самый Популярный Тариф",
+      "models.turnkey": "/ под ключ",
+      "models.fullIndependence": "Полная Автономия и Контроль",
+      "models.advancedPanel": "Продвинутая Панель CMS",
+      "models.ctaStripe": "Оплата Картой / СБП",
+      "models.ctaQuote": "Запросить Расчет",
+      "models.economic.title": "Эконом-Пакет (Управление на Нас)",
+      "models.economic.tagline": "{{PRICE_10000}} – {{PRICE_15000}}",
+      "models.economic.desc": "Идеально для владельцев, которые не хотят разбираться в панелях управления. Мы запускаем сайт, а любые правки и обновление цен вносим по вашей просьбе.",
+      "models.economic.feat1": "Клиенту не нужно тратить время на админку; поддержка на нас",
+      "models.economic.feat2": "Домен, хостинг, SSL-сертификат и почта включены в запуск",
+      "models.economic.feat3": "До 12 обновлений текстов, фото и цен в год включено",
+      "models.economic.feat4": "Кнопки быстрой связи через WhatsApp и Telegram",
+      "models.economic.feat5": "Высокая скорость загрузки и адаптивность под смартфоны",
+      "models.pro.title": "Профессиональный Пакет (CMS под Ключ)",
+      "models.pro.tagline": "{{PRICE_18000}} – {{PRICE_25000}}+",
+      "models.pro.desc": "Для компаний, которым нужно самостоятельно и часто обновлять товары, новости и медиафайлы через собственную стильную панель управления.",
+      "models.pro.feat1": "Полноценная, простая и современная панель CMS в ваше распоряжение",
+      "models.pro.feat2": "Неограниченное добавление страниц, каталога и фотогалерей",
+      "models.pro.feat3": "Мультиязычность и встроенный автоматический переводчик",
+      "models.pro.feat4": "Удобная база входящих заявок и клиентов",
+      "models.pro.feat5": "1 час персонального video-обучения для сотрудников",
+      "models.custom.title": "Индивидуальная Разработка и Архитектура",
+      "models.custom.tagline": "Индивидуальный Расчет и Смета",
+      "models.custom.desc": "Для задач за рамками типовых решений: уникальный UI/UX дизайн с нуля, интеграция с 1С/ERP/CRM, API, сложные каталоги и масштабируемая корпоративная инфраструктура.",
+      "models.custom.feat1": "Уникальный дизайн в Figma с нуля под айдентику бренда",
+      "models.custom.feat2": "Собственный бэкенд, микросервисы и интеграции с 1С/CRM/API",
+      "models.custom.feat3": "Мультиязычность, мультивалютность и международный эквайринг",
+      "models.custom.feat4": "Высоконагруженная облачная архитектура и серверная оптимизация",
+      "models.custom.feat5": "Приоритетная SLA-поддержка 24/7 и передача всех исходных кодов",
+      "models.custom.badge": "Индивидуальный Проект",
+      "models.custom.price": "Индивидуальная Смета",
+      "models.custom.subprice": "/ под задачу",
+      "services.sectionNumber": "03. Услуги Агентства",
+      "services.sectionTitle": "Услуги Нашей Студии",
+      "services.sectionSubtitle": "Комплексные цифровые инструменты для масштабирования вашего бизнеса.",
+      "references.sectionNumber": "04. Доказанные Результаты",
+      "references.sectionTitle": "Результаты Наших Клиентов",
+      "references.sectionSubtitle": "Реальные показатели малого бизнеса в Турции и России.",
+      "viewAll.allProducts": "Все Готовые Сайты Под Ключ (Макс. 10)",
+      "viewAll.allServices": "Все Услуги и Компетенции Студии",
+      "viewAll.allReferences": "Все Отзывы и Успешные Кейсы",
+      "viewAll.catalogSubtitle": "Официальный каталог Vanguard Studio",
+      "megaMenu.productsSub": "4 ключевых решения под ключ из нашего компактного каталога",
+      "megaMenu.servicesSub": "Индивидуальная разработка, дизайн и сервисы роста для бизнеса",
+      "megaMenu.referencesSub": "Реальные измеримые результаты наших клиентов в разных сферах",
+      "megaMenu.corporateTitle": "Корпоративная Экосистема",
+      "megaMenu.corporateSub": "История Vanguard Studio, философия разработки и открытые вакансии",
+      "megaMenu.supportTitle": "Поддержка и Оплата",
+      "megaMenu.supportSub": "Частые вопросы, технические руководства, реквизиты СБП и гарантия качества",
+      "megaMenu.aboutTitle": "О Нас",
+      "megaMenu.aboutDesc": "История создания Vanguard Studio, философия быстрой разработки и наша команда.",
+      "megaMenu.visionTitle": "Наше Видение",
+      "megaMenu.visionDesc": "Запуск сайтов за 48 часов без бюрократии на современном стеке React & Tailwind.",
+      "megaMenu.missionTitle": "Наша Миссия",
+      "megaMenu.missionDesc": "Освобождение малого бизнеса от завышенных цен и бесконечных сорванных сроков.",
+      "megaMenu.careerTitle": "Карьера & Удаленная Работа",
+      "megaMenu.careerDesc": "Открытые вакансии перфоманс-маркетолога и медиабайера с удаленным графиком.",
+      "megaMenu.faqTitle": "Часто Задаваемые Вопросы (FAQ)",
+      "megaMenu.faqDesc": "Прозрачная база ответов на самые популярные вопросы клиентов.",
+      "megaMenu.helpTitle": "Центр Помощи (Help Desk)",
+      "megaMenu.helpDesc": "Техническая документация, инструкции по настройке почты и каналы связи.",
+      "megaMenu.paymentTitle": "Безопасная Оплата и Реквизиты",
+      "megaMenu.paymentDesc": "Оплата картами Stripe, реквизиты Garanti BBVA / İş Bankası и система СБП.",
+      "megaMenu.guaranteeTitle": "Гарантия Качества",
+      "megaMenu.guaranteeDesc": "Правило 48-часового таймера, 100% гарантия запуска и 7 дней бесплатных правок.",
+      "detail.packageOptions": "Варианты Поставки и Модели (3 Модели)",
+      "detail.twoOptions": "Варианты Поставки и Модели (3 Модели)",
+      "detail.economicOption": "Эконом-Вариант",
+      "detail.economicManaged": "Управление на Нас (Без Забот)",
+      "detail.economicDesc": "Мы запускаем сайт, а любые правки и обновление цен вы присылаете нам в мессенджер.",
+      "detail.selectPackage": "Выбрать Этот Тариф",
+      "detail.proOption": "Профессиональный Вариант",
+      "detail.proTitle": "CMS с Полным Доступом",
+      "detail.proDesc": "Неограниченное добавление товаров, фото и статей через современную админку.",
+      "detail.customOption": "Спецзапрос и Корпоратив",
+      "detail.customTitle": "Индивидуальная Архитектура и Доработка",
+      "detail.customPrice": "По Запросу (Индивидуально)",
+      "detail.customDesc": "Адаптируем дизайн под ваш бренд с уникальными модулями, интеграцией CRM/API или разработкой с нуля.",
+      "detail.customButton": "Запросить Расчет",
+      "detail.buyStripeWire": "Оплатить Картой / СБП / Счет",
+      "form.title": "Заявка на Запуск Сайта",
+      "form.subtitle": "Гарантированный запуск под ключ за 48 часов",
+      "form.successTitle": "Заявка Успешно Принята!",
+      "form.whatsappDirect": "Написать в WhatsApp",
+      "form.undecided": "Консультация / Пока не определился",
+      "form.economicPackage": "Эконом-Тариф",
+      "form.economicTagline": "{{PRICE_10000}} - {{PRICE_15000}} · Поддержка на нас",
+      "form.proPackage": "Проф. Панель CMS",
+      "form.proTagline": "{{PRICE_18000}} - {{PRICE_25000}}+ · Полный доступ",
+      "form.customPackage": "Спецзапрос",
+      "form.customTagline": "Индивидуальный Объем · Расчет",
+      "form.name": "Ваше Имя и Фамилия",
+      "form.email": "Электронная Почта",
+      "form.phone": "Номер Телефона",
+      "form.company": "Название Компании",
+      "form.hasWhatsapp": "WhatsApp отличается от основного номера или указать отдельно",
+      "form.whatsappExtra": "Номер WhatsApp (По желанию)",
+      "form.productSelect": "Выбранный Готовый Сайт",
+      "form.packageSelect": "Желаемый Тариф",
+      "form.message": "Пожелания или Описание Деятельности",
+      "form.submit": "Отправить Заявку",
+      "form.success": "Ваша заявка принята! Мы свяжемся с вами в течение 2 часов.",
+      "footer.corporateTitle": "КОМПАНИЯ",
+      "footer.modelsTitle": "ГОТОВЫЕ САЙТЫ И ТАРИФЫ",
+      "footer.legalTitle": "ПРАВОВАЯ ИНФОРМАЦИЯ",
+      "footer.acceptingClients": "Прием Новых Проектов Открыт",
+      "footer.officesFocus": "Офисы и Присутствие",
+      "footer.directContact": "Прямые Контакты",
+      "footer.whatsappLine": "Линия WhatsApp",
+      "footer.quickLinks": "Быстрые Ссылки",
+      "footer.catalogLink": "Каталог Готовых Сайтов",
+      "footer.packagesLink": "Пакеты Запуска",
+      "footer.maintenanceLink": "Управляемая Поддержка Сайтов",
+      "footer.allRights": "Все права защищены.",
+      "footer.regions": "Турция · Россия · Международный",
+      "footer.privacy": "Конфиденциальность",
+      "footer.turnaround": "Запуск Под Ключ за 48 Ч",
+      "footer.hubTurkey": "Турция & Международный",
+      "footer.hubRussia": "Россия & Евразия",
+      "contact.onlyWhatsapp": "Только WhatsApp",
+      "contact.whatsappAndCall": "WhatsApp и Звонки",
+      "demo.desktop": "Компьютер",
+      "demo.tablet": "Планшет",
+      "demo.mobile": "Смартфон",
+      "demo.orderProposal": "Заказ / Предложение",
+      "nav.payment": "Оплата и Реквизиты",
+      "header.currency": "Валюта:",
+      "ticker.title": "Официальные курсы ЦБ РФ & TCMB",
+      "ticker.subtitle": "(Онлайн-конвертер)",
+      "ticker.activeCurrency": "Активная валюта:",
+      "ticker.cbrtRate": "Курс Центрального банка Турции (TCMB)",
+      "ticker.cbrRate": "Курс Банка России (ЦБ РФ)",
+      "payment.portalTitle": "Портал Безопасной Оплаты и Реквизитов",
+      "payment.launchFee": "Стоимость запуска под ключ за 48 часов",
+      "payment.tabCard": "Банковская Карта (Stripe)",
+      "payment.tabBank": "Банковский Перевод / СБП",
+      "payment.cardName": "Имя на карте",
+      "payment.cardNumber": "Номер карты",
+      "payment.cardExpiry": "Срок действия",
+      "payment.cardCvc": "Код безопасности (CVC / CVV)",
+      "payment.completePay": "Оплатить безопасно",
+      "payment.processing": "Обработка платежа через Stripe...",
+      "payment.successTitle": "Оплата Успешно Проведена!",
+      "payment.successDesc": "Платеж успешно подтвержден через Stripe. Проект немедленно взят в работу, наш специалист свяжется с вами в течение 2 часов.",
+      "payment.copy": "Копировать",
+      "payment.copied": "Скопировано",
+      "payment.sendReceiptWhatsapp": "Отправить чек об оплате в WhatsApp",
+      "products.manageWithCustomerPanel": "Управлять через Панель Клиента",
+      "products.customerPanelTooltip": "Открыть панель управления клиента для этого сайта",
+      "products.videoAvailable": "Доступно Промо-Видео",
+      "products.startingPrice": "Начальная Цена",
+      "header.customerPanel": "Панель Клиента",
+      "header.customerPanelTooltip": "Панель Управления Клиента (Редактируйте ваш сайт)",
+      "header.adminLockTooltip": "Терминал Администратора Vanguard (PIN: admin123)",
+      "header.menuToggle": "Открыть / Закрыть меню",
+      "header.language": "Язык",
+      "demo.customerPanelTooltip": "Настроить этот сайт через Панель Клиента",
+      "detail.featuresIncluded": "Включенные Функции и Возможности",
+      "common.viewDetails": "Подробнее",
+      "payment.bank": "Банк",
+      "payment.accountHolder": "Получатель",
+      "form.attachmentLabel": "Прикрепить Логотип, Бриф или ТЗ (Макс. 10МБ)",
+      "megaMenu.startingPrice": "Начальная Цена",
+      "megaMenu.examine": "Смотреть",
+      "megaMenu.viewDetails": "Подробнее",
+      "video.modalTitle": "Vanguard Studio · Презентация и Демо-Видео",
+      "video.notAvailable": "Ссылка на видео еще не настроена или недоступна.",
+      "video.addFromAdmin": "Вы можете добавить ссылку на YouTube или Vimeo через терминал администратора.",
+      "video.notSupported": "Ваш браузер не поддерживает воспроизведение видео.",
+      "customer.title": "Панель Клиента",
+      "customer.subtitle": "Упрощенная CMS",
+      "customer.desc": "Управляйте вашими услугами, ценами и графиком работы напрямую без сложностей.",
+      "customer.managedSite": "Управление:",
+      "customer.livePreview": "Предпросмотр",
+      "customer.menu": "Меню",
+      "customer.tabBrand": "Компания и Фото",
+      "customer.tabBrandDesc": "Название компании, слоган, логотип и обложка",
+      "customer.tabServices": "Услуги",
+      "customer.tabServicesDesc": "Список услуг, описания и стоимость",
+      "customer.tabPricing": "Цены и Пакеты",
+      "customer.tabPricingDesc": "Цены на базовый и профессиональный пакет",
+      "customer.tabHours": "График и Заявки",
+      "customer.tabHoursDesc": "Будни, суббота, воскресенье и статус приема заказов",
+      "customer.tabContact": "Контакты и Адрес",
+      "customer.tabContactDesc": "Телефон, WhatsApp, email и физический адрес",
+      "customer.saveChanges": "Сохранить и Опубликовать",
+      "customer.saveSuccess": "Изменения успешно сохранены!",
+      "common.close": "Закрыть",
+      "common.save": "Сохранить",
+      "common.delete": "Удалить",
+      "common.edit": "Редактировать",
+      "common.add": "Добавить",
+      "common.cancel": "Отмена"
+    }
+  },
+  "settings": {
+    "agencyName": "Vanguard Studio",
+    "tagline": "Küçük İşletmeler İçin Elit & Anahtar Teslim Web Çözümleri",
+    "phone": "+7 (927) 313-35-97",
+    "whatsapp": "+90 505 703 0194",
+    "phoneTR": "+90 505 703 0194",
+    "whatsappTR": "+90 505 703 0194",
+    "phoneRU": "+7 (927) 313-35-97",
+    "whatsappRU": "+7 (927) 313-35-97",
+    "email": "iletisim@vanguardstudio.digital",
+    "locationTR": "Antalya, Türkiye",
+    "locationRU": "Oktyabrskiy, Başkurtistan / Rusya Federasyonu",
+    "adminPin": "admin123",
+    "defaultCurrency": "TRY",
+    "promoVideoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+    "footerMotto": {
+      "tr": "Kodla İnşa Ediyor, Pazarlamayla Büyütüyoruz. Sınırların Ötesinde Dijital Gelecek.",
+      "en": "Building with Code, Growing with Marketing. Digital Future Beyond Borders.",
+      "ru": "Создаем через Код, Масштабируем Маркетингом. Цифровое Будущее Вне Границ."
+    },
+    "bankAccounts": {
+      "bankNameTR": "Garanti BBVA",
+      "accountHolderTR": "Şeref Kaplan / Vanguard Studio",
+      "ibanTR": "TR33 0006 2000 1234 5678 9012 34",
+      "bankNameRU": "Сбербанк / Т-Банк (Тинькофф)",
+      "accountHolderRU": "Sheref K.",
+      "sbpPhoneRU": "+7 (927) 313-35-97",
+      "stripeEnabled": true
+    },
+    "bankAccountsList": [
+      {
+        "id": "bank-tr-garanti",
+        "title": "Garanti BBVA - Ana Ticari Hesap (TL)",
+        "bankName": "Garanti BBVA",
+        "accountHolder": "Şeref Kaplan / Vanguard Studio",
+        "accountNumber": "6289012",
+        "iban": "TR33 0006 2000 1234 5678 9012 34",
+        "currency": "TRY",
+        "branchName": "Maslak Ticari Şube",
+        "branchCode": "1205",
+        "country": "TR",
+        "isActive": true,
+        "isPrimary": true,
+        "notes": "7/24 Anında FAST transfer desteklenir. Dekont açıklamasına firma/adınızı yazınız."
+      },
+      {
+        "id": "bank-ru-tbank",
+        "title": "Т-Банк (Тинькофф) / Сбербанк (Рубли)",
+        "bankName": "Т-Банк / Сбербанк",
+        "accountHolder": "Sheref K.",
+        "accountNumber": "40802810900001234567",
+        "iban": "RU02 0445 2597 4408 0281 0900 0012 34",
+        "currency": "RUB",
+        "branchName": "Москва ЦАО",
+        "swiftBic": "044525974",
+        "sbpPhone": "+7 (999) 123-45-67",
+        "country": "RU",
+        "isActive": true,
+        "isPrimary": true,
+        "notes": "СБП (Система быстрых платежей) по номеру телефона без комиссии."
+      },
+      {
+        "id": "bank-tr-isbank-fx",
+        "title": "İş Bankası - Uluslararası USD & EUR Hesabı",
+        "bankName": "Türkiye İş Bankası",
+        "accountHolder": "Şeref Kaplan / Vanguard Studio",
+        "accountNumber": "4509123",
+        "iban": "TR62 0006 4000 0011 2233 4455 66",
+        "currency": "USD",
+        "branchName": "Levent Şubesi",
+        "branchCode": "1044",
+        "swiftBic": "ISBKTRIS",
+        "country": "INT",
+        "isActive": true,
+        "isPrimary": false,
+        "notes": "Yurt dışı ve uluslararası SWIFT transferleri için kullanılabilir."
+      }
+    ],
+    "legalTaxInfo": {
+      "companyTitleTR": "Vanguard Dijital Stüdyo & Yazılım Çözümleri - Şeref Kaplan",
+      "taxOfficeTR": "Maslak Vergi Dairesi",
+      "taxNumberTR": "4920184712",
+      "companyTitleRU": "ИП Каплан Шереф / Vanguard Digital Studio",
+      "innRU": "771489201940",
+      "kppRU": "771401001",
+      "ogrnRU": "324774600123456",
+      "registeredAddressTR": "Maslak Mah. Büyükdere Cad. No:243 Kat:8 Sarıyer / İstanbul",
+      "registeredAddressRU": "г. Москва, ул. Тверская, д. 12, офис 402"
+    }
+  },
+  "inquiries": [],
+  "bankAccountsList": [
+    {
+      "id": "bank-tr-garanti",
+      "title": "Garanti BBVA - Ana Ticari Hesap (TL)",
+      "bankName": "Garanti BBVA",
+      "accountHolder": "Şeref Kaplan / Vanguard Studio",
+      "accountNumber": "6289012",
+      "iban": "TR33 0006 2000 1234 5678 9012 34",
+      "currency": "TRY",
+      "branchName": "Maslak Ticari Şube",
+      "branchCode": "1205",
+      "country": "TR",
+      "isActive": true,
+      "isPrimary": true,
+      "notes": "7/24 Anında FAST transfer desteklenir. Dekont açıklamasına firma/adınızı yazınız."
+    },
+    {
+      "id": "bank-ru-tbank",
+      "title": "Т-Банк (Тинькофф) / Сбербанк (Рубли)",
+      "bankName": "Т-Банк / Сбербанк",
+      "accountHolder": "Sheref K.",
+      "accountNumber": "40802810900001234567",
+      "iban": "RU02 0445 2597 4408 0281 0900 0012 34",
+      "currency": "RUB",
+      "branchName": "Москва ЦАО",
+      "swiftBic": "044525974",
+      "sbpPhone": "+7 (999) 123-45-67",
+      "country": "RU",
+      "isActive": true,
+      "isPrimary": true,
+      "notes": "СБП (Система быстрых платежей) по номеру телефона без комиссии."
+    },
+    {
+      "id": "bank-tr-isbank-fx",
+      "title": "İş Bankası - Uluslararası USD & EUR Hesabı",
+      "bankName": "Türkiye İş Bankası",
+      "accountHolder": "Şeref Kaplan / Vanguard Studio",
+      "accountNumber": "4509123",
+      "iban": "TR62 0006 4000 0011 2233 4455 66",
+      "currency": "USD",
+      "branchName": "Levent Şubesi",
+      "branchCode": "1044",
+      "swiftBic": "ISBKTRIS",
+      "country": "INT",
+      "isActive": true,
+      "isPrimary": false,
+      "notes": "Yurt dışı ve uluslararası SWIFT transferleri için kullanılabilir."
+    }
+  ],
+  "legalTaxInfo": {
+    "companyTitleTR": "Vanguard Dijital Stüdyo & Yazılım Çözümleri - Şeref Kaplan",
+    "taxOfficeTR": "Maslak Vergi Dairesi",
+    "taxNumberTR": "4920184712",
+    "companyTitleRU": "ИП Каплан Шереф / Vanguard Digital Studio",
+    "innRU": "771489201940",
+    "kppRU": "771401001",
+    "ogrnRU": "324774600123456",
+    "registeredAddressTR": "Maslak Mah. Büyükdere Cad. No:243 Kat:8 Sarıyer / İstanbul",
+    "registeredAddressRU": "г. Москва, ул. Тверская, д. 12, офис 402"
+  },
+  "financialTransactions": [
+    {
+      "id": "tx-01",
+      "type": "income",
+      "title": "Aura Dental & Estetik Klinik - Profesyonel CMS Satışı",
+      "clientOrVendor": "Dr. Selin Bozkurt",
+      "amount": 19500,
+      "currency": "TRY",
+      "amountTRY": 19500,
+      "category": "project_sale",
+      "paymentMethod": "fast",
+      "status": "completed",
+      "date": "2026-10-05",
+      "relatedProductId": "prod-dental-clinic",
+      "invoiceNumber": "VNG-2026-0041",
+      "notes": "48 saatte teslim edildi, domain ve hosting bağlandı.",
+      "createdAt": "2026-10-05T10:30:00Z"
+    },
+    {
+      "id": "tx-02",
+      "type": "income",
+      "title": "Lexington Hukuk Platformu - Ekonomik Paket Satışı",
+      "clientOrVendor": "Lexington Danışmanlık",
+      "amount": 13500,
+      "currency": "TRY",
+      "amountTRY": 13500,
+      "category": "project_sale",
+      "paymentMethod": "stripe",
+      "status": "completed",
+      "date": "2026-10-06",
+      "relatedProductId": "prod-law-firm",
+      "invoiceNumber": "VNG-2026-0042",
+      "notes": "Kredi kartı tek çekim ile tahsil edildi.",
+      "createdAt": "2026-10-06T14:15:00Z"
+    },
+    {
+      "id": "tx-03",
+      "type": "income",
+      "title": "Nordic Trans Lojistik Web Portalı (Moskova/RF)",
+      "clientOrVendor": "Mikhail Sidorov",
+      "amount": 45000,
+      "currency": "RUB",
+      "amountTRY": 16290,
+      "category": "project_sale",
+      "paymentMethod": "sbp",
+      "status": "completed",
+      "date": "2026-10-06",
+      "relatedProductId": "prod-nordic-logistics",
+      "invoiceNumber": "VNG-RU-2026-018",
+      "notes": "СБП Т-Банк üzerinden tahsilat sağlandı.",
+      "createdAt": "2026-10-06T16:00:00Z"
+    },
+    {
+      "id": "tx-04",
+      "type": "expense",
+      "title": "Hetzner & Cloudflare Enterprise Edge Sunucu Barındırma",
+      "clientOrVendor": "Hetzner Online GmbH",
+      "amount": 2150,
+      "currency": "TRY",
+      "amountTRY": 2150,
+      "category": "hosting_domain",
+      "paymentMethod": "stripe",
+      "status": "completed",
+      "date": "2026-10-02",
+      "invoiceNumber": "HETZ-88912",
+      "notes": "Aylık NVMe Cloud Cluster ve CDN altyapısı.",
+      "createdAt": "2026-10-02T09:00:00Z"
+    },
+    {
+      "id": "tx-05",
+      "type": "expense",
+      "title": "Google Ads & Yandex Direct Sektörel Web Reklamları",
+      "clientOrVendor": "Google Ireland & Yandex",
+      "amount": 3200,
+      "currency": "TRY",
+      "amountTRY": 3200,
+      "category": "advertising",
+      "paymentMethod": "bank_transfer",
+      "status": "completed",
+      "date": "2026-10-04",
+      "invoiceNumber": "ADV-2026-10",
+      "notes": "Küçük işletmeler hazır site arama kampanyası.",
+      "createdAt": "2026-10-04T11:20:00Z"
+    },
+    {
+      "id": "tx-06",
+      "type": "income",
+      "title": "Atelier Artisan Fırın - Web Sitesi Kapora Ödemesi",
+      "clientOrVendor": "Emre Karaca",
+      "amount": 6000,
+      "currency": "TRY",
+      "amountTRY": 6000,
+      "category": "deposit",
+      "paymentMethod": "fast",
+      "status": "pending",
+      "date": "2026-10-07",
+      "relatedProductId": "prod-artisan-bistro",
+      "invoiceNumber": "VNG-2026-0043",
+      "notes": "Fotoğraf çekimi tamamlanınca bakiye tahsil edilecek.",
+      "createdAt": "2026-10-07T08:00:00Z"
+    }
+  ],
+  "navigationItems": [
+    {
+      "id": "nav-h-home",
+      "title": "Ana Sayfa",
+      "url": "#hero",
+      "location": "header",
+      "order": 1,
+      "translations": {
+        "en": {
+          "title": "Home"
+        },
+        "ru": {
+          "title": "Главная"
+        }
+      }
+    },
+    {
+      "id": "nav-h-about",
+      "title": "Hakkımızda",
+      "url": "#page-hakkimizda",
+      "location": "header",
+      "order": 2,
+      "pageSlug": "hakkimizda",
+      "translations": {
+        "en": {
+          "title": "About Us"
+        },
+        "ru": {
+          "title": "О Нас"
+        }
+      }
+    },
+    {
+      "id": "nav-h-services",
+      "title": "Hizmetlerimiz",
+      "url": "#services-section",
+      "location": "header",
+      "order": 3,
+      "translations": {
+        "en": {
+          "title": "Services"
+        },
+        "ru": {
+          "title": "Услуги"
+        }
+      }
+    },
+    {
+      "id": "nav-h-turnkey",
+      "title": "Turnkey Projects",
+      "url": "#portfolio-section",
+      "location": "header",
+      "order": 4,
+      "translations": {
+        "en": {
+          "title": "Turnkey Projects"
+        },
+        "ru": {
+          "title": "Turnkey Projects"
+        }
+      }
+    },
+    {
+      "id": "nav-h-payment",
+      "title": "Ödeme & IBAN",
+      "url": "#payment",
+      "location": "header",
+      "order": 5,
+      "translations": {
+        "en": {
+          "title": "Payment & Wire"
+        },
+        "ru": {
+          "title": "Оплата и Реквизиты"
+        }
+      }
+    },
+    {
+      "id": "nav-h-contact",
+      "title": "İletişim",
+      "url": "#page-iletisim",
+      "location": "header",
+      "order": 6,
+      "pageSlug": "iletisim",
+      "translations": {
+        "en": {
+          "title": "Contact"
+        },
+        "ru": {
+          "title": "Контакты"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-home",
+      "title": "Ana Sayfa",
+      "url": "#hero",
+      "location": "footer_corporate",
+      "order": 1,
+      "translations": {
+        "en": {
+          "title": "Home"
+        },
+        "ru": {
+          "title": "Главная"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-about",
+      "title": "Hakkımızda",
+      "url": "#page-hakkimizda",
+      "location": "footer_corporate",
+      "order": 2,
+      "pageSlug": "hakkimizda",
+      "translations": {
+        "en": {
+          "title": "About Us"
+        },
+        "ru": {
+          "title": "О Нас"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-vizyon",
+      "title": "Vizyon",
+      "url": "#page-vizyon",
+      "location": "footer_corporate",
+      "order": 3,
+      "pageSlug": "vizyon",
+      "translations": {
+        "en": {
+          "title": "Vision"
+        },
+        "ru": {
+          "title": "Видение"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-misyon",
+      "title": "Misyon",
+      "url": "#page-misyon",
+      "location": "footer_corporate",
+      "order": 4,
+      "pageSlug": "misyon",
+      "translations": {
+        "en": {
+          "title": "Mission"
+        },
+        "ru": {
+          "title": "Миссия"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-kariyer",
+      "title": "Kariyer & Uzaktan İş",
+      "url": "#page-kariyer",
+      "location": "footer_corporate",
+      "order": 5,
+      "pageSlug": "kariyer",
+      "translations": {
+        "en": {
+          "title": "Careers & Remote Roles"
+        },
+        "ru": {
+          "title": "Карьера & Удаленная Работа"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-sss",
+      "title": "Sıkça Sorulan Sorular (SSS)",
+      "url": "#page-sss",
+      "location": "footer_corporate",
+      "order": 6,
+      "pageSlug": "sss",
+      "translations": {
+        "en": {
+          "title": "Frequently Asked Questions (FAQ)"
+        },
+        "ru": {
+          "title": "Часто Задаваемые Вопросы (FAQ)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-cat",
+      "title": "Hazır Siteler Kataloğu",
+      "url": "#portfolio-section",
+      "location": "footer_products",
+      "order": 1,
+      "translations": {
+        "en": {
+          "title": "Turnkey Catalog"
+        },
+        "ru": {
+          "title": "Каталог Готовых Сайтов"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-eco",
+      "title": "Ekonomik Paket (Yönetim Bizde)",
+      "url": "#pricing-models",
+      "location": "footer_products",
+      "order": 2,
+      "translations": {
+        "en": {
+          "title": "Economic Package (Managed by Us)"
+        },
+        "ru": {
+          "title": "Эконом-Тариф (Управление на Нас)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-pro",
+      "title": "Profesyonel Paket (Tam Yetkili CMS)",
+      "url": "#pricing-models",
+      "location": "footer_products",
+      "order": 3,
+      "translations": {
+        "en": {
+          "title": "Professional Package (Full CMS)"
+        },
+        "ru": {
+          "title": "Профессиональный Пакет (CMS)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-custom",
+      "title": "Özel Talep & Kurumsal Mimari",
+      "url": "#pricing-models",
+      "location": "footer_products",
+      "order": 4,
+      "translations": {
+        "en": {
+          "title": "Custom Request & Enterprise Architecture"
+        },
+        "ru": {
+          "title": "Спецзапрос и Корпоративная Архитектура"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-pay",
+      "title": "Güvenli Ödeme & Havale Portalı",
+      "url": "#payment",
+      "location": "footer_products",
+      "order": 5,
+      "translations": {
+        "en": {
+          "title": "Secure Payment & Wire Portal"
+        },
+        "ru": {
+          "title": "Портал Безопасной Оплаты и Реквизитов"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-kvkk",
+      "title": "KVKK Aydınlatma Metni",
+      "url": "#page-kvkk",
+      "location": "footer_legal",
+      "order": 1,
+      "pageSlug": "kvkk",
+      "translations": {
+        "en": {
+          "title": "KVKK Data Protection Notice"
+        },
+        "ru": {
+          "title": "Уведомление о Защите Данных (KVKK)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-priv",
+      "title": "Gizlilik Politikası & GDPR",
+      "url": "#page-gizlilik-politikasi",
+      "location": "footer_legal",
+      "order": 2,
+      "pageSlug": "gizlilik-politikasi",
+      "translations": {
+        "en": {
+          "title": "Privacy Policy & GDPR"
+        },
+        "ru": {
+          "title": "Политика Конфиденциальности & GDPR"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-terms",
+      "title": "Kullanım Koşulları & Sözleşme",
+      "url": "#page-kullanim-kosullari",
+      "location": "footer_legal",
+      "order": 3,
+      "pageSlug": "kullanim-kosullari",
+      "translations": {
+        "en": {
+          "title": "Terms of Service & Agreement"
+        },
+        "ru": {
+          "title": "Условия Использования & Соглашение"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-cookie",
+      "title": "Çerez (Cookie) Politikası",
+      "url": "#page-cerez-politikasi",
+      "location": "footer_legal",
+      "order": 4,
+      "pageSlug": "cerez-politikasi",
+      "translations": {
+        "en": {
+          "title": "Cookie Policy"
+        },
+        "ru": {
+          "title": "Политика Файлов Cookie"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-delivery",
+      "title": "48 Saatte Teslim & Hizmet Şartları",
+      "url": "#page-mesafeli-satis",
+      "location": "footer_legal",
+      "order": 5,
+      "pageSlug": "mesafeli-satis",
+      "translations": {
+        "en": {
+          "title": "48-Hour Turnkey Deployment & Service Terms"
+        },
+        "ru": {
+          "title": "Запуск за 48 Часов & Условия Услуг"
+        }
+      }
+    }
+  ],
+  "customPages": [
+    {
+      "id": "page-hakkimizda",
+      "slug": "hakkimizda",
+      "title": "Hakkımızda & Vanguard Studio",
+      "category": "corporate",
+      "summary": "Küçük işletmeler ve KOBİ’ler için servet ödemeden prestijli, 48 saatte teslime hazır sektörel web siteleri ve dijital çözümler üretiyoruz.",
+      "updatedAt": "2026-10-08",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Biz Kimiz?</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio; Türkiye, Rusya ve küresel pazarda faaliyet gösteren küçük işletmeler, yerel profesyoneller ve KOBİ’ler için \"büyük ajans bürokrasisini ve fahiş bütçeleri ortadan kaldıran\" yeni nesil bir dijital üretim stüdyosudur.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Neden Kurulduk?</h3>\n<p class=\"text-justify leading-relaxed\">Geleneksel web ajansları 2-3 ay süren teslimat takvimleri ve yüksek bütçeler talep ederken; hazır şablon siteler ise amatör ve dönüşüm sağlamayan yapılar sunuyordu. Vanguard Studio bu iki uç arasındaki boşluğu doldurmak için kuruldu:</p>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Maksimum 10 Seçkin Tasarım:</strong> Sektöründe bizzat test edilmiş, kullanıcı deneyimi ve dönüşüm odaklı en elit mimariler.</li>\n<li class=\"text-justify leading-relaxed\"><strong>48 Saatte Canlıda:</strong> Tüm içerik yükleme, kurumsal e-posta, SSL ve alan adı bağlantıları 48 saat içinde anahtar teslim tamamlanır.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Şeffaf & Erişilebilir Fiyatlar:</strong> {{PRICE_10000}} – {{PRICE_20000}} bandında gizli masrafsız, tek seferlik net bütçelendirme.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Çalışma İlkelerimiz</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Sıfır Zahmet:</strong> Dilerseniz hiçbir panelle uğraşmazsınız; teknik bakım, sunucu güvenliği ve güncellemeler tamamen Vanguard Studio güvencesindedir.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Kültürel & Çok Dilli Güç:</strong> İstanbul ve Moskova operasyonlarımızla Türkçe, Rusça ve İngilizce çok dilli içerik altyapısı sunuyoruz.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Ömür Boyu Kod Temizliği:</strong> Şişirilmiş eklentiler yok. Modern React ve Tailwind teknolojisiyle Google Lighthouse skorlarında 95+ performans.</li>\n</ol>",
+      "translations": {
+        "en": {
+          "title": "About Vanguard Studio",
+          "summary": "Turnkey web craft engineered for small businesses and growing enterprises. High-converting digital assets launched within 48 hours without bloated agency retainers.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Who We Are</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio is an elite digital production and engineering collective based in Istanbul and Moscow, dedicated to delivering turnkey, high-converting digital storefronts for growing enterprises, SMBs, and independent professionals.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Our Mission</h3>\n<p class=\"text-justify leading-relaxed\">Traditional creative agencies demand 2-3 months and $2,000–$6,000 retainers for standard web builds. Low-cost website builders yield uninspiring, amateur aesthetics that fail to establish consumer confidence. Vanguard Studio bridges this divide:</p>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Curated 10-Site Portfolio:</strong> Maximum 10 pre-engineered sector-specific blueprints, battle-tested for speed and customer conversion.</li>\n<li class=\"text-justify leading-relaxed\"><strong>48-Hour Turnkey Deployment:</strong> Domain DNS, business email, SSL certificates, content onboarding, and mobile hardening deployed within 48 hours.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Transparent Pricing:</strong> Fixed {{PRICE_10000}} – {{PRICE_20000}} band with zero hidden renewal fees.</li>\n</ul>"
+        },
+        "ru": {
+          "title": "О Студии Vanguard Studio",
+          "summary": "Готовые сайты под ключ за 48 часов для малого бизнеса в Турции и России без завышенных агентских бюджетов.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Кто Мы?</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio — это цифровая студия разработки готовых сайтов под ключ, работающая на рынках Турции, России и стран СНГ. Мы создаем презентабельные и конверсионные веб-решения для малого бизнеса, медицинских клиник, юридических бюро и сферы услуг.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Наш Подход</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>До 10 Проверенных Моделей:</strong> Отобранные вручную отраслевые сайты с безупречным дизайном.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Запуск за 48 Часов:</strong> Полная настройка хостинга, домена, почты и контента всего за 2 рабочих дня.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Честная Цена:</strong> Без скрытых платежей и затяжных согласований.</li>\n</ul>"
+        }
+      }
+    },
+    {
+      "id": "page-vizyon",
+      "slug": "vizyon",
+      "title": "Vizyonumuz",
+      "category": "corporate",
+      "summary": "Vanguard Studio olarak Türkiye ve küresel pazarda dijital dönüşümün en yalın ve verimli standardını inşa etme vizyonumuz.",
+      "updatedAt": "2026-10-08",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Dijital Geleceğe Yönelik Vizyonumuz</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio olarak vizyonumuz; küçük işletmeler, serbest profesyoneller ve KOBİ'lerin küresel standartlarda dijital varlıklara sahip olma sürecini demokratikleştirmektir.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Temel Vizyon Hedeflerimiz</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Sıfır Bürokrasi Standartı:</strong> Karmaşık ajans süreçlerini ve aylarca süren onay aşamalarını ortadan kaldırarak 48 saatlik net devreye alma modelini dünya standardı haline getirmek.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Kusursuz Kod Mimarisi:</strong> Gereksiz eklenti ağırlıklarından arındırılmış, hafif ve hızlı React mimarisini her sektörel çözüme entegre etmek.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Küresel Erişilebilirlik:</strong> İstanbul ve Avrasya aksında çok dilli ve çok para birimli işletme modellerini kolaylaştırmak.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Maksimum Dönüşüm:</strong> Sadece estetik değil, doğrudan ciro ve müşteri kazandıran dijital temas noktaları inşa etmek.</li>\n</ol>",
+      "translations": {
+        "en": {
+          "title": "Our Vision",
+          "summary": "Vanguard Studio’s forward-looking vision to establish lean, ultra-fast digital deployment standards for businesses worldwide.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Our Vision for the Digital Future</h3>\n<p class=\"text-justify leading-relaxed\">At Vanguard Studio, our vision is to democratize premium web presence for SMBs and independent practitioners globally.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Strategic Vision Pillars</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Zero Agency Bureaucracy:</strong> Replacing months of retainer delays with a definitive 48-hour turnkey deployment standard.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Pristine Code Architecture:</strong> Lightweight, bloat-free React systems delivering peak Lighthouse benchmarks.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Cross-Border Growth:</strong> Seamless multi-currency and multi-language capabilities across European and Asian markets.</li>\n</ol>"
+        },
+        "ru": {
+          "title": "Наше Видение",
+          "summary": "Видение Vanguard Studio по внедрению стандартов быстрого запуска сайтов под ключ за 48 часов.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Наше Видение Цифрового Будущего</h3>\n<p class=\"text-justify leading-relaxed\">Миссия и видение Vanguard Studio — сделать профессиональное присутствие в интернете доступным каждому малому бизнесу без бюрократии и завышенных бюджетов.</p>"
+        }
+      }
+    },
+    {
+      "id": "page-misyon",
+      "slug": "misyon",
+      "title": "Misyonumuz",
+      "category": "corporate",
+      "summary": "KOBİ ve işletmelere bürokrasiye ve yüksek bütçelere takılmadan 48 saatte yüksek performanslı hazır web varlıkları kazandırma misyonumuz.",
+      "updatedAt": "2026-10-08",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Kurumsal Misyonumuz</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio olarak misyonumuz; işletmelerin dijital vitrinlerini haftalarca beklemeden, gizli ek masraflarla karşılaşmadan ve teknik karmaşaya boğulmadan 48 saat içerisinde anahtar teslim hayata geçirmektir.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Misyon İlkelerimiz</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Hız ve Güvenilirlik:</strong> Söz verdiğimiz takvimde (48 saat) alan adı, SSL, kurumsal e-posta ve içerik yerleşimiyle yayına almak.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Şeffaf Fiyatlandırma:</strong> Sürpriz yenileme ücretleri veya gizli bakım bedelleri olmadan dürüst ve net fiyat politikası sürdürmek.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Erişilebilir Profesyonellik:</strong> Her sektöre özel hazırlanmış, bizzat test edilmiş elit arayüzlerle işletmelerin kurumsal itibarını zirveye taşımak.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Sıfır Teknik Yük:</strong> Müşterilerimizin teknik detaylarla vakit kaybetmesini engelleyip işlerini büyütmelerine odaklanmalarını sağlamak.</li>\n</ul>",
+      "translations": {
+        "en": {
+          "title": "Our Mission",
+          "summary": "Empowering businesses with battle-tested, high-performance web assets delivered in 48 hours without hidden fees or agency complexity.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Our Corporate Mission</h3>\n<p class=\"text-justify leading-relaxed\">Our mission is to equip modern businesses with world-class digital platforms within 48 hours, eliminating exorbitant development fees and operational complexity.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Mission Tenets</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Velocity & Dependability:</strong> Full DNS, SSL, email, and localized storefront deployment in exactly 48 hours.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Transparent Pricing:</strong> Fixed predictable pricing without hidden surprises or surprise maintenance invoices.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Elite Craftsmanship:</strong> Delivering enterprise-grade UI/UX designed specifically for business conversions.</li>\n</ul>"
+        },
+        "ru": {
+          "title": "Наша Миссия",
+          "summary": "Миссия Vanguard Studio — запуск надежных и красивых сайтов за 48 часов с честными ценами и поддержкой.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Наша Миссия</h3>\n<p class=\"text-justify leading-relaxed\">Мы создаем готовые веб-решения под ключ для предпринимателей и компаний, позволяя выйти в онлайн всего за 48 часов.</p>"
+        }
+      }
+    },
+    {
+      "id": "page-gizlilik-politikasi",
+      "slug": "gizlilik-politikasi",
+      "title": "Gizlilik Politikası & GDPR",
+      "category": "legal",
+      "summary": "Vanguard Studio olarak ziyaretçilerimizin ve müşterilerimizin veri gizliliğini en üst düzeyde koruyoruz.",
+      "updatedAt": "2026-10-07",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Genel Bilgilendirme</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio (\"Şirket\"), web sitesi ziyaretçilerinin ve hizmet alan müşterilerinin kişisel gizliliğine mutlak saygı duyar. Bu Gizlilik Politikası, hangi verilerin toplandığını, nasıl korunduğunu ve hangi amaçlarla işlendiğini açıklar.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Toplanan Kişisel Veriler</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>İletişim ve Teklif Formları:</strong> Adınız, soyadınız, telefon numaranız, e-posta adresiniz ve projeniz hakkında sağladığınız bilgiler.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Finansal & Fatura Bilgileri:</strong> Ödeme dekontları, vergi numarası ve şirket unvanı (Kart bilgileri asla sunucularımızda saklanmaz, doğrudan PCI-DSS uyumlu Stripe altyapısında işlenir).</li>\n<li class=\"text-justify leading-relaxed\"><strong>Teknik Günlük Verileri:</strong> IP adresi, tarayıcı türü, ziyaret edilen sayfalar ve oturum süresi.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Verilerin Kullanım Amaçları</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">İlettiğiniz hazır site veya ajans hizmeti teklif taleplerini yanıtlamak.</li>\n<li class=\"text-justify leading-relaxed\">48 saatlik kurulum ve anahtar teslim devreye alma sürecini yönetmek.</li>\n<li class=\"text-justify leading-relaxed\">Yasal muhasebe ve faturalandırma yükümlülüklerini yerine getirmek.</li>\n<li class=\"text-justify leading-relaxed\">Müşteri memnuniyetini ve teknik destek süreçlerini yürütmek.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">4. Üçüncü Taraflarla Paylaşım</h3>\n<p class=\"text-justify leading-relaxed\">Verileriniz hiçbir koşulda pazarlama amacıyla üçüncü şahıslara satılmaz veya kiralanmaz. Yalnızca yasal zorunluluklar ve barındırma/ödeme altyapısı sağlayan global lisanslı iş ortaklarımız (Cloudflare, Stripe, TCMB/CBR veri servisleri) ile gerekli asgari düzeyde paylaşılır.</p>",
+      "translations": {
+        "en": {
+          "title": "Privacy Policy & GDPR Compliance",
+          "summary": "How Vanguard Studio collects, safeguards, and handles your data across our platform and digital services.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Overview</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio prioritizes the privacy and digital security of our clients and web visitors in strict accordance with GDPR and international data standards.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Data We Collect</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Inquiry Details:</strong> Name, email, phone number, and brief description provided via our quotation modules.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Payment Processing:</strong> Card credentials are never stored on our servers; they are processed directly via PCI-DSS compliant Stripe infrastructure.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Technical Metrics:</strong> Anonymized browser headers, performance telemetries, and session timestamps.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Purpose of Data Processing</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Processing turnkey website inquiries and responding to quote requests.</li>\n<li class=\"text-justify leading-relaxed\">Executing the 48-hour turnkey onboarding and deployment lifecycle.</li>\n<li class=\"text-justify leading-relaxed\">Fulfilling statutory accounting, tax, and invoicing requirements.</li>\n<li class=\"text-justify leading-relaxed\">Delivering dedicated technical support and post-launch maintenance.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">4. Third-Party Sharing</h3>\n<p class=\"text-justify leading-relaxed\">Under no circumstances do we sell or monetize personal data. Information is only transferred to enterprise partners (Cloudflare, Stripe, TCMB/CBR FX rate APIs) strictly required for hosting and payments.</p>"
+        },
+        "ru": {
+          "title": "Политика Конфиденциальности и GDPR",
+          "summary": "Как Vanguard Studio собирает, защищает и обрабатывает персональные данные клиентов и посетителей сайта.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Общие Положения</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio уважает конфиденциальность посетителей сайта и клиентов. Данная Политика определяет порядок сбора, хранения и обработки персональных данных.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Собираемые Данные</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Формы Заявок:</strong> Имя, фамилия, контактный телефон (WhatsApp / Telegram), email и описание проекта.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Платежные Данные:</strong> Банковские квитанции, реквизиты компаний. Данные банковских карт обрабатываются через защищенный шлюз Stripe и не сохраняются на наших серверах.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Технические Логи:</strong> Анонимные IP-адреса, тип браузера, время посещения страниц.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Цели Обработки Данных</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Обработка запросов на запуск сайтов и расчет коммерческих предложений.</li>\n<li class=\"text-justify leading-relaxed\">Выполнение работ по развертыванию сайта за 48 часов под ключ.</li>\n<li class=\"text-justify leading-relaxed\">Бухгалтерский учет и выставление официальных счетов.</li>\n<li class=\"text-justify leading-relaxed\">Оперативная клиентская поддержка в WhatsApp и Telegram.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">4. Передача Третьим Лицам</h3>\n<p class=\"text-justify leading-relaxed\">Мы никогда не продаем и не передаем ваши данные рекламным агентствам. Данные используются исключительно для функционирования сервиса (Cloudflare, Stripe).</p>"
+        }
+      }
+    },
+    {
+      "id": "page-kvkk",
+      "slug": "kvkk",
+      "title": "6698 Sayılı KVKK Aydınlatma Metni",
+      "category": "legal",
+      "summary": "Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca veri sorumlusu sıfatıyla haklarınız ve yükümlülüklerimiz.",
+      "updatedAt": "2026-10-07",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">6698 Sayılı Kişisel Verilerin Korunması Kanunu Kapsamında Bilgilendirme</h3>\n<p class=\"text-justify leading-relaxed\"><strong>Veri Sorumlusu:</strong> Vanguard Studio / Şeref Kaplan <strong>Adres:</strong> Maslak Mah. Büyükdere Cad. No:243 Kat:8 Sarıyer / İstanbul</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Kişisel Verilerin İşlenme Amacı</h3>\n<p class=\"text-justify leading-relaxed\">6698 sayılı KVKK uyarınca, Vanguard Studio ile paylaştığınız kişisel verileriniz (ad, soyad, telefon, e-posta, fatura unvanı);</p>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Satışa hazır web sitesi teslim süreçlerinin yürütülmesi,</li>\n<li class=\"text-justify leading-relaxed\">Müşteri iletişim formları ve teklif taleplerinin sonuçlandırılması,</li>\n<li class=\"text-justify leading-relaxed\">Satış sonrası teknik destek, revizyon ve hosting operasyonlarının sürdürülmesi,</li>\n<li class=\"text-justify leading-relaxed\">Vergi ve mali mevzuat gereği fatura düzenlenmesi amaçlarıyla işlenmektedir.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Kişisel Veri Toplamanın Yöntemi ve Hukuki Sebebi</h3>\n<p class=\"text-justify leading-relaxed\">Kişisel verileriniz, internet sitemizdeki teklif formları, WhatsApp destek hattı, e-posta yazışmaları ve banka havale bildirimleri vasıtasıyla elektronik ortamda toplanmaktadır. Bu işlem KVKK 5/2 maddesindeki \"Sözleşmenin kurulması ve ifası\" ile \"Veri sorumlusunun meşru menfaati\" hukuki sebeplerine dayanmaktadır.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. KVKK Madde 11 Uyarınca Haklarınız</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Kişisel verilerinizin işlenip işlenmediğini öğrenme,</li>\n<li class=\"text-justify leading-relaxed\">İşlenmişse buna ilişkin bilgi talep etme,</li>\n<li class=\"text-justify leading-relaxed\">Amacına uygun kullanılıp kullanılmadığını öğrenme,</li>\n<li class=\"text-justify leading-relaxed\">Eksik veya yanlış işlenmişse düzeltilmesini isteme,</li>\n<li class=\"text-justify leading-relaxed\">Kanunun 7. maddesi kapsamında silinmesini veya yok edilmesini talep etme hakkına sahipsiniz.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Başvurularınızı <strong>iletisim@vanguardstudio.digital</strong> adresine yazılı olarak iletebilirsiniz.</p>",
+      "translations": {
+        "en": {
+          "title": "KVKK Clarification Text & Data Protection Notice",
+          "summary": "Statutory disclosure under Turkish Personal Data Protection Law (KVKK No. 6698) and data subject rights.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Disclosure on Protection of Personal Data (KVKK Law No. 6698)</h3>\n<p class=\"text-justify leading-relaxed\"><strong>Data Controller:</strong> Vanguard Studio / Seref Kaplan <strong>Location:</strong> Maslak Mah. Buyukdere Cad. No:243 Fl:8 Sariyer / Istanbul, Turkey</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Purpose of Processing Personal Data</h3>\n<p class=\"text-justify leading-relaxed\">In accordance with KVKK Law No. 6698, personal data shared with Vanguard Studio (full name, phone number, email address, corporate invoice billing details) is processed for:</p>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Managing delivery cycles of turnkey web applications and production assets,</li>\n<li class=\"text-justify leading-relaxed\">Responding to inquiry leads and finalizing service proposals,</li>\n<li class=\"text-justify leading-relaxed\">Performing hosting maintenance, domain provisioning, and post-launch technical assistance,</li>\n<li class=\"text-justify leading-relaxed\">Generating official tax and invoicing documentation as mandated by fiscal law.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Method and Legal Grounds for Data Collection</h3>\n<p class=\"text-justify leading-relaxed\">Data is collected electronically through web contact forms, official WhatsApp business channels, direct email communications, and bank wire payment notifications. Processing relies on Article 5/2 legal grounds: \"Establishment and execution of contract\" and \"Legitimate interests of the controller\".</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Your Rights Under Article 11</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">To learn whether personal data is processed,</li>\n<li class=\"text-justify leading-relaxed\">To request information regarding processing,</li>\n<li class=\"text-justify leading-relaxed\">To learn the purpose of processing and verify legitimate usage,</li>\n<li class=\"text-justify leading-relaxed\">To request rectification of inaccurate or incomplete records,</li>\n<li class=\"text-justify leading-relaxed\">To demand erasure or destruction under statutory terms.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Direct requests in writing to: <strong>iletisim@vanguardstudio.digital</strong></p>"
+        },
+        "ru": {
+          "title": "Закон о Защите Персональных Данных (KVKK / ФЗ-152)",
+          "summary": "Уведомление об обработке персональных данных в соответствии с турецким законом KVKK № 6698 и международными нормами.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Разъяснение по Закону о Защите Персональных Данных (KVKK № 6698)</h3>\n<p class=\"text-justify leading-relaxed\"><strong>Оператор Данных:</strong> Vanguard Studio / Şeref Kaplan <strong>Адрес:</strong> Маслак, ул. Бююкдере 243, эт. 8, Сарыер / Стамбул, Турция</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Цели Обработки Персональных Данных</h3>\n<p class=\"text-justify leading-relaxed\">В соответствии с законом о защите персональных данных, предоставленные вами данные (ФИО, телефон, адрес эл. почты, реквизиты) обрабатываются для:</p>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Запуска и передачи готовых сайтов под ключ клиентам,</li>\n<li class=\"text-justify leading-relaxed\">Обработки входящих запросов и составления договоров,</li>\n<li class=\"text-justify leading-relaxed\">Оказания технической поддержки, настройки доменов, хостинга и корпоративной почты,</li>\n<li class=\"text-justify leading-relaxed\">Оформления бухгалтерских актов и счетов-фактур.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Порядок Сбора и Правовые Основания</h3>\n<p class=\"text-justify leading-relaxed\">Сбор информации происходит через электронные формы на сайте, официальный чат WhatsApp/Telegram и электронную почту на основании заключения и исполнения договора оказания услуг.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Права Субъекта Персональных Данных</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Получать информацию о факте и способах обработки данных,</li>\n<li class=\"text-justify leading-relaxed\">Требовать исправления неточных или неполных сведений,</li>\n<li class=\"text-justify leading-relaxed\">Запрашивать удаление персональных данных по завершении сотрудничества.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Официальные обращения направляются на email: <strong>iletisim@vanguardstudio.digital</strong></p>"
+        }
+      }
+    },
+    {
+      "id": "page-kullanim-kosullari",
+      "slug": "kullanim-kosullari",
+      "title": "Kullanım Koşulları & Hizmet Sözleşmesi",
+      "category": "legal",
+      "summary": "Web sitesi kullanım koşulları, telif hakları ve anahtar teslim hizmet şartları.",
+      "updatedAt": "2026-10-07",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Taraflar ve Kapsam</h3>\n<p class=\"text-justify leading-relaxed\">Bu sözleşme, Vanguard Studio web sitesini kullanan, demo simülatörlerini inceleyen ve hazır web sitesi satın alan tüm ziyaretçi ve müşteriler için geçerlidir.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Fikri Mülkiyet Hakları</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Sitede yer alan 10 sektörel tasarımın kaynak kodları, arayüz mimarisi ve görsel kompozisyonları Vanguard Studio'ya aittir.</li>\n<li class=\"text-justify leading-relaxed\">Satın alınan anahtar teslim paketlerde; müşteriye teslim edilen web sitesinin yayındaki hali ve içerikleri müşterinin mülkiyetine geçer. Şablonun temel mimari kodlarının yeniden satılması veya çoğaltılarak dağıtılması yasaktır.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Teslimat ve Hizmet Kapsamı</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Ekonomik Paket:</strong> Alan adı, hosting, SSL ve içerik girişi dahil olup, yılda 12 güncelleme hakkı sunar. Yönetim paneli şifreleri müşteriye verilmez, bakım ajans tarafından yürütülür.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Profesyonel Paket:</strong> Tam yetkili modern CMS paneli müşteriye teslim edilir. Müşteri bağımsız içerik ekleyebilir.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Özel Mimari:</strong> Müşteri ile mutabık kalınan teknik şartnameye göre sıfırdan üretilir.</li>\n</ul>",
+      "translations": {
+        "en": {
+          "title": "Terms of Service & Engagement Agreement",
+          "summary": "Website terms of use, intellectual property parameters, and 48-hour turnkey service commitments.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Parties and Scope</h3>\n<p class=\"text-justify leading-relaxed\">This agreement governs all visitors, clients, and partners accessing the Vanguard Studio platform, reviewing interactive device previews, or purchasing turnkey web assets.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Intellectual Property Rights</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">The base source code architecture, proprietary component layouts, and visual design assets remain the intellectual property of Vanguard Studio.</li>\n<li class=\"text-justify leading-relaxed\">Upon full settlement of turnkey packages, the published storefront and customized customer assets transfer to client ownership. Reselling or distributing core engine frameworks is prohibited.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Service Scope & Deliverables</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Economic Package:</strong> Includes domain, hosting, SSL, and full content onboarding, with 12 maintenance updates per year. Backend infrastructure is maintained by Vanguard Studio without client CMS overhead.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Professional Package:</strong> Full administrative CMS access transferred to client for self-managed content, products, and articles.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Custom Enterprise Architecture:</strong> Built bespoke per agreed client scope specification.</li>\n</ul>"
+        },
+        "ru": {
+          "title": "Условия Использования и Договор Оферты",
+          "summary": "Правила использования сайта, авторские права и регламент поставки готовых сайтов за 48 часов.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">1. Стороны и Предмет Соглашения</h3>\n<p class=\"text-justify leading-relaxed\">Настоящий регламент регулирует отношения между Vanguard Studio и клиентами, заказывающими готовые сайты и сопутствующие услуги веб-разработки.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">2. Авторские и Имущественные Права</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Архитектура исходного кода и дизайн-макеты каталога разработаны Vanguard Studio.</li>\n<li class=\"text-justify leading-relaxed\">После полной оплаты сайта клиент получает полное право владения опубликованным сайтом и своим брендированным контентом. Запрещается перепродажа базового исходного шаблона сторонним лицам.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">3. Тарифные Пакеты и Состав Услуг</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Эконом-Тариф:</strong> Домен, хостинг, SSL и запуск контента включены. 12 обновлений в год выполняются нашими инженерами без необходимости клиенту изучать админку.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Профессиональный Тариф:</strong> Передача административной панели CMS с полными правами управления для самостоятельного редактирования.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Индивидуальная Архитектура:</strong> Разработка уникального функционала под техническое задание заказчика.</li>\n</ul>"
+        }
+      }
+    },
+    {
+      "id": "page-cerez-politikasi",
+      "slug": "cerez-politikasi",
+      "title": "Çerez (Cookie) Politikası",
+      "category": "legal",
+      "summary": "Web sitemizde kullanılan teknik ve performans çerezleri hakkında bilgilendirme.",
+      "updatedAt": "2026-10-07",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Çerez Politikası & Tercih Yönetimi</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio web sitesinde en iyi kullanıcı deneyimini sunabilmek, dil ve para birimi tercihlerinizi hatırlamak amacıyla çerezler (cookies) kullanılmaktadır.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Kullandığımız Çerez Türleri</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Zorunlu Teknik Çerezler:</strong> Sitede koyu/açık tema, aktif dil (TR/EN/RU) ve para birimi (TRY/USD/EUR/RUB) tercihlerinizi saklayan yerel depolama verileridir. Kişisel veri toplamaz.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Performans ve Analitik:</strong> Sitenin açılış hızını optimize eden anonim metrikler.</li>\n</ol>\n<p class=\"text-justify leading-relaxed\">Çerez tercihlerinizi tarayıcınızın ayarlarından dilediğiniz zaman silebilir veya engelleyebilirsiniz.</p>",
+      "translations": {
+        "en": {
+          "title": "Cookie & Tracking Technology Policy",
+          "summary": "Information on technical and preferences cookies utilized across the Vanguard Studio platform.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Cookie Policy & User Preferences</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio utilizes essential cookies and local storage tokens solely to ensure optimal performance, theme preference retention (light/dark mode), and language/currency selection.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Types of Cookies Used</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Strictly Necessary Technical Cookies:</strong> Store your active language (TR/EN/RU), chosen billing currency (TRY/USD/EUR/RUB), and dark/light color scheme. They do not track personal identifying records.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Performance Telemetry:</strong> Anonymized network speed metrics ensuring swift CDN page loads.</li>\n</ol>\n<p class=\"text-justify leading-relaxed\">You may clear or block cookies at any time via your browser preferences without impeding core browsing.</p>"
+        },
+        "ru": {
+          "title": "Политика Использования Файлов Cookie",
+          "summary": "Информация о технических файлах cookie и сохранении пользовательских настроек (тема, язык, валюта).",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Политика Cookie и Настройки Интерфейса</h3>\n<p class=\"text-justify leading-relaxed\">На сайте Vanguard Studio файлы cookie и локальное хранилище (Local Storage) используются исключительно для сохранения комфортных настроек пользователя.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Используемые Категории Cookie</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Технические (Обязательные):</strong> Сохранение выбранного языка (TR/EN/RU), валюты цен (TRY/USD/EUR/RUB) и темной/светлой темы оформления. Не собирают конфиденциальную информацию.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Оптимизация Скорости:</strong> Анонимные параметры для ускорения кэширования через CDN Cloudflare.</li>\n</ol>\n<p class=\"text-justify leading-relaxed\">Вы можете в любой момент удалить файлы cookie в настройках своего браузера.</p>"
+        }
+      }
+    },
+    {
+      "id": "page-mesafeli-satis",
+      "slug": "mesafeli-satis",
+      "title": "48 Saatte Teslim & Hizmet Garantisi",
+      "category": "legal",
+      "summary": "Anahtar teslim taahhüdümüz, teslim takvimi, revizyon ve müşteri memnuniyeti ilkelerimiz.",
+      "updatedAt": "2026-10-07",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">48 Saatte Anahtar Teslim Taahhüdümüz</h3>\n<p class=\"text-justify leading-relaxed\">Müşteri gerekli firma bilgilerini, logo ve görsellerini ilettiği andan itibaren 48 saat (2 iş günü) içerisinde:</p>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Alan adı DNS yönlendirmesi yapılır.</li>\n<li class=\"text-justify leading-relaxed\">SSL güvenlik sertifikası ve kurumsal e-posta kurulur.</li>\n<li class=\"text-justify leading-relaxed\">Seçilen şablon müşterinin kurumsal kimliğine göre canlı sunucuda yayına alınır.</li>\n</ol>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Revizyon ve Kabul Süreci</h3>\n<p class=\"text-justify leading-relaxed\">Site canlıya alındıktan sonra 7 gün boyunca metin, görsel ve iletişim bilgisi düzeltmeleri ücretsiz olarak gerçekleştirilir.</p>",
+      "translations": {
+        "en": {
+          "title": "48-Hour Turnkey Deployment & Service Guarantee",
+          "summary": "Our contractual 48-hour launch timeline, quality assurance benchmarks, and revision guarantees.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Guaranteed 48-Hour Turnkey Launch</h3>\n<p class=\"text-justify leading-relaxed\">From the moment client delivers core brand details, logo assets, and primary imagery, within 48 business hours:</p>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Domain DNS routing and cloud hosting activation are configured.</li>\n<li class=\"text-justify leading-relaxed\">Enterprise SSL certificates and corporate email addresses are provisioned.</li>\n<li class=\"text-justify leading-relaxed\">The selected sectoral blueprint is fully customized and deployed live.</li>\n</ol>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Revision Window and Quality Handover</h3>\n<p class=\"text-justify leading-relaxed\">Following initial live launch, clients receive a 7-day revision window for complimentary textual, photo, and styling fine-tuning until formal acceptance.</p>"
+        },
+        "ru": {
+          "title": "Гарантия Запуска за 48 Часов и Условия Сдачи",
+          "summary": "Официальные гарантии соблюдения сроков развертывания готового сайта за 48 часов и регламент правок.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Наше Обязательство: Запуск Под Ключ за 48 Часов</h3>\n<p class=\"text-justify leading-relaxed\">С момента предоставления клиентом логотипа, контактов и базовой информации, в течение 48 рабочих часов мы выполняем:</p>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Настройку DNS домена и подключение скоростного хостинга.</li>\n<li class=\"text-justify leading-relaxed\">Выпуск SSL сертификата безопасности и создание корпоративной почты.</li>\n<li class=\"text-justify leading-relaxed\">Адаптацию выбранного готового сайта под фирменный стиль и запуск в открытый доступ.</li>\n</ol>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Период Бесплатных Правок</h3>\n<p class=\"text-justify leading-relaxed\">После публикации сайта в сети предоставляется 7 дней гарантийного периода на бесплатные корректировки текстов, фотографий и контактных данных.</p>"
+        }
+      }
+    },
+    {
+      "id": "page-iletisim",
+      "slug": "iletisim",
+      "title": "İletişim & Teklif Talebi",
+      "category": "corporate",
+      "summary": "Vanguard Studio proje ekibiyle doğrudan iletişime geçin, 48 saatte anahtar teslim hazır siteniz için özel teklif ve danışmanlık alın.",
+      "updatedAt": "2026-10-08",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Vanguard Studio İletişim & Proje Masası</h3>\n<p class=\"text-justify leading-relaxed\">Yeni bir hazır site satın almak, kurumsal web mimarisi talep etmek veya projeniz hakkında detaylı danışmanlık almak için aşağıdaki kanallardan veya formu doldurarak bize 7/24 ulaşabilirsiniz.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Doğrudan İletişim Kanalları</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Türkiye Ar-Ge & Proje Masası:</strong> Antalya, Türkiye</li>\n<li class=\"text-justify leading-relaxed\"><strong>Rusya & Avrasya Masası:</strong> Oktyabrskiy, Başkurtistan / Rusya Federasyonu</li>\n<li class=\"text-justify leading-relaxed\"><strong>E-Posta:</strong> iletisim@vanguardstudio.digital</li>\n<li class=\"text-justify leading-relaxed\"><strong>WhatsApp (Türkiye & Genel):</strong> +90 505 703 0194 (Sadece WhatsApp)</li>\n<li class=\"text-justify leading-relaxed\"><strong>Telefon & WhatsApp (Rusya & Genel):</strong> +7 (927) 313-35-97 (WhatsApp & Arama)</li>\n<li class=\"text-justify leading-relaxed\"><strong>Çalışma Saatleri:</strong> Pazartesi – Cumartesi (09:00 – 20:00)</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Hızlı Teklif Süreci</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">İletişim formumuzu eksiksiz doldurun.</li>\n<li class=\"text-justify leading-relaxed\">Proje yöneticimiz maksimum 2 saat içinde sizinle WhatsApp veya telefon üzerinden irtibata geçsin.</li>\n<li class=\"text-justify leading-relaxed\">48 saat içinde hazır sitenizi canlıda anahtar teslim teslim edelim.</li>\n</ol>",
+      "translations": {
+        "en": {
+          "title": "Contact & Project Inquiries",
+          "summary": "Directly connect with the Vanguard Studio engineering team. Request custom turnkey quotations and enterprise onboarding.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Vanguard Studio Contact & Project Desk</h3>\n<p class=\"text-justify leading-relaxed\">To acquire a turnkey website, discuss custom enterprise architecture, or obtain detailed project consultation, reach our team 24/7 through the channels below or by submitting our contact form.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Direct Contact Channels</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Turkey Engineering Desk:</strong> Antalya, Turkey</li>\n<li class=\"text-justify leading-relaxed\"><strong>Russia & Eurasia Desk:</strong> Oktyabrskiy, Republic of Bashkortostan, Russian Federation</li>\n<li class=\"text-justify leading-relaxed\"><strong>Email:</strong> iletisim@vanguardstudio.digital</li>\n<li class=\"text-justify leading-relaxed\"><strong>WhatsApp (Turkey & Global):</strong> +90 505 703 0194 (WhatsApp Only)</li>\n<li class=\"text-justify leading-relaxed\"><strong>Direct Line & WhatsApp (Russia & Global):</strong> +7 (927) 313-35-97 (WhatsApp & Calls)</li>\n<li class=\"text-justify leading-relaxed\"><strong>Working Hours:</strong> Monday – Saturday (09:00 – 20:00 UTC+3)</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Swift Turnkey Workflow</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Complete our inquiry form.</li>\n<li class=\"text-justify leading-relaxed\">Our dedicated project lead will connect with you via WhatsApp or phone within 2 hours.</li>\n<li class=\"text-justify leading-relaxed\">Your production website launches live in exactly 48 hours.</li>\n</ol>"
+        },
+        "ru": {
+          "title": "Контакты и Заказ Сайта",
+          "summary": "Свяжитесь с командой Vanguard Studio для запуска готового сайта под ключ за 48 часов или индивидуального расчета.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Отдел Проектов и Контакты Vanguard Studio</h3>\n<p class=\"text-justify leading-relaxed\">Для покупки готового сайта, заказа индивидуальной разработки или консультации свяжитесь с нами любым удобным способом или отправьте форму запроса.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Прямые Каналы Связи</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Центр Разработки в Турции:</strong> Анталья, Турция</li>\n<li class=\"text-justify leading-relaxed\"><strong>Офис в России и СНГ:</strong> г. Октябрьский, Республика Башкортостан, Российская Федерация</li>\n<li class=\"text-justify leading-relaxed\"><strong>Электронная почта:</strong> iletisim@vanguardstudio.digital</li>\n<li class=\"text-justify leading-relaxed\"><strong>WhatsApp (Турция и Общий):</strong> +90 505 703 0194 (Только WhatsApp)</li>\n<li class=\"text-justify leading-relaxed\"><strong>Телефон и WhatsApp (Россия и Общий):</strong> +7 (927) 313-35-97 (WhatsApp и Звонки)</li>\n<li class=\"text-justify leading-relaxed\"><strong>Режим работы:</strong> Понедельник – Суббота (09:00 – 20:00)</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Этапы Запуска</h3>\n<ol class=\"list-decimal pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\">Заполните контактную форму на сайте.</li>\n<li class=\"text-justify leading-relaxed\">Наш ведущий разработчик свяжется с вами в течение 2 часов в WhatsApp или по телефону.</li>\n<li class=\"text-justify leading-relaxed\">Ваш готовый сайт будет запущен в сеть за 48 часов под ключ.</li>\n</ol>"
+        }
+      }
+    },
+    {
+      "id": "page-kariyer",
+      "slug": "kariyer",
+      "title": "Kariyer & Uzaktan İş Başvurusu",
+      "category": "corporate",
+      "summary": "Performans Pazarlama Uzmanları ve Media Buyer'lar için küresel uzaktan (remote) kariyer fırsatları. İngilizce, Türkçe ve Rusça online mülakat süreçleri.",
+      "updatedAt": "2026-10-08",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Performans Pazarlama Uzmanı & Media Buyer (Uzaktan / Remote)</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio bünyesinde, Türkiye, Rusya ve Avrupa pazarlarındaki hazır sektörel web sitelerimiz ve kurumsal müşterilerimiz için dijital büyüme, müşteri edinimi (lead generation) ve performans reklamlarını yönetecek deneyimli <strong>Pazarlama Uzmanları ve Media Buyer'lar</strong> arıyoruz.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Görev Tanımı & Odak Alanları</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Kanal Yönetimi:</strong> Google Ads (Search, Performance Max), Meta Ads (Instagram & Facebook reklamları), Yandex Direct ve Telegram Ads kampanyalarının uçtan uca kurulumu, A/B testleri ve ölçeklendirilmesi.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Bütçe & ROAS Optimizasyonu:</strong> Kampanya harcamalarını yüksek getiri (ROAS) ve düşük müşteri edinme maliyeti (CPA) prensipleriyle karlı şekilde yönetmek.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Kreatif Yönlendirme:</strong> Dönüşüm odaklı reklam metinleri, görsel/video kreatif briefleri ve açılış sayfası (landing page) optimizasyon önerileri hazırlamak.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Metrik & Analiz:</strong> Google Analytics 4, Meta Pixel ve dönüşüm API'si verilerini düzenli okuyarak haftalık performans raporlaması sunmak.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Çalışma Şartları & Avantajlar</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>%100 Uzaktan (Remote) Çalışma:</strong> Dünyanın neresinde olursanız olun, esnek ve bağımsız çalışma modeli.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Döviz Bazlı Rekabetçi Gelir:</strong> Sabit ücret + yönetilen kampanya bütçeleri ve ciro üzerinden yüksek performans primi.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Büyük Ölçekli Kampanyalar:</strong> Farklı sektörlerde (sağlık klinikleri, hukuk büroları, e-ticaret, mimarlık, gayrimenkul) doğrudan ölçeklenebilir bütçelerle çalışma imkanı.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Online Mülakat & Dil Prosedürü</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Mülakat Süreci:</strong> Seçilen adaylarla online video mülakatlar <strong>İngilizce</strong> veya <strong>Türkçe</strong> olarak yürütülmektedir.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Rusya ve BDT Bölgesinden Başvurular:</strong> Rusya Federasyonu veya BDT ülkelerinden başvurup İngilizce ya da Türkçe bilmeyen yetenekli adaylar için online mülakatlar <strong>Rusça</strong> dilinde gerçekleştirilmektedir.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Aşağıdaki yerleşik formu doldurarak özgeçmişinizi (PDF, DOCX, ZIP) ekleyip hemen başvurabilirsiniz.</p>",
+      "translations": {
+        "en": {
+          "title": "Careers & Remote Opportunities",
+          "summary": "Global remote career opportunities for Performance Marketing Specialists and Media Buyers. Online interviews conducted in English, Turkish, or Russian.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Performance Marketing Specialist & Media Buyer (100% Remote)</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio is expanding its growth collective. We are actively recruiting experienced <strong>Marketing Specialists and Media Buyers</strong> to direct digital acquisition, paid traffic, and performance campaigns across Turkey, Russia, and European markets.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Key Responsibilities & Focus</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Paid Acquisition Channels:</strong> Hands-on setup, scaling, and A/B optimization of Google Ads, Meta Ads (Instagram/Facebook), Yandex Direct, and Telegram Ads.</li>\n<li class=\"text-justify leading-relaxed\"><strong>ROAS & Budget Scaling:</strong> Driving profitable return on ad spend (ROAS) and lowering cost per acquisition (CPA).</li>\n<li class=\"text-justify leading-relaxed\"><strong>Creative Direction:</strong> Developing high-converting ad copy, visual hooks, and landing page conversion rate optimization (CRO).</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Benefits & Compensation</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>100% Remote Flexibility:</strong> Work autonomously from any location worldwide.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Hard-Currency Compensation:</strong> Competitive base retainer plus generous performance-based bonus tiers.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Diverse High-Ticket Portfolios:</strong> Direct ownership of ad budgets across medical, legal, luxury bistro, architecture, and logistics verticals.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Online Interview & Language Policy</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Standard Interview Language:</strong> Technical interviews are conducted online via video in <strong>English</strong> or <strong>Turkish</strong>.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Applicants from Russia & CIS:</strong> For talented candidates applying from the Russian Federation or CIS who do not speak English or Turkish, online interviews are conducted in <strong>Russian</strong>.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Please submit your resume (PDF, DOCX, ZIP) using the integrated application form below.</p>"
+        },
+        "ru": {
+          "title": "Карьера & Удаленная Работа (Media Buyer)",
+          "summary": "Удаленная работа для специалистов по интернет-маркетингу и Media Buyer. Онлайн-собеседования на русском, английском или турецком языках.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Специалист по Перформанс-Маркетингу & Media Buyer (100% Удаленно)</h3>\n<p class=\"text-justify leading-relaxed\">Студия Vanguard Studio открывает набор опытных <strong>Маркетологов и Media Buyer'ов</strong> для масштабирования рекламы и привлечения клиентов для готовых отраслевых сайтов в Турции, России и странах СНГ.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Обязанности и Ключевые Задачи</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Рекламные Каналы:</strong> Настройка, ведение и масштабирование кампаний в Яндекс Директ, Telegram Ads, Google Ads и Meta Ads (Instagram/Facebook).</li>\n<li class=\"text-justify leading-relaxed\"><strong>Оптимизация Бюджетов и ROAS:</strong> Управление бюджетами с фокусом на окупаемость, снижение стоимости заявки (CPA) и максимизацию конверсий.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Креативы и Посадочные Страницы:</strong> Разработка продающих рекламных текстов, ТЗ для дизайнеров и рекомендации по повышению конверсии страниц.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Условия Работы и Преимущества</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>100% Удаленный Формат:</strong> Работайте из любой точки мира с гибким графиком.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Достойная Оплата:</strong> Фиксированный оклад + высокий процент за перевыполнение KPI и конверсий.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Интересные Проекты:</strong> Реальные бюджеты в медицине, юриспруденции, недвижимости, архитектуре и логистике.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Порядок Онлайн-Собеседований и Языки</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\">\n<li class=\"text-justify leading-relaxed\"><strong>Языки Интервью:</strong> Для кандидатов из большинства регионов онлайн-собеседования проходят на <strong>английском</strong> или <strong>турецком</strong> языке.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Для Кандидатов из России и СНГ:</strong> Для специалистов, подающих заявку из Российской Федерации и стран СНГ и не владеющих турецким или английским языком, онлайн-собеседование проводится на <strong>русском</strong> языке.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Заполните форму ниже и прикрепите ваше резюме (PDF, DOCX, ZIP). Ваша заявка поступит напрямую ведущему руководителю.</p>"
+        }
+      }
+    },
+    {
+      "id": "page-sss",
+      "slug": "sss",
+      "title": "Sıkça Sorulan Sorular (SSS / FAQ)",
+      "category": "corporate",
+      "summary": "Vanguard Studio hizmetleri, hazır web siteleri, teslimat süreçleri ve ödeme yöntemleri hakkında en sık sorulan sorular.",
+      "updatedAt": "2026-10-10",
+      "isPublished": true,
+      "content": "<p class=\"text-justify leading-relaxed\">Aşağıdaki interaktif akordeon modülünden hazır web siteleri, teslimat süreleri, ödeme koşulları ve teknik destek ile ilgili sorularınızın yanıtlarını inceleyebilirsiniz.</p>",
+      "translations": {
+        "en": {
+          "title": "Frequently Asked Questions (FAQ)",
+          "summary": "Find clear answers regarding turnkey delivery, package options, custom domain mapping, and payment terms.",
+          "content": "<p class=\"text-justify leading-relaxed\">Explore our interactive FAQ accordion below to learn about delivery timelines, domain connections, and service guarantees.</p>"
+        },
+        "ru": {
+          "title": "Часто Задаваемые Вопросы (FAQ)",
+          "summary": "Ответы на часто задаваемые вопросы о готовых сайтах, сроках запуска, оплате и технической поддержке.",
+          "content": "<p class=\"text-justify leading-relaxed\">Ознакомьтесь с ответами на популярные вопросы в интерактивном модуле ниже.</p>"
+        }
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Hazır web siteleri kaç saat içinde teslim edilir ve süreç nasıl ilerler?",
+      "answer": "<p style=\"text-align: justify;\">Seçtiğiniz sektör odaklı hazır web sitesi konfigürasyonunuza bağlı olarak <strong>24 ila 48 saat</strong> içerisinde canlıya alınır. Alan adınız (domain) sipariş aşamasında yönlendirildikten sonra, web siteniz tüm mobil uyumluluk ve SSL sertifikaları tanımlanmış şekilde teslim edilir. Yönetim paneli şifreniz tarafınıza güvenli e-posta veya WhatsApp kanalıyla iletilir.</p>",
+      "order": 1,
+      "active": true,
+      "translations": {
+        "en": {
+          "question": "How fast are turnkey websites delivered and how does the process work?",
+          "answer": "<p style=\"text-align: justify;\">Depending on your chosen configuration, turnkey websites are launched within <strong>24 to 48 hours</strong>. Once your custom domain is connected, your site is published with full mobile responsiveness and active SSL encryption. Admin access credentials are delivered securely via email or WhatsApp.</p>"
+        },
+        "ru": {
+          "question": "Как быстро сдаются готовые сайты и как проходит процесс?",
+          "answer": "<p style=\"text-align: justify;\">В зависимости от выбранной конфигурации готовый веб-сайт запускается в течение <strong>от 24 до 48 часов</strong>. После привязки вашего домена сайт публикуется с полной адаптивностью и активным SSL-шифрованием. Доступы к панели управления передаются вам по e-mail или WhatsApp.</p>"
+        }
+      }
+    },
+    {
+      "id": "faq-2",
+      "question": "Ekonomik Paket ile Profesyonel Paket arasındaki temel fark nedir?",
+      "answer": "<p style=\"text-align: justify;\"><strong>Ekonomik Paket</strong> modelinde sunucu, güvenlik güncellemeleri, SSL sertifikası ve teknik altyapı bakımı tamamen Vanguard Studio uzman ekibimiz tarafından yürütülür; içerik güncellemelerinizi bize iletmeniz yeterlidir. <strong>Profesyonel Paket</strong> modelinde ise gelişmiş CMS (içerik yönetim paneli) üzerinden sitenizdeki metinleri, görselleri, ürünleri ve menüleri %100 kendiniz güncelleyebilirsiniz.</p>",
+      "order": 2,
+      "active": true,
+      "translations": {
+        "en": {
+          "question": "What is the main difference between the Economic and Professional packages?",
+          "answer": "<p style=\"text-align: justify;\">In the <strong>Economic Package</strong> model, servers, security updates, SSL certificates, and technical maintenance are managed by Vanguard Studio experts; you simply send us your content updates. In the <strong>Professional Package</strong> model, you gain access to a powerful CMS admin panel to update text, photos, products, and menus independently.</p>"
+        },
+        "ru": {
+          "question": "В чем основная разница между Эконом и Профессиональным тарифом?",
+          "answer": "<p style=\"text-align: justify;\">В модели <strong>Эконом</strong> серверы, обновления безопасности, SSL и техническое обслуживание находятся под управлением экспертов Vanguard Studio; вы просто направляете нам материалы. В <strong>Профессиональном</strong> пакете вы получаете доступ к CMS для независимого редактирования контента, фото, товаров и меню.</p>"
+        }
+      }
+    },
+    {
+      "id": "faq-3",
+      "question": "Ödeme yöntemleriniz nelerdir? Fatura ve sözleşme düzenleniyor mu?",
+      "answer": "<p style=\"text-align: justify;\">Türkiye içi siparişlerde <strong>Banka Havalesi / EFT / FAST</strong> ve kurumsal banka hesaplarımız kullanılmaktadır. Rusya ve BDT bölgesinden verilecek siparişlerde ise <strong>SBP (Система быстрых платежей)</strong> ve T-Bank kanalları aktiftir. Tüm işlemlerimiz resmi faturalı ve kurumsal sözleşmeli olarak gerçekleşir.</p>",
+      "order": 3,
+      "active": true,
+      "translations": {
+        "en": {
+          "question": "What payment methods do you accept? Do you issue contracts and invoices?",
+          "answer": "<p style=\"text-align: justify;\">We accept <strong>Bank Wire / EFT / FAST</strong> for Turkish orders, and <strong>SBP (Fast Payments System)</strong> and T-Bank for orders from Russia and the CIS region. Every project is backed by official corporate agreements and legally compliant tax invoices.</p>"
+        },
+        "ru": {
+          "question": "Какие способы оплаты вы принимаете? Выдаются ли чеки и договоры?",
+          "answer": "<p style=\"text-align: justify;\">Для платежей из Турции используются <strong>Банковский перевод / FAST</strong>. Для клиентов из РФ и СНГ доступна оплата через <strong>СБП (Система быстрых платежей)</strong> и Т-Банк. Все сделки сопровождаются официальными договорами и закрывающими документами.</p>"
+        }
+      }
+    },
+    {
+      "id": "faq-4",
+      "question": "Kendi alan adımı (Domain) web siteme bağlayabilir miyim?",
+      "answer": "<p style=\"text-align: justify;\">Evet, mevcut alan adınızı (örneğin <em>sirketiniz.com</em>) doğrudan hazır sitenize tanımlayabilirsiniz. Alan adı yönlendirme veya DNS A kaydı işlemlerinde teknik ekibimiz ücretsiz destek sağlamakta, dilerseniz yeni alan adı tescilini de sizin adınıza gerçekleştirmektedir.</p>",
+      "order": 4,
+      "active": true,
+      "translations": {
+        "en": {
+          "question": "Can I link my existing custom domain to the website?",
+          "answer": "<p style=\"text-align: justify;\">Yes, you can easily connect your existing domain (e.g., <em>yourcompany.com</em>) to your new website. Our technical engineers provide free DNS mapping and configuration assistance, or register a fresh domain on your behalf.</p>"
+        },
+        "ru": {
+          "question": "Могу ли я привязать свой существующий домен к веб-сайту?",
+          "answer": "<p style=\"text-align: justify;\">Да, вы можете привязать свой собственный домен (например, <em>yourcompany.com</em>). Наша команда инженеров предоставляет бесплатную помощь по настройке DNS и привязке домена.</p>"
+        }
+      }
+    },
+    {
+      "id": "faq-5",
+      "question": "Arama motorlarında (Google, Yandex) üst sıralara çıkmak için SEO altyapısı mevcut mu?",
+      "answer": "<p style=\"text-align: justify;\">Tüm hazır web sitelerimiz varsayılan olarak <strong>GEO (Generative Engine Optimization)</strong> ve modern SEO standartlarına uygun olarak tasarlanmıştır. Sayfa yüklenme hızları Google PageSpeed kriterlerine göre optimize edilmiş olup, meta etiketleri, OpenGraph kartları ve Schema.org yapısal verileri hazır sunulur.</p>",
+      "order": 5,
+      "active": true,
+      "translations": {
+        "en": {
+          "question": "Is the website optimized for search engines like Google and Yandex (SEO/GEO)?",
+          "answer": "<p style=\"text-align: justify;\">All turnkey web architectures strictly follow <strong>GEO (Generative Engine Optimization)</strong> and modern search engine standards. Codebases are tuned for high Google PageSpeed scores, complete with semantic metadata, OpenGraph cards, and Schema.org structured data.</p>"
+        },
+        "ru": {
+          "question": "Оптимизирован ли сайт для поисковых систем Google и Yandex (SEO/GEO)?",
+          "answer": "<p style=\"text-align: justify;\">Все готовые веб-сайты по умолчанию оптимизированы согласно стандартам <strong>GEO (Generative Engine Optimization)</strong> и традиционному SEO. Код настроен на максимальные показатели Google PageSpeed, включая метатеги, карты OpenGraph и микроразметку Schema.org.</p>"
+        }
+      }
+    }
+  ]
+}
