@@ -41,10 +41,10 @@ export const ComparisonSection: React.FC = () => {
             <div className="flex items-start justify-between mb-5">
               <div>
                 <span className="text-[10px] sm:text-[11px] font-black tracking-wider text-emerald-600 dark:text-emerald-400 uppercase">
-                  {t('models.mostPopular', 'En Çok Tercih Edilen Model')}
+                  {t('models.mostPopular', currentLang === 'en' ? 'Most Popular Model' : 'En Çok Tercih Edilen Model')}
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-neutral-950 dark:text-white font-display mt-1">
-                  {t('models.economic.title', 'Ekonomik Paket (Yönetim Bizde)')}
+                  {t('models.economic.title', currentLang === 'en' ? 'Economic Tier (Managed by Us)' : 'Ekonomik Paket (Yönetim Bizde)')}
                 </h3>
               </div>
               <div className="p-2 sm:p-2.5 rounded-xl bg-emerald-500/10 text-emerald-500 shrink-0">
@@ -58,41 +58,66 @@ export const ComparisonSection: React.FC = () => {
                   {formatPrice(10000)} – {formatPrice(15000)}
                 </span>
                 <span className="text-[11px] font-medium text-neutral-500 dark:text-neutral-400 shrink-0">
-                  {t('models.turnkey', '/ anahtar teslim')}
+                  {t('models.turnkey', currentLang === 'en' ? '/ turnkey delivery' : '/ anahtar teslim')}
                 </span>
               </div>
               <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-2.5 leading-relaxed min-h-[50px] text-justify">
-                {t('models.economic.desc', 'Web paneli öğrenmekle veya şifrelerle vakit kaybetmek istemeyen küçük işletmeler için idealdir. Sitenizi kurar, içeriklerinizi yükleriz. Değişiklik gerektiğinde bize iletirsiniz, biz yaparız.')}
+                {t(
+                  'models.economic.desc',
+                  currentLang === 'en'
+                    ? 'Ideal for small businesses that do not want to spend time learning admin panels or passwords. We build your site and upload your content. When changes are needed, send them to us and we update it.'
+                    : 'Web paneli öğrenmekle veya şifrelerle vakit kaybetmek istemeyen küçük işletmeler için idealdir. Sitenizi kurar, içeriklerinizi yükleriz. Değişiklik gerektiğinde bize iletirsiniz, biz yaparız.'
+                )}
               </p>
             </div>
 
             <div className="space-y-3 mb-6 flex-1 text-xs text-neutral-700 dark:text-neutral-300">
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.economic.feat1', 'Müşteriye karmaşık panel verilmez; tam yönetim desteği ajanstadır')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.economic.feat2', 'Alan adı, hosting, SSL ve kurumsal e-posta kurulumu dahil')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.economic.feat3', 'Yılda 12 kez metin, fotoğraf ve fiyat güncelleme hakkı')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.economic.feat4', 'Hızlı WhatsApp ve doğrudan arama butonları entegrasyonu')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.economic.feat5', 'Süper hızlı açılış ve mobil kusursuzluk')}</span></div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.economic.feat1', currentLang === 'en' ? 'No complex CMS for client; full management handled by the agency' : 'Müşteriye karmaşık panel verilmez; tam yönetim desteği ajanstadır')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.economic.feat2', currentLang === 'en' ? 'Domain name, hosting, SSL, and corporate email setup included' : 'Alan adı, hosting, SSL ve kurumsal e-posta kurulumu dahil')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.economic.feat3', currentLang === 'en' ? '12 text, photo, and pricing updates included per year' : 'Yılda 12 kez metin, fotoğraf ve fiyat güncelleme hakkı')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.economic.feat4', currentLang === 'en' ? 'Instant WhatsApp and direct call buttons integration' : 'Hızlı WhatsApp ve doğrudan arama butonları entegrasyonu')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.economic.feat5', currentLang === 'en' ? 'Ultra-fast load speed and mobile perfection' : 'Süper hızlı açılış ve mobil kusursuzluk')}</span>
+              </div>
             </div>
 
             <div className="flex gap-2">
-              <button onClick={() => openPaymentModal(null, 'economic')} className="flex-1 py-2.5 px-2 text-xs font-bold text-white bg-emerald-500 hover:bg-emerald-600 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer shadow-md"><span>{t('models.ctaStripe', 'Stripe / Havale')}</span></button>
-              <button onClick={() => openContactModal(null, 'economic')} className="flex-1 py-2.5 px-2 text-xs font-semibold text-neutral-900 dark:text-white bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer"><span>{t('models.ctaQuote', 'Teklif İste')}</span><ArrowRight className="w-3.5 h-3.5" /></button>
+              <button onClick={() => openPaymentModal(null, 'economic')} className="flex-1 py-2.5 px-2 text-xs font-bold text-white bg-emerald-500 hover:bg-emerald-600 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer shadow-md">
+                <span>{t('models.ctaStripe', currentLang === 'en' ? 'Stripe / Wire Transfer' : 'Stripe / Havale')}</span>
+              </button>
+              <button onClick={() => openContactModal(null, 'economic')} className="flex-1 py-2.5 px-2 text-xs font-semibold text-neutral-900 dark:text-white bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer">
+                <span>{t('models.ctaQuote', currentLang === 'en' ? 'Request a Quote' : 'Teklif İste')}</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
             </div>
           </div>
 
           {/* Kart 2: Profesyonel Paket (Tam Yetkili CMS) */}
           <div className="relative flex flex-col bg-white dark:bg-[#121620] rounded-2xl p-6 sm:p-7 border-2 border-amber-500/30 dark:border-amber-500/20 hover:border-amber-500 dark:hover:border-amber-400 transition-all shadow-xl shadow-amber-500/5">
             <div className="absolute -top-3 left-6 sm:left-8 px-3 py-0.5 bg-amber-500 text-neutral-950 text-[10px] font-black tracking-widest rounded-full uppercase">
-              {t('models.fullIndependence', 'Tam Bağımsızlık & Kontrol')}
+              {t('models.fullIndependence', currentLang === 'en' ? 'Full Independence & Control' : 'Tam Bağımsızlık & Kontrol')}
             </div>
 
             <div className="flex items-start justify-between mb-5">
               <div>
                 <span className="text-[10px] sm:text-[11px] font-bold tracking-wider text-amber-600 dark:text-amber-400 uppercase">
-                  {t('models.advancedPanel', 'Gelişmiş Panel Çözümü')}
+                  {t('models.advancedPanel', currentLang === 'en' ? 'Advanced CMS Solution' : 'Gelişmiş Panel Çözümü')}
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-neutral-950 dark:text-white font-display mt-1">
-                  {t('models.pro.title', 'Profesyonel Paket (Tam Yetkili CMS)')}
+                  {t('models.pro.title', currentLang === 'en' ? 'Professional Tier (Full-Access CMS)' : 'Profesyonel Paket (Tam Yetkili CMS)')}
                 </h3>
               </div>
               <div className="p-2 sm:p-2.5 rounded-xl bg-amber-500/10 text-amber-500 shrink-0">
@@ -106,41 +131,66 @@ export const ComparisonSection: React.FC = () => {
                   {formatPrice(18000)} – {formatPrice(25000)}+
                 </span>
                 <span className="text-[11px] font-medium text-neutral-500 dark:text-neutral-400 shrink-0">
-                  {t('models.turnkey', '/ anahtar teslim')}
+                  {t('models.turnkey', currentLang === 'en' ? '/ turnkey delivery' : '/ anahtar teslim')}
                 </span>
               </div>
               <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-2.5 leading-relaxed min-h-[50px] text-justify">
-                {t('models.pro.desc', 'Kendi ekibi olan, sık içerik/ürün girişi yapan veya sitenin her detayını bağımsız yönetmek isteyen büyüyen firmalar için tam yetkili profesyonel yönetim paneli.')}
+                {t(
+                  'models.pro.desc',
+                  currentLang === 'en'
+                    ? 'A full-access professional management panel for growing businesses with their own team, publishing regular content, or desiring total control over every detail.'
+                    : 'Kendi ekibi olan, sık içerik/ürün girişi yapan veya sitenin her detayını bağımsız yönetmek isteyen büyüyen firmalar için tam yetkili profesyonel yönetim paneli.'
+                )}
               </p>
             </div>
 
             <div className="space-y-3 mb-6 flex-1 text-xs text-neutral-700 dark:text-neutral-300">
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.pro.feat1', 'Müşteriye teslim edilen tam yetkili, sade profesyonel CMS')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.pro.feat2', 'Sınırsız ürün, yazı ve galeri içeriği ekleme imkanı')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.pro.feat3', 'Çok dilli içerik yönetimi ve otomatik çeviri motoru')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.pro.feat4', 'Gelişmiş analitik ve form bildirimleri entegrasyonu')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.pro.feat5', 'Ekibiniz için 1 saatlik canlı video eğitim ve rehber')}</span></div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.pro.feat1', currentLang === 'en' ? 'Turnkey delivery of a full-access, clean professional CMS' : 'Müşteriye teslim edilen tam yetkili, sade profesyonel CMS')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.pro.feat2', currentLang === 'en' ? 'Unlimited products, blog posts, and media gallery items' : 'Sınırsız ürün, yazı ve galeri içeriği ekleme imkanı')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.pro.feat3', currentLang === 'en' ? 'Multilingual content management and automatic translation engine' : 'Çok dilli içerik yönetimi ve otomatik çeviri motoru')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.pro.feat4', currentLang === 'en' ? 'Advanced analytics and instant inquiry notifications' : 'Gelişmiş analitik ve form bildirimleri entegrasyonu')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.pro.feat5', currentLang === 'en' ? '1-hour live onboarding video session and guide for your team' : 'Ekibiniz için 1 saatlik canlı video eğitim ve rehber')}</span>
+              </div>
             </div>
 
             <div className="flex gap-2">
-              <button onClick={() => openPaymentModal(null, 'professional')} className="flex-1 py-2.5 px-2 text-xs font-bold text-white bg-amber-500 hover:bg-amber-600 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer shadow-md"><span>{t('models.ctaStripe', 'Stripe / Havale')}</span></button>
-              <button onClick={() => openContactModal(null, 'professional')} className="flex-1 py-2.5 px-2 text-xs font-semibold text-white bg-neutral-950 dark:bg-white dark:text-neutral-950 hover:bg-neutral-800 dark:hover:bg-neutral-100 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer shadow-md"><span>{t('models.ctaQuote', 'Teklif İste')}</span><ArrowRight className="w-3.5 h-3.5" /></button>
+              <button onClick={() => openPaymentModal(null, 'professional')} className="flex-1 py-2.5 px-2 text-xs font-bold text-white bg-amber-500 hover:bg-amber-600 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer shadow-md">
+                <span>{t('models.ctaStripe', currentLang === 'en' ? 'Stripe / Wire Transfer' : 'Stripe / Havale')}</span>
+              </button>
+              <button onClick={() => openContactModal(null, 'professional')} className="flex-1 py-2.5 px-2 text-xs font-semibold text-white bg-neutral-950 dark:bg-white dark:text-neutral-950 hover:bg-neutral-800 dark:hover:bg-neutral-100 rounded-xl transition-all flex items-center justify-center gap-1 cursor-pointer shadow-md">
+                <span>{t('models.ctaQuote', currentLang === 'en' ? 'Request a Quote' : 'Teklif İste')}</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
             </div>
           </div>
 
           {/* Kart 3: Özel Mimari & Kurumsal Çözüm */}
           <div className="relative flex flex-col bg-white dark:bg-[#121620] rounded-2xl p-6 sm:p-7 border-2 border-indigo-500/30 dark:border-indigo-500/20 hover:border-indigo-500 dark:hover:border-indigo-400 transition-all shadow-lg shadow-indigo-500/5">
             <div className="absolute -top-3 left-6 sm:left-8 px-3 py-0.5 bg-indigo-600 text-white text-[10px] font-black tracking-widest rounded-full uppercase">
-              {t('models.customArchitecture', 'Özel Mimari & Büyüme')}
+              {t('models.customArchitecture', currentLang === 'en' ? 'Custom Architecture & Scale' : 'Özel Mimari & Büyüme')}
             </div>
 
             <div className="flex items-start justify-between mb-5">
               <div>
                 <span className="text-[10px] sm:text-[11px] font-bold tracking-wider text-indigo-600 dark:text-indigo-400 uppercase">
-                  {t('models.customScope', 'Özel Kapsam & Teklif Usulü')}
+                  {t('models.customScope', currentLang === 'en' ? 'Bespoke Scope & Custom Quote' : 'Özel Kapsam & Teklif Usulü')}
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-neutral-950 dark:text-white font-display mt-1">
-                  {t('models.custom.title', 'Özel Mimari & Kurumsal Çözüm')}
+                  {t('models.custom.title', currentLang === 'en' ? 'Custom Architecture & Enterprise Solution' : 'Özel Mimari & Kurumsal Çözüm')}
                 </h3>
               </div>
               <div className="p-2 sm:p-2.5 rounded-xl bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 shrink-0">
@@ -151,27 +201,50 @@ export const ComparisonSection: React.FC = () => {
             <div className="mb-5 pb-5 border-b border-neutral-100 dark:border-neutral-800">
               <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
                 <span className="text-base sm:text-lg xl:text-xl font-extrabold font-display text-neutral-950 dark:text-white tracking-tight text-indigo-500">
-                  {t('models.custom.priceTitle', 'Özel Fiyatlandırma')}
+                  {t('models.custom.priceTitle', currentLang === 'en' ? 'Custom Pricing' : 'Özel Fiyatlandırma')}
                 </span>
                 <span className="text-[11px] font-semibold text-indigo-600 dark:text-indigo-400 shrink-0">
-                  {t('models.custom.priceSub', '/ projeye göre')}
+                  {t('models.custom.priceSub', currentLang === 'en' ? '/ per project' : '/ projeye göre')}
                 </span>
               </div>
               <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-2.5 leading-relaxed min-h-[50px] text-justify">
-                {t('models.custom.desc', 'Standart şablonların ötesinde; markanıza özel sıfırdan UI/UX tasarımı, harici API/ERP/CRM entegrasyonları, çoklu şube veya e-ticaret altyapısı gerektiren ileri seviye projeler.')}
+                {t(
+                  'models.custom.desc',
+                  currentLang === 'en'
+                    ? 'Beyond standard templates: custom bespoke UI/UX design, external API/ERP/CRM integrations, multi-branch, or enterprise e-commerce infrastructures.'
+                    : 'Standart şablonların ötesinde; markanıza özel sıfırdan UI/UX tasarımı, harici API/ERP/CRM entegrasyonları, çoklu şube veya e-ticaret altyapısı gerektiren ileri seviye projeler.'
+                )}
               </p>
             </div>
 
             <div className="space-y-3 mb-6 flex-1 text-xs text-neutral-700 dark:text-neutral-300">
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.custom.feat1', 'Markanıza ve sektörünüze özel sıfırdan Figma UI/UX tasarımı')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.custom.feat2', 'Özel backend mimarisi, API servisleri ve ERP/CRM entegrasyonları')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.custom.feat3', 'Çoklu dil, çoklu para birimi ve global ödeme ağ geçitleri')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.custom.feat4', 'Yüksek trafik yük dengelemesi ve özel cloud sunucu kurulumu')}</span></div>
-              <div className="flex items-start gap-2.5"><Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" /><span>{t('models.custom.feat5', 'Öncelikli 7/24 SLA desteği, kaynak kod teslimi ve dokümantasyon')}</span></div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.custom.feat1', currentLang === 'en' ? 'Bespoke Figma UI/UX design tailored specifically to your brand' : 'Markanıza ve sektörünüze özel sıfırdan Figma UI/UX tasarımı')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.custom.feat2', currentLang === 'en' ? 'Custom backend architecture, API services, and ERP/CRM integrations' : 'Özel backend mimarisi, API servisleri ve ERP/CRM entegrasyonları')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.custom.feat3', currentLang === 'en' ? 'Multilingual, multi-currency, and international payment gateways' : 'Çoklu dil, çoklu para birimi ve global ödeme ağ geçitleri')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.custom.feat4', currentLang === 'en' ? 'High-traffic load balancing and dedicated cloud hosting deployment' : 'Yüksek trafik yük dengelemesi ve özel cloud sunucu kurulumu')}</span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <Check className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                <span>{t('models.custom.feat5', currentLang === 'en' ? 'Priority 24/7 SLA support, full source code handover, and docs' : 'Öncelikli 7/24 SLA desteği, kaynak kod teslimi ve dokümantasyon')}</span>
+              </div>
             </div>
 
             <div className="flex gap-2">
-              <button onClick={() => openContactModal(null, 'custom')} className="flex-1 py-2.5 px-3 text-xs font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-xl transition-all flex items-center justify-center gap-1.5 cursor-pointer shadow-md"><span>{t('models.ctaQuote', 'Özel Teklif İste')}</span><ArrowRight className="w-3.5 h-3.5" /></button>
+              <button onClick={() => openContactModal(null, 'custom')} className="flex-1 py-2.5 px-3 text-xs font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-xl transition-all flex items-center justify-center gap-1.5 cursor-pointer shadow-md">
+                <span>{t('models.ctaQuote', currentLang === 'en' ? 'Request a Quote' : 'Özel Teklif İste')}</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
               <a
                 href={`https://wa.me/${cleanWhatsappPhone}?text=${encodeURIComponent(
                   currentLang === 'en'

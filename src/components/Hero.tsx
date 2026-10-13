@@ -3,7 +3,7 @@ import { useApp } from '../context/AppContext.tsx';
 import { ArrowRight, CheckCircle2, Clock, ShieldCheck, Zap, Play } from 'lucide-react';
 
 export const Hero: React.FC = () => {
-  const { t, formatPrice, openVideoModal, settings, languages } = useApp();
+  const { t, formatPrice, openVideoModal, settings, languages, currentLang } = useApp();
 
   const defaultActiveLanguagesStr = languages.filter(l => l.active).map(l => l.code.toUpperCase()).join(' · ');
   const primaryUrl = t('hero.ctaPrimaryUrl', '') || '#portfolio-section';
@@ -77,19 +77,33 @@ export const Hero: React.FC = () => {
           {/* Subtle Editorial Kicker */}
           <div className="flex items-center justify-center gap-2 text-xs font-semibold tracking-wider text-amber-600 dark:text-amber-400">
             <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
-            <span>{t('hero.badge', 'Küçük İşletmelere Özel · 48 Saatte Canlıda')}</span>
+            <span>
+              {t(
+                'hero.badge',
+                currentLang === 'en'
+                  ? 'Tailored for Small Businesses · Live in 48 Hours'
+                  : 'Küçük İşletmelere Özel · 48 Saatte Canlıda'
+              )}
+            </span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-neutral-950 dark:text-white font-display text-balance leading-[1.12]">
-            {t('hero.title', 'Bütçenizi Zorlamayan, Prestijli Hazır Web Siteleri.')}
+            {t(
+              'hero.title',
+              currentLang === 'en'
+                ? 'Prestigious Turnkey Websites That Won’t Strain Your Budget.'
+                : 'Bütçenizi Zorlamayan, Prestijli Hazır Web Siteleri.'
+            )}
           </h1>
 
           {/* Value Proposition Subtitle */}
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed max-w-2xl mx-auto text-justify sm:text-center">
             {t(
               'hero.subtitle',
-              'Büyük ajanslara servet ödemeden; {{PRICE_10000}} – {{PRICE_20000}} aralığında, sektörünüze özel tasarlanmış, satış odaklı ve hemen teslim dijital varlıklar.'
+              currentLang === 'en'
+                ? 'Without paying fortunes to big agencies: sales-driven, bespoke industry websites live on your domain within {{PRICE_10000}} – {{PRICE_20000}} range.'
+                : 'Büyük ajanslara servet ödemeden; {{PRICE_10000}} – {{PRICE_20000}} aralığında, sektörünüze özel tasarlanmış, satış odaklı ve hemen teslim dijital varlıklar.'
             )}
           </p>
 
@@ -99,7 +113,7 @@ export const Hero: React.FC = () => {
               onClick={handlePrimaryClick}
               className="w-full sm:w-auto px-6 py-3.5 text-sm font-semibold text-white bg-neutral-950 dark:bg-white dark:text-neutral-950 rounded-xl hover:bg-neutral-800 dark:hover:bg-neutral-100 transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 cursor-pointer"
             >
-              <span>{t('hero.ctaPrimary', 'Hazır Siteleri Keşfet')}</span>
+              <span>{t('hero.ctaPrimary', currentLang === 'en' ? 'Explore Turnkey Sites' : 'Hazır Siteleri Keşfet')}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
 
@@ -107,7 +121,7 @@ export const Hero: React.FC = () => {
               onClick={handleSecondaryClick}
               className="w-full sm:w-auto px-6 py-3.5 text-sm font-semibold text-neutral-800 dark:text-neutral-200 bg-neutral-100 dark:bg-neutral-800/80 hover:bg-neutral-200 dark:hover:bg-neutral-800 rounded-xl transition-all border border-neutral-200/80 dark:border-neutral-700/80 flex items-center justify-center cursor-pointer"
             >
-              <span>{t('hero.ctaSecondary', 'Hangi Paket Size Uygun?')}</span>
+              <span>{t('hero.ctaSecondary', currentLang === 'en' ? 'Which Package Fits You?' : 'Hangi Paket Size Uygun?')}</span>
             </button>
 
             <button
@@ -116,7 +130,7 @@ export const Hero: React.FC = () => {
               title="Vanguard Studio Stüdyo & Çalışma Modeli Tanıtım Videosu"
             >
               <Play className="w-4 h-4 fill-current" />
-              <span>{t('hero.watchVideo', 'Nasıl Çalışıyoruz? (Video)')}</span>
+              <span>{t('hero.watchVideo', currentLang === 'en' ? 'How We Work (Video)' : 'Nasıl Çalışıyoruz? (Video)')}</span>
             </button>
           </div>
         </div>
@@ -125,19 +139,19 @@ export const Hero: React.FC = () => {
         <div className="mt-16 pt-8 border-t border-neutral-200/70 dark:border-neutral-800/70 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <div className="text-center p-4 rounded-xl bg-neutral-50/50 dark:bg-neutral-900/40 border border-neutral-200/40 dark:border-neutral-800/40">
             <div className="text-2xl font-bold font-display text-neutral-950 dark:text-white font-mono-numbers">
-              {t('hero.stat1.val', '48 Saat')}
+              {t('hero.stat1.val', currentLang === 'en' ? '48 Hours' : '48 Saat')}
             </div>
             <div className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
-              {t('hero.stat1.label', 'Ortalama Teslimat Süresi')}
+              {t('hero.stat1.label', currentLang === 'en' ? 'Average Turnaround Time' : 'Ortalama Teslimat Süresi')}
             </div>
           </div>
 
           <div className="text-center p-4 rounded-xl bg-neutral-50/50 dark:bg-neutral-900/40 border border-neutral-200/40 dark:border-neutral-800/40">
             <div className="text-2xl font-bold font-display text-neutral-950 dark:text-white font-mono-numbers">
-              {t('hero.stat2.val', '{{PRICE_10000}}’den')}
+              {t('hero.stat2.val', currentLang === 'en' ? 'From {{PRICE_10000}}' : '{{PRICE_10000}}’den')}
             </div>
             <div className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
-              {t('hero.stat2.label', 'Başlayan Şeffaf Fiyatlar')}
+              {t('hero.stat2.label', currentLang === 'en' ? 'Starting Transparent Pricing' : 'Başlayan Şeffaf Fiyatlar')}
             </div>
           </div>
 
@@ -146,7 +160,7 @@ export const Hero: React.FC = () => {
               {t('hero.stat3.val', defaultActiveLanguagesStr || 'TR · EN')}
             </div>
             <div className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
-              {t('hero.stat3.label', 'Çok Dilli & Pazar Odaklı')}
+              {t('hero.stat3.label', currentLang === 'en' ? 'Multilingual & Market-Focused' : 'Çok Dilli & Pazar Odaklı')}
             </div>
           </div>
         </div>

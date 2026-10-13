@@ -98,9 +98,9 @@ export const LanguagesAdmin: React.FC = () => {
 
   // Helper to categorize key
   const getKeyCategory = (key: string): CategoryFilter => {
-    if (key.startsWith('nav.') || key.startsWith('header.')) return 'nav';
-    if (key.startsWith('customer.')) return 'customer';
-    if (key.startsWith('products.')) return 'products';
+    if (key.startsWith('nav.') || key.startsWith('header.') || key.startsWith('corporate.')) return 'nav';
+    if (key.startsWith('customer.') || key.startsWith('form.') || key.startsWith('contact.')) return 'customer';
+    if (key.startsWith('products.') || key.startsWith('detail.')) return 'products';
     if (key.startsWith('models.') || key.startsWith('pricing.')) return 'models';
     if (key.startsWith('services.') || key.startsWith('references.')) return 'services';
     if (key.startsWith('hero.')) return 'hero';

@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppProvider, useApp } from './context/AppContext.tsx';
 import { Header } from './components/Header.tsx';
+import { CurrencyTicker } from './components/CurrencyTicker.tsx';
 import { Hero } from './components/Hero.tsx';
 import { TurnkeyGrid } from './components/TurnkeyGrid.tsx';
 import { ComparisonSection } from './components/ComparisonSection.tsx';
@@ -40,6 +41,7 @@ const AppContent: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-[#0a0c10] text-neutral-900 dark:text-neutral-100 flex flex-col transition-colors selection:bg-amber-400 selection:text-neutral-950">
+      <CurrencyTicker />
       <Header />
       
       <main className="flex-1">

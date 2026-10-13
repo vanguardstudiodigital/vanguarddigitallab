@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportedAt": "2026-10-12T12:38:57.743Z",
+  "exportedAt": "2026-10-13T13:36:06.345Z",
   "products": [
     {
       "id": "prod-dental-clinic",
@@ -36,41 +36,43 @@
           "title": "Aura Dental & Aesthetic Clinic",
           "sector": "Healthcare & Clinic",
           "tagline": "Prestigious clinic storefront driving continuous patient bookings",
-          "description": "Engineered for private dentists, aesthetic practices, and medical doctors. Equipped with fast WhatsApp appointment dispatch, doctor team showcase, and mobile treatment catalog.",
+          "description": "<p class=\"text-justify leading-relaxed\">An elite digital showcase developed with a 'quiet luxury' design language for private dental practices, aesthetic clinics, dermatologists, and medical offices. It ensures your patients experience the same sterile, modern, and reassuring atmosphere found in your clinic the moment they step onto your website. It is equipped with a <span class=\"rQesXe MPyX\" data-sfc-cp=\"\" jsaction=\"\" jscontroller=\"tP2kf#s32ZS\" data-sfc-root=\"ep\" data-epip=\"\" jsuid=\"Swukx_1a\" data-complete=\"true\" style=\"font-family: &quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;; font-weight: 700; border-bottom: 0px rgb(232, 234, 242);\">One-Click WhatsApp Quick Appointment System</span> that operates without complex forms, professional biography cards showcasing the achievements of your expert medical team, and a mobile-friendly catalog module that transparently explains treatment processes. Achieving a top-tier score of 99+ in Google Lighthouse speed metrics, this infrastructure is designed to bring the highest level of prestige to your clinic in the digital world.</p>",
           "badge": "Popular",
           "features": [
-            "WhatsApp & Instant Online Booking System",
-            "Doctor Profiles & Treatment Branch Showcase",
-            "Before & After Clinical Results Gallery",
-            "Google Maps Location & Driving Directions",
-            "Mobile-First & Ultra Fast (99+ Lighthouse)",
-            "Core SEO Setup & Free SSL Certificate"
+            "WhatsApp and Online Appointment Booking System",
+            "Physician and Treatment Specialty Profile Pages",
+            "Before & After Treatment Results Gallery Module",
+            "Google Maps and Clinic Location Integration",
+            "Mobile-Friendly and Super-Fast (99+ Lighthouse Score)",
+            "Basic SEO and SSL Security Certificate"
           ]
         },
-        "ru": {
-          "title": "Аура Дентал и Эстетическая Клиника",
-          "sector": "Медицина и Клиники",
-          "tagline": "Премиальный сайт для клиник с высоким потоком записей пациентов",
-          "description": "Готовый сайт для частных стоматологий, эстетических поликлиник и врачей. Быстрая запись через WhatsApp, каталог процедур и презентация врачебного состава.",
-          "badge": "Популярно",
+        "tr": {
+          "title": "Dental & Estetik Klinik ",
+          "sector": "Sağlık & Klinik",
+          "tagline": "Hasta randevu akışını artıran prestijli klinik web platformu.",
+          "description": "<p class=\"text-justify leading-relaxed\">Özel diş hekimleri, estetik poliklinikleri, dermatologlar ve doktor muayenehaneleri için 'sessiz lüks' tasarım diliyle geliştirilmiş elit bir dijital vitrin. Hastalarınızın klinik ortamındaki o steril, modern ve güven veren atmosferi daha web sitenize adım attığı an hissetmesini sağlar. Karmaşık formlarla uğraşmadan çalışan <span class=\"rQesXe MPyX\" data-sfc-cp=\"\" jsaction=\"\" jscontroller=\"tP2kf#s32ZS\" data-sfc-root=\"ep\" data-epip=\"\" jsuid=\"Swukx_1a\" data-complete=\"true\" style=\"font-family: &quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;; font-weight: 700; border-bottom: 0px rgb(232, 234, 242);\">Tek Tıkla WhatsApp Hızlı Randevu Sistemi<!--TgQPHd|||[]--></span>, uzman hekim kadronuzun başarılarını sergileyen profesyonel biyografi kartları ve tedavi süreçlerini şeffafça anlatan mobil uyumlu katalog modülü ile donatılmıştır. Google Lighthouse hız skorlarında 99+ piko seviyeye ulaşan bu altyapı, kliniğinize dijital dünyada en üst düzey prestiji kazandırmak için tasarlandı.<!--EndFragment--></p>",
+          "badge": "Popüler",
           "features": [
-            "Онлайн-запись и модуль быстрой связи в WhatsApp",
-            "Страницы врачей и направлений лечения",
-            "Галерея результатов До / После",
-            "Интеграция с Яндекс.Картами и Google Maps",
-            "Мгновенная загрузка на смартфонах (99+ Lighthouse)",
-            "Базовая SEO-оптимизация и SSL-сертификат безопасности"
+            "WhatsApp ve Online Ön Randevu Sistemi",
+            "Hekimler ve Tedavi Branşları Tanıtım Sayfaları",
+            "Önce / Sonra Tedavi Sonuçları Galeri Modülü",
+            "Google Haritalar ve Klinik Konumu Entegrasyonu",
+            "Mobil Uyumlu, Süper Hızlı (99+ Lighthouse)",
+            "Temel SEO ve SSL Güvenlik Sertifikası"
           ]
         }
-      }
+      },
+      "slug_tr": "aura-dental-clinic",
+      "slug_en": "aura-dental-aesthetic-clinic"
     },
     {
       "id": "prod-law-firm",
-      "title": "Kurumsal Danışmanlık",
-      "sector": "Kurumsal Danışmanlık",
+      "title": "Hukuk Bürosu & Danışmanlık",
+      "sector": "Hukuk & Müşavirlik",
       "slug": "lexington-law-firm",
-      "tagline": "Global standartlarda kurumsal ciddiyet ve stratejik otorite yansıtan B2B platformu.",
-      "description": "<p class=\"text-justify leading-relaxed\">  <!--StartFragment-->Hukuk büroları, bağımsız avukatlar, arabulucular, B2B, Danışmanlık &amp; Girişim Firmaları ve mali müşavirler için adaletin ve kurumsal otoritenin gücünü yansıtan, ağırbaşlı ve elit bir web mimarisi. Müvekkillerinizin aradığı o mutlak güven ve gizlilik hissini ilk saniyeden itibaren tesis eder. Hukuki uzmanlık alanlarınızı ve emsal dava referanslarınızı sergileyebileceğiniz özel bölümler, uzman avukat kadronuzun özgeçmiş kartları ve müvekkil portföyünüzü genişletecek <span class=\"rQesXe MPyX\" data-sfc-cp=\"\" jsaction=\"\" jscontroller=\"tP2kf#s32ZS\" data-sfc-root=\"ep\" data-epip=\"\" jsuid=\"Swukx_1r\" data-complete=\"true\" style=\"font-family: &quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;; font-weight: 700; border-bottom: 0px rgb(232, 234, 242);\">Gizlilik Korumalı Ön Danışma / Talep Formu</span> ile entegre edilmiştir. Tamamen <span class=\"rQesXe MPyX\" data-sfc-cp=\"\" jsaction=\"\" jscontroller=\"tP2kf#s32ZS\" data-sfc-root=\"ep\" data-epip=\"\" jsuid=\"Swukx_1s\" data-complete=\"true\" style=\"font-family: &quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;; font-weight: 700; border-bottom: 0px rgb(232, 234, 242);\">KVKK ve GDPR mevzuatlarına uyumlu</span> yasal altyapı metinleri hazır olarak sunulan bu platform, büronuzun dijital dünyadaki kurumsal kalkanı ve en saygın temsilcisidir.</p>",
+      "tagline": "Güven, ciddiyet ve kurumsal saygınlık aşılayan avukatlık bürosu platformu.",
+      "description": "<p class=\"text-justify leading-relaxed\">  <!--StartFragment-->Hukuk büroları, bağımsız avukatlar, arabulucular ve mali müşavirler için adaletin ve kurumsal otoritenin gücünü yansıtan, ağırbaşlı ve elit bir web mimarisi. Müvekkillerinizin aradığı o mutlak güven ve gizlilik hissini ilk saniyeden itibaren tesis eder. Hukuki uzmanlık alanlarınızı ve emsal dava referanslarınızı sergileyebileceğiniz özel bölümler, uzman avukat kadronuzun özgeçmiş kartları ve müvekkil portföyünüzü genişletecek <span class=\"rQesXe MPyX\" data-sfc-cp=\"\" jsaction=\"\" jscontroller=\"tP2kf#s32ZS\" data-sfc-root=\"ep\" data-epip=\"\" jsuid=\"Swukx_1r\" data-complete=\"true\" style=\"font-family: &quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;; font-weight: 700; border-bottom: 0px rgb(232, 234, 242);\">Gizlilik Korumalı Ön Danışma / Talep Formu<!--TgQPHd|||[]--></span> ile entegre edilmiştir. Tamamen <span class=\"rQesXe MPyX\" data-sfc-cp=\"\" jsaction=\"\" jscontroller=\"tP2kf#s32ZS\" data-sfc-root=\"ep\" data-epip=\"\" jsuid=\"Swukx_1s\" data-complete=\"true\" style=\"font-family: &quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;; font-weight: 700; border-bottom: 0px rgb(232, 234, 242);\">KVKK ve GDPR mevzuatlarına uyumlu<!--TgQPHd|||[]--></span> yasal altyapı metinleri hazır olarak sunulan bu platform, büronuzun dijital dünyadaki kurumsal kalkanı ve en saygın temsilcisidir.<!--EndFragment--></p>",
       "priceEconomicTRY": 13500,
       "priceProfessionalTRY": 21000,
       "features": [
@@ -78,9 +80,8 @@
         "Hukuki Makale ve Blog Yayınlama Modülü",
         "Gizli Müvekkil Ön Danışma İletişim Formu",
         "Avukat ve Ortak Özgeçmiş Kartları",
-        "(B2B, Danışmanlık & Girişim",
         "KVKK & Aydınlatma Metinleri Uyumluluğu",
-        "Çok Dilli Altyapı Desteği (TR / EN )"
+        "Çok Dilli Altyapı Desteği (TR / EN / RU)"
       ],
       "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=70",
       "galleryImages": [
@@ -129,7 +130,7 @@
     },
     {
       "id": "prod-artisan-bistro",
-      "title": "Gastronomi & Eğlence",
+      "title": "Roast & Gastronomi & Eğlence",
       "sector": "Restoran & Kafe",
       "slug": "artisan-roast-bistro",
       "tagline": "Görsel zenginlik ve interaktif QR menü destekli kusursuz mekan deneyimi.",
@@ -310,7 +311,7 @@
     },
     {
       "id": "prod-velo-store",
-      "title": "Butik & E-Katalog",
+      "title": "Velo Butik & E-Katalog",
       "sector": "Butik E-Ticaret",
       "slug": "velo-boutique-store",
       "tagline": "WhatsApp ve havale ile doğrudan sipariş alan hafif e-ticaret vitrini.",
@@ -369,7 +370,7 @@
     },
     {
       "id": "prod-veritas-realty",
-      "title": "Gayrimenkul Portföyü",
+      "title": "Veritas Gayrimenkul Portföyü",
       "sector": "Emlak & Gayrimenkul",
       "slug": "veritas-real-estate",
       "tagline": "Lüks konut ve ticari mülk sergileme platformu",
@@ -421,12 +422,11 @@
             "Интерактивная карта расположения объектов"
           ]
         }
-      },
-      "badge": ""
+      }
     },
     {
       "id": "prod-pulse-fitness",
-      "title": "Elite Wellness & PT",
+      "title": "Pulse Elite Wellness & PT",
       "sector": "Spor & Sağlıklı Yaşam",
       "slug": "pulse-fitness-studio",
       "tagline": "Ders programı ve üyelik paketleri satış sitesi",
@@ -478,8 +478,7 @@
             "Быстрая связь с администратором в WhatsApp"
           ]
         }
-      },
-      "badge": ""
+      }
     },
     {
       "id": "prod-creative-portfolio",
@@ -544,8 +543,8 @@
     },
     {
       "id": "prod-ufo-world",
-      "title": "Medya Portalı",
-      "sector": "Medya Portalı",
+      "title": "UFO Dünyası & Kozmik Medya Portalı",
+      "sector": "Uzay & Dijital Medya",
       "slug": "ufo-dunyasi-kozmik-medya",
       "tagline": "Evrenin gizemlerini ve siber teorileri keşfeden yapay zeka destekli medya portalı",
       "description": "Yapay zeka analizli uydu telemetrileri, doğrulanmış ufo ihbarları ve siber uzay araştırmalarıyla kitleleri büyüleyen yeni nesil dijital medya şablonu.",
@@ -892,7 +891,7 @@
       "nav.pricing": "Fiyatlar",
       "nav.faq": "SSS",
       "nav.corporate": "Kurumsal",
-      "nav.contact": "Hemen Başla",
+      "nav.contact": "İletişim",
       "nav.admin": "Yönetim Paneli",
       "nav.techAdvisory": "Teknik Danışmanlık",
       "hero.kicker": "VIP Web Geliştirme & Dönüşüm Ajansı",
@@ -1002,98 +1001,11 @@
       "products.deployButton": "Talep Halinde Canlıya Al & Bağla",
       "products.proBadge": "Profesyonel CMS",
       "products.ecoBadge": "Ekonomik Paket",
-      "nav.home": "Ana Sayfa",
-      "nav.readySites": "Hazır Siteler",
       "nav.advisory": "Teknik Danışmanlık",
-      "nav.support": "Destek & Bilgi",
+      "nav.support": "Destek & SSS",
+      "nav.turnkeySites": "Hazır Siteler",
       "nav.about": "Hakkımızda",
-      "nav.viewAllSites": "Tüm Hazır Siteleri İncele",
-      "models.advisory.badge": "VIP Advisory · Kurumsal Teknoloji Masası",
-      "models.advisory.title": "Vanguard Nexus (Premium Web & AI Advisory)",
-      "models.advisory.subtitle": "VIP C-Level Danışmanlık",
-      "models.advisory.price": "50.000 TL'den Başlayan Fiyatlarla",
-      "models.advisory.priceNote": "Proje bazlı özel fiyatlandırma",
-      "models.advisory.cta": "Strateji Toplantısı Planla",
-      "header.customerPanel": "Müşteri Paneli",
-      "header.customerPanelTooltip": "Müşteri Yönetim Paneli (Hazır Sitenizi Yönetin)",
-      "header.adminLockTooltip": "Vanguard Yönetici Terminali (PIN: admin123)",
-      "header.menuToggle": "Menüyü Aç / Kapat",
-      "header.currency": "Para Birimi",
-      "header.language": "Dil",
-      "megaMenu.productsSub": "Maksimum 10 hazır site portföyümüzden öne çıkan 4 anahtar teslim vitrin",
-      "megaMenu.viewAllDemos": "Tüm Vitrin Demolarını Gör (10 Sektör)",
-      "megaMenu.aboutTitle": "Hakkımızda",
-      "megaMenu.aboutDesc": "Vanguard Studio'nun kuruluş hikayesi, dijital üretim felsefesi ve tutkulu ekip kültürü.",
-      "megaMenu.visionTitle": "Vizyonumuz",
-      "megaMenu.visionDesc": "Bürokrasisiz 48 saatlik hızlı teslimat ve kusursuz React & Tailwind yazılım altyapısı.",
-      "megaMenu.missionTitle": "Misyonumuz",
-      "megaMenu.missionDesc": "KOBİ ve iştiraklerin fahiş ajans bütçelerinden ve kronik gecikmelerden kurtarılması.",
-      "megaMenu.careerTitle": "Kariyer & Uzaktan Başvuru",
-      "megaMenu.careerDesc": "Açık Performans Pazarlama & Media Buyer pozisyonları ve uzaktan çalışma olanakları.",
-      "megaMenu.supportTitle": "Destek, Müşteri Rehberi & Ödeme",
-      "megaMenu.supportSub": "Sıkça sorulan sorular, yardım rehberleri, IBAN hesapları ve hizmet garantisi",
-      "megaMenu.faqTitle": "Sıkça Sorulan Sorular (FAQ)",
-      "megaMenu.helpTitle": "Yardım Merkezi (Help Desk)",
-      "megaMenu.paymentTitle": "Güvenli Ödeme & IBAN",
-      "megaMenu.guaranteeTitle": "Hizmet Garantisi",
-      "customer.title": "Müşteri Paneli",
-      "customer.subtitle": "Sadeleştirilmiş CMS",
-      "customer.desc": "Hizmetlerinizi, fiyatlarınızı ve çalışma saatlerinizi yapay zekaya gerek kalmadan yönetin.",
-      "customer.menu": "Menü",
-      "customer.managedSite": "Yönetilen:",
-      "customer.livePreview": "Canlı Önizle",
-      "customer.adminSwitch": "Vanguard Admin",
-      "customer.tabBrand": "Firma & Görseller",
-      "customer.tabBrandDesc": "Ad, slogan, logo ve kapak fotoğrafı",
-      "customer.tabServices": "Hizmet Başlıkları",
-      "customer.tabServicesDesc": "Sunduğunuz hizmet listesini yönetin",
-      "customer.tabPricing": "Fiyatlandırma",
-      "customer.tabPricingDesc": "Paket ücretleri ve tarifeler",
-      "customer.tabHours": "Çalışma Saatleri",
-      "customer.tabHoursDesc": "Haftalık mesai ve randevu saatleri",
-      "customer.tabContact": "İletişim & WhatsApp",
-      "customer.tabContactDesc": "Telefon, WhatsApp, e-posta ve adres",
-      "customer.saveChanges": "Değişiklikleri Kaydet",
-      "customer.savedSuccess": "Değişiklikler başarıyla kaydedildi! Siteniz yeni bilgilerinizle güncellendi.",
-      "customer.viewNow": "Hemen Gör →",
-      "customer.brandHeading": "Firma Bilgileri & Görsel Kimlik",
-      "customer.brandSubtitle": "İşletmenizin adını, sloganını, logosunu ve kapak görselini belirleyin.",
-      "customer.businessName": "İşletme / Site Adı *",
-      "customer.taglineLabel": "Slogan & Ana Vurgu *",
-      "customer.logoLabel": "Firma Logosu (URL veya Dosya)",
-      "customer.coverLabel": "Kapak Görseli (URL veya Dosya)",
-      "customer.uploadFile": "Bilgisayardan Yükle (Max 5MB)",
-      "customer.aboutLabel": "İşletme Tanıtım Metni (Hakkımızda)",
-      "customer.servicesHeading": "Hizmet Başlıkları & Çözümler",
-      "customer.servicesSubtitle": "Müşterilerinize sunduğunuz ana hizmet kalemlerini ve fiyatlandırma notlarını düzenleyin.",
-      "customer.addService": "Yeni Hizmet Ekle",
-      "customer.serviceTitleLabel": "Hizmet Adı",
-      "customer.servicePriceLabel": "Fiyat Notu (Örn: 500 ₺’den başlayan / Fiyat Sorun)",
-      "customer.serviceDescLabel": "Açıklama",
-      "customer.deleteService": "Hizmeti Sil",
-      "customer.highlightsHeading": "Öne Çıkan Özellik Maddeleri (Bullet Points)",
-      "customer.addHighlight": "Madde Ekle",
-      "customer.pricingHeading": "Fiyatlandırma & Paket Ücretleri",
-      "customer.pricingSubtitle": "Hazır siteniz için belirlenen paket ücretlerini güncelleyin.",
-      "customer.economicPrice": "Ekonomik Paket Fiyatı (TRY)",
-      "customer.proPrice": "Profesyonel Paket Fiyatı (TRY)",
-      "customer.currencyNote": "Fiyatlar TRY bazında saklanır; seçilen para birimine göre (USD, EUR) güncel TCMB kurlarıyla otomatik çevrilir.",
-      "customer.hoursHeading": "Çalışma Saatleri & Randevu Takvimi",
-      "customer.hoursSubtitle": "Müşterilerinizin göreceği haftalık mesai ve sipariş kabul saatleri.",
-      "customer.weekdays": "Hafta İçi (Pazartesi – Cuma)",
-      "customer.saturday": "Cumartesi",
-      "customer.sunday": "Pazar",
-      "customer.acceptingStatus": "Sipariş / Randevu Kabul Durumu",
-      "customer.acceptingActive": "Açık (Yeni Sipariş ve Randevu Alınıyor)",
-      "customer.acceptingClosed": "Kapalı (Geçici Olarak Yeni Randevu Alınmıyor)",
-      "customer.contactHeading": "İletişim Kanalları & WhatsApp",
-      "customer.contactSubtitle": "Müşterilerinizin size tek tıkla ulaşacağı telefon, WhatsApp ve e-posta bilgileri.",
-      "customer.phone": "Doğrudan Telefon Hattı",
-      "customer.whatsapp": "WhatsApp İletişim Numarası",
-      "customer.email": "Kurumsal E-posta Adresi",
-      "customer.address": "Fiziki Ofis / Mağaza Adresi",
-      "customer.zeroCodeTitle": "Sıfır Kodlama",
-      "customer.zeroCodeDesc": "Tüm ayarlar doğrudan sitenize uygulanır. Yapay zeka veya teknik ekip beklemenize gerek yoktur."
+      "nav.home": "Ana Sayfa"
     },
     "en": {
       "nav.products": "Turnkey Sites",
@@ -1102,7 +1014,7 @@
       "nav.pricing": "Pricing",
       "nav.faq": "FAQ",
       "nav.corporate": "Corporate",
-      "nav.contact": "Get Started",
+      "nav.contact": "Contact",
       "nav.admin": "Admin Panel",
       "nav.techAdvisory": "Tech Advisory",
       "hero.kicker": "VIP Web Development & Conversion Agency",
@@ -1116,12 +1028,12 @@
       "products.listingCount": "Sites Listed (Maximum 10)",
       "products.tab.all": "All Sectors",
       "products.tab.health": "Healthcare & Clinic",
-      "products.tab.law": "Law & Consulting",
+      "products.tab.law": "Law & Advisory",
       "products.tab.restaurant": "Restaurant & Cafe",
       "products.tab.architecture": "Architecture & Design",
       "products.tab.logistics": "Logistics & Cargo",
-      "products.tab.ecommerce": "Boutique E-Commerce",
-      "products.tab.realestate": "Real Estate & Assets",
+      "products.tab.ecommerce": "E-Commerce & Store",
+      "products.tab.realestate": "Real Estate",
       "products.tab.fitness": "Fitness & Sports",
       "products.tab.portfolio": "Portfolio",
       "products.emptyCategory": "No turnkey sites currently listed in this category.",
@@ -1148,9 +1060,9 @@
       "references.sectionTitle": "Partnerships & Proven Results",
       "references.sectionSubtitle": "Real-life success stories of small businesses in the Turkish and global markets.",
       "references.viewAllText": "See all",
-      "models.sectionNumber": "02. Product Packages",
-      "pricing.sectionTitle": "Product Packages & Pricing",
-      "pricing.sectionSubtitle": "Whether you leave all technical updates to us and focus on your business, manage it yourself with a full-access panel, or let us architect a custom solution from scratch for your enterprise.",
+      "models.sectionNumber": "02. Transparent Delivery Models",
+      "pricing.sectionTitle": "Transparent Package and Pricing Models",
+      "pricing.sectionSubtitle": "No hidden costs. Choose the package that suits the scale of your business.",
       "footer.brandName": "Vanguard Studio",
       "footer.tagline": "Elite & Turnkey Web Solutions for Small Businesses",
       "footer.acceptingClients": "New Client Acceptance Open",
@@ -1169,7 +1081,7 @@
       "footer.turnaroundUrl": "#page-48-saatte-teslim-ve-hizmet-garantisi",
       "footer.aboutLinkText": "About Us",
       "footer.privacyLinkText": "Privacy and Personal Data Protection (KVKK)",
-      "models.sectionTitle": "Product Packages & Business Models",
+      "models.sectionTitle": "Transparent Delivery & Business Models",
       "models.sectionSubtitle": "Whether you leave all technical updates to us and focus on your business, manage it yourself with a full-access panel, or let us architect a custom solution from scratch for your enterprise.",
       "models.mostPopular": "Most Popular Model",
       "models.turnkey": "/ turnkey",
@@ -1212,105 +1124,18 @@
       "products.deployButton": "Deploy Turnkey Site",
       "products.proBadge": "Professional CMS",
       "products.ecoBadge": "Economic Package",
-      "nav.home": "Home",
-      "nav.readySites": "Turnkey Sites",
       "nav.advisory": "Tech Advisory",
-      "nav.support": "Support & Info",
-      "nav.about": "About Us",
-      "nav.viewAllSites": "Browse All Ready Sites",
-      "models.advisory.badge": "VIP Advisory · Enterprise Tech Desk",
-      "models.advisory.title": "Vanguard Nexus (Premium Web & AI Advisory)",
-      "models.advisory.subtitle": "VIP C-Level Advisory",
-      "models.advisory.price": "Starting from $1,500+ (50,000 TRY)",
-      "models.advisory.priceNote": "Bespoke project-based pricing",
-      "models.advisory.cta": "Schedule Strategy Session",
-      "header.customerPanel": "Client Portal",
-      "header.customerPanelTooltip": "Client Management Portal (Manage Your Turnkey Site)",
-      "header.adminLockTooltip": "Vanguard Admin Terminal (PIN: admin123)",
-      "header.menuToggle": "Toggle Menu",
-      "header.currency": "Currency",
-      "header.language": "Language",
-      "megaMenu.productsSub": "Featured 4 turnkey showcases from our curated 10 ready-made website portfolio",
-      "megaMenu.viewAllDemos": "View All Showcase Demos (10 Industries)",
-      "megaMenu.aboutTitle": "About Us",
-      "megaMenu.aboutDesc": "Our founding journey, digital craftsmanship philosophy, and dedicated team culture.",
-      "megaMenu.visionTitle": "Our Vision",
-      "megaMenu.visionDesc": "Frictionless 48-hour turnkey delivery with high-performance React & Tailwind architecture.",
-      "megaMenu.missionTitle": "Our Mission",
-      "megaMenu.missionDesc": "Liberating small businesses from bloated agency retainers and chronic delivery delays.",
-      "megaMenu.careerTitle": "Careers & Remote Roles",
-      "megaMenu.careerDesc": "Open Performance Marketing & Media Buyer roles with remote opportunities.",
-      "megaMenu.supportTitle": "Support, Client Guide & Payments",
-      "megaMenu.supportSub": "Frequently asked questions, help tutorials, wire accounts and service guarantees",
-      "megaMenu.faqTitle": "Frequently Asked Questions (FAQ)",
-      "megaMenu.helpTitle": "Help Center & Guides",
-      "megaMenu.paymentTitle": "Secure Payment & Wire",
-      "megaMenu.guaranteeTitle": "Service Guarantee",
-      "customer.title": "Client Management Portal",
-      "customer.subtitle": "Simplified Turnkey CMS",
-      "customer.desc": "Manage your services, pricing, business hours, and contact channels with zero coding.",
-      "customer.menu": "Menu",
-      "customer.managedSite": "Managing:",
-      "customer.livePreview": "Live Preview",
-      "customer.adminSwitch": "Vanguard Admin",
-      "customer.tabBrand": "Business & Visuals",
-      "customer.tabBrandDesc": "Name, tagline, logo and cover photo",
-      "customer.tabServices": "Services List",
-      "customer.tabServicesDesc": "Manage your offered services and descriptions",
-      "customer.tabPricing": "Pricing & Packages",
-      "customer.tabPricingDesc": "Package fees and pricing rates",
-      "customer.tabHours": "Working Hours",
-      "customer.tabHoursDesc": "Weekly operating hours and order acceptance",
-      "customer.tabContact": "Contact & WhatsApp",
-      "customer.tabContactDesc": "Phone, WhatsApp, email, and address",
-      "customer.saveChanges": "Save Changes",
-      "customer.savedSuccess": "Changes saved successfully! Your website has been updated.",
-      "customer.viewNow": "View Now →",
-      "customer.brandHeading": "Business Information & Visual Identity",
-      "customer.brandSubtitle": "Customize your business name, tagline, logo, and cover visual.",
-      "customer.businessName": "Business / Site Name *",
-      "customer.taglineLabel": "Tagline & Value Proposition *",
-      "customer.logoLabel": "Company Logo (URL or Upload)",
-      "customer.coverLabel": "Cover Image (URL or Upload)",
-      "customer.uploadFile": "Upload from Device (Max 5MB)",
-      "customer.aboutLabel": "Business Introduction (About Us)",
-      "customer.servicesHeading": "Services & Key Solutions",
-      "customer.servicesSubtitle": "Manage your primary services and fee structures shown on your website.",
-      "customer.addService": "Add New Service",
-      "customer.serviceTitleLabel": "Service Name",
-      "customer.servicePriceLabel": "Price Note (e.g. From $50 / Ask for Quote)",
-      "customer.serviceDescLabel": "Description",
-      "customer.deleteService": "Delete Service",
-      "customer.highlightsHeading": "Key Highlight Points (Bullet Points)",
-      "customer.addHighlight": "Add Point",
-      "customer.pricingHeading": "Pricing & Package Rates",
-      "customer.pricingSubtitle": "Update pricing tiers configured for your turnkey website.",
-      "customer.economicPrice": "Economic Package Price (TRY)",
-      "customer.proPrice": "Professional Package Price (TRY)",
-      "customer.currencyNote": "Prices are stored in TRY and dynamically converted to USD/EUR according to active exchange rates.",
-      "customer.hoursHeading": "Working Hours & Schedule",
-      "customer.hoursSubtitle": "Configure operating schedule and appointment availability displayed to visitors.",
-      "customer.weekdays": "Weekdays (Monday – Friday)",
-      "customer.saturday": "Saturday",
-      "customer.sunday": "Sunday",
-      "customer.acceptingStatus": "Order / Appointment Acceptance",
-      "customer.acceptingActive": "Open (Accepting New Orders & Inquiries)",
-      "customer.acceptingClosed": "Temporarily Closed (Not accepting new bookings)",
-      "customer.contactHeading": "Contact Channels & WhatsApp",
-      "customer.contactSubtitle": "Direct communication channels for customers to reach your business in one click.",
-      "customer.phone": "Direct Phone Line",
-      "customer.whatsapp": "WhatsApp Hotline Number",
-      "customer.email": "Corporate Email Address",
-      "customer.address": "Physical Office / Location Address",
-      "customer.zeroCodeTitle": "Zero Coding Required",
-      "customer.zeroCodeDesc": "All updates apply instantly to your live website with no technical waiting.",
-      "models.custom.badge": "Custom Architecture & Scale"
-    }
+      "nav.support": "Support & FAQ",
+      "nav.turnkeySites": "Turnkey Sites",
+      "nav.about": "About",
+      "nav.home": "Home"
+    },
+    "de": {}
   },
   "settings": {
     "agencyName": "Vanguard Studio",
     "tagline": "Küçük İşletmeler İçin Elit & Anahtar Teslim Web Çözümleri",
-    "phone": "+90 505 703 0194",
+    "phone": "+7 (927) 313-35-97",
     "whatsapp": "+90 505 703 0194",
     "phoneTR": "+90 505 703 0194",
     "whatsappTR": "+90 505 703 0194",
@@ -1357,12 +1182,16 @@
     },
     "footerMotto": {
       "tr": "Kodla İnşa Ediyor, Pazarlamayla Büyütüyoruz. Sınırların Ötesinde Dijital Gelecek.",
-      "en": "Building with Code, Growing with Marketing. Digital Future Beyond Borders."
+      "en": "Building with Code, Growing with Marketing. Digital Future Beyond Borders.",
+      "ru": "Создаем через Код, Масштабируем Маркетингом. Цифровое Будущее Вне Границ."
     },
     "bankAccounts": {
       "bankNameTR": "Garanti BBVA",
       "accountHolderTR": "Şeref Kaplan / Vanguard Studio",
       "ibanTR": "TR33 0006 2000 1234 5678 9012 34",
+      "bankNameRU": "Сбербанк / Т-Банк (Тинькофф)",
+      "accountHolderRU": "Sheref K.",
+      "sbpPhoneRU": "+7 (927) 313-35-97",
       "stripeEnabled": true
     },
     "bankAccountsList": [
@@ -1380,6 +1209,22 @@
         "isActive": true,
         "isPrimary": true,
         "notes": "7/24 Anında FAST transfer desteklenir. Dekont açıklamasına firma/adınızı yazınız."
+      },
+      {
+        "id": "bank-ru-tbank",
+        "title": "Т-Банк (Тинькофф) / Сбербанк (Рубли)",
+        "bankName": "Т-Банк / Сбербанк",
+        "accountHolder": "Sheref K.",
+        "accountNumber": "40802810900001234567",
+        "iban": "RU02 0445 2597 4408 0281 0900 0012 34",
+        "currency": "RUB",
+        "branchName": "Москва ЦАО",
+        "swiftBic": "044525974",
+        "sbpPhone": "+7 (999) 123-45-67",
+        "country": "RU",
+        "isActive": true,
+        "isPrimary": true,
+        "notes": "СБП (Система быстрых платежей) по номеру телефона без комиссии."
       },
       {
         "id": "bank-tr-isbank-fx",
@@ -1402,10 +1247,78 @@
       "companyTitleTR": "Vanguard Dijital Stüdyo & Yazılım Çözümleri - Şeref Kaplan",
       "taxOfficeTR": "Maslak Vergi Dairesi",
       "taxNumberTR": "4920184712",
-      "registeredAddressTR": "Maslak Mah. Büyükdere Cad. No:243 Kat:8 Sarıyer / İstanbul"
-    }
+      "companyTitleRU": "ИП Каплан Шереф / Vanguard Digital Studio",
+      "innRU": "771489201940",
+      "kppRU": "771401001",
+      "ogrnRU": "324774600123456",
+      "registeredAddressTR": "Maslak Mah. Büyükdere Cad. No:243 Kat:8 Sarıyer / İstanbul",
+      "registeredAddressRU": "г. Москва, ул. Тверская, д. 12, офис 402"
+    },
+    "phoneRU": "+7 (927) 313-35-97",
+    "whatsappRU": "+7 (927) 313-35-97",
+    "locationRU": "Oktyabrskiy, Başkurtistan / Rusya Federasyonu"
   },
   "inquiries": [],
+  "bankAccountsList": [
+    {
+      "id": "bank-tr-garanti",
+      "title": "Garanti BBVA - Ana Ticari Hesap (TL)",
+      "bankName": "Garanti BBVA",
+      "accountHolder": "Şeref Kaplan / Vanguard Studio",
+      "accountNumber": "6289012",
+      "iban": "TR33 0006 2000 1234 5678 9012 34",
+      "currency": "TRY",
+      "branchName": "Maslak Ticari Şube",
+      "branchCode": "1205",
+      "country": "TR",
+      "isActive": true,
+      "isPrimary": true,
+      "notes": "7/24 Anında FAST transfer desteklenir. Dekont açıklamasına firma/adınızı yazınız."
+    },
+    {
+      "id": "bank-ru-tbank",
+      "title": "Т-Банк (Тинькофф) / Сбербанк (Рубли)",
+      "bankName": "Т-Банк / Сбербанк",
+      "accountHolder": "Sheref K.",
+      "accountNumber": "40802810900001234567",
+      "iban": "RU02 0445 2597 4408 0281 0900 0012 34",
+      "currency": "RUB",
+      "branchName": "Москва ЦАО",
+      "swiftBic": "044525974",
+      "sbpPhone": "+7 (999) 123-45-67",
+      "country": "RU",
+      "isActive": true,
+      "isPrimary": true,
+      "notes": "СБП (Система быстрых платежей) по номеру телефона без комиссии."
+    },
+    {
+      "id": "bank-tr-isbank-fx",
+      "title": "İş Bankası - Uluslararası USD & EUR Hesabı",
+      "bankName": "Türkiye İş Bankası",
+      "accountHolder": "Şeref Kaplan / Vanguard Studio",
+      "accountNumber": "4509123",
+      "iban": "TR62 0006 4000 0011 2233 4455 66",
+      "currency": "USD",
+      "branchName": "Levent Şubesi",
+      "branchCode": "1044",
+      "swiftBic": "ISBKTRIS",
+      "country": "INT",
+      "isActive": true,
+      "isPrimary": false,
+      "notes": "Yurt dışı ve uluslararası SWIFT transferleri için kullanılabilir."
+    }
+  ],
+  "legalTaxInfo": {
+    "companyTitleTR": "Vanguard Dijital Stüdyo & Yazılım Çözümleri - Şeref Kaplan",
+    "taxOfficeTR": "Maslak Vergi Dairesi",
+    "taxNumberTR": "4920184712",
+    "companyTitleRU": "ИП Каплан Шереф / Vanguard Digital Studio",
+    "innRU": "771489201940",
+    "kppRU": "771401001",
+    "ogrnRU": "324774600123456",
+    "registeredAddressTR": "Maslak Mah. Büyükdere Cad. No:243 Kat:8 Sarıyer / İstanbul",
+    "registeredAddressRU": "г. Москва, ул. Тверская, д. 12, офис 402"
+  },
   "financialTransactions": [
     {
       "id": "tx-01",
@@ -1442,6 +1355,23 @@
       "createdAt": "2026-10-06T14:15:00Z"
     },
     {
+      "id": "tx-03",
+      "type": "income",
+      "title": "Nordic Trans Lojistik Web Portalı (Moskova/RF)",
+      "clientOrVendor": "Mikhail Sidorov",
+      "amount": 45000,
+      "currency": "RUB",
+      "amountTRY": 16290,
+      "category": "project_sale",
+      "paymentMethod": "sbp",
+      "status": "completed",
+      "date": "2026-10-06",
+      "relatedProductId": "prod-nordic-logistics",
+      "invoiceNumber": "VNG-RU-2026-018",
+      "notes": "СБП Т-Банк üzerinden tahsilat sağlandı.",
+      "createdAt": "2026-10-06T16:00:00Z"
+    },
+    {
       "id": "tx-04",
       "type": "expense",
       "title": "Hetzner & Cloudflare Enterprise Edge Sunucu Barındırma",
@@ -1460,8 +1390,8 @@
     {
       "id": "tx-05",
       "type": "expense",
-      "title": "Google Ads Sektörel Web Reklamları",
-      "clientOrVendor": "Google Ireland",
+      "title": "Google Ads & Yandex Direct Sektörel Web Reklamları",
+      "clientOrVendor": "Google Ireland & Yandex",
       "amount": 3200,
       "currency": "TRY",
       "amountTRY": 3200,
@@ -1491,6 +1421,890 @@
       "createdAt": "2026-10-07T08:00:00Z"
     }
   ],
+  "navigationItems": [
+    {
+      "id": "nav-h-home",
+      "title": "Ana Sayfa",
+      "url": "#hero",
+      "location": "header",
+      "locations": [
+        "header"
+      ],
+      "order": 1,
+      "translations": {
+        "en": {
+          "title": "Home"
+        }
+      }
+    },
+    {
+      "id": "nav-h-about",
+      "title": "Hakkımızda",
+      "url": "#page-hakkimizda",
+      "pageSlug": "hakkimizda",
+      "location": "header",
+      "locations": [
+        "header"
+      ],
+      "order": 2,
+      "translations": {
+        "en": {
+          "title": "About"
+        }
+      }
+    },
+    {
+      "id": "nav-h-services",
+      "title": "Hizmetler",
+      "url": "#services-section",
+      "location": "header",
+      "locations": [
+        "header"
+      ],
+      "order": 3,
+      "translations": {
+        "en": {
+          "title": "Services"
+        }
+      }
+    },
+    {
+      "id": "nav-h-turnkey",
+      "title": "Hazır Siteler",
+      "url": "#portfolio-section",
+      "location": "header",
+      "locations": [
+        "header"
+      ],
+      "order": 4,
+      "translations": {
+        "en": {
+          "title": "Turnkey Sites"
+        }
+      }
+    },
+    {
+      "id": "nav-h-support",
+      "title": "Destek & SSS",
+      "url": "#faq-section",
+      "pageSlug": "sss",
+      "location": "header",
+      "locations": [
+        "header"
+      ],
+      "order": 5,
+      "translations": {
+        "en": {
+          "title": "Support & FAQ"
+        }
+      }
+    },
+    {
+      "id": "nav-h-advisory",
+      "title": "Teknik Danışmanlık",
+      "url": "#services-section",
+      "location": "header",
+      "locations": [
+        "header"
+      ],
+      "order": 6,
+      "translations": {
+        "en": {
+          "title": "Tech Advisory"
+        }
+      }
+    },
+    {
+      "id": "nav-m-health",
+      "title": "Dental & Estetik Klinik",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 1,
+      "pageSlug": "aura-dental-clinic",
+      "translations": {
+        "en": {
+          "title": "Dental & Aesthetic Clinic"
+        }
+      }
+    },
+    {
+      "id": "nav-m-law",
+      "title": "Hukuk Bürosu & Müşavirlik",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 2,
+      "pageSlug": "lexington-law-firm",
+      "translations": {
+        "en": {
+          "title": "Law Firm & Advisory"
+        }
+      }
+    },
+    {
+      "id": "nav-m-rest",
+      "title": "Artisanal Restoran & Kafe",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 3,
+      "pageSlug": "artisan-roast-bistro",
+      "translations": {
+        "en": {
+          "title": "Artisanal Restaurant & Cafe"
+        }
+      }
+    },
+    {
+      "id": "nav-m-arch",
+      "title": "Mimarlık & İç Mekan Stüdyosu",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 4,
+      "pageSlug": "hora-architecture-studio",
+      "translations": {
+        "en": {
+          "title": "Architecture & Interior Studio"
+        }
+      }
+    },
+    {
+      "id": "nav-m-log",
+      "title": "Global Lojistik & Kargo",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 5,
+      "pageSlug": "nordic-global-logistics",
+      "translations": {
+        "en": {
+          "title": "Global Logistics & Freight"
+        }
+      }
+    },
+    {
+      "id": "nav-m-ecom",
+      "title": "Kentsel Bisiklet & Outdoor Butik",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 6,
+      "pageSlug": "veloboutique-urban-store",
+      "translations": {
+        "en": {
+          "title": "Urban Cycling & Outdoor Store"
+        }
+      }
+    },
+    {
+      "id": "nav-m-est",
+      "title": "Prestijli Gayrimenkul & Yatırım",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 7,
+      "pageSlug": "veritas-luxury-realestate",
+      "translations": {
+        "en": {
+          "title": "Luxury Real Estate & Assets"
+        }
+      }
+    },
+    {
+      "id": "nav-m-fit",
+      "title": "Elit Fitness & Personal Training",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 8,
+      "pageSlug": "pulse-elite-fitness",
+      "translations": {
+        "en": {
+          "title": "Elite Fitness & Personal Training"
+        }
+      }
+    },
+    {
+      "id": "nav-m-ufo",
+      "title": "UFO World & Kozmik Medya Portal",
+      "url": "#portfolio-section",
+      "location": "mega_products",
+      "locations": [
+        "mega_products"
+      ],
+      "order": 9,
+      "pageSlug": "ufo-world-cosmic-portal",
+      "translations": {
+        "en": {
+          "title": "UFO World & Cosmic Media Portal"
+        }
+      }
+    },
+    {
+      "id": "nav-m-serv-turnkey",
+      "title": "Anahtar Teslim Sektörel Siteler",
+      "url": "#services-section",
+      "location": "mega_services",
+      "locations": [
+        "mega_services"
+      ],
+      "order": 10,
+      "translations": {
+        "en": {
+          "title": "Turnkey Industry Websites"
+        }
+      }
+    },
+    {
+      "id": "nav-m-serv-mgmt",
+      "title": "Yönetilen Web Bakım & Güncelleme",
+      "url": "#services-section",
+      "location": "mega_services",
+      "locations": [
+        "mega_services"
+      ],
+      "order": 11,
+      "translations": {
+        "en": {
+          "title": "Managed Web Maintenance & Updates"
+        }
+      }
+    },
+    {
+      "id": "nav-m-serv-nexus",
+      "title": "Vanguard Nexus VIP Teknik Danışmanlık",
+      "url": "#tech-advisory",
+      "location": "mega_services",
+      "locations": [
+        "mega_services"
+      ],
+      "order": 12,
+      "translations": {
+        "en": {
+          "title": "Vanguard Nexus VIP Technical Advisory"
+        }
+      }
+    },
+    {
+      "id": "nav-m-sup-faq",
+      "title": "Sıkça Sorulan Sorular (FAQ)",
+      "url": "#page-sss",
+      "location": "mega_support",
+      "locations": [
+        "mega_support"
+      ],
+      "order": 1,
+      "pageSlug": "sss",
+      "translations": {
+        "en": {
+          "title": "Frequently Asked Questions (FAQ)"
+        },
+        "ru": {
+          "title": "Часто Задаваемые Вопросы (FAQ)"
+        }
+      }
+    },
+    {
+      "id": "nav-m-sup-help",
+      "title": "Yardım Merkezi (Help Desk)",
+      "url": "#page-yardim-merkezi",
+      "location": "mega_support",
+      "locations": [
+        "mega_support"
+      ],
+      "order": 2,
+      "pageSlug": "yardim-merkezi",
+      "translations": {
+        "en": {
+          "title": "Help Desk & Guides"
+        },
+        "ru": {
+          "title": "Центр Помощи"
+        }
+      }
+    },
+    {
+      "id": "nav-m-sup-payment",
+      "title": "Güvenli Ödeme & IBAN",
+      "url": "#payment",
+      "location": "mega_support",
+      "locations": [
+        "mega_support"
+      ],
+      "order": 3,
+      "translations": {
+        "en": {
+          "title": "Payment & Wire"
+        },
+        "ru": {
+          "title": "Оплата"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-home",
+      "title": "Ana Sayfa",
+      "url": "#hero",
+      "location": "footer_corporate",
+      "order": 1,
+      "translations": {
+        "en": {
+          "title": "Home"
+        },
+        "ru": {
+          "title": "Главная"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-about",
+      "title": "Hakkımızda",
+      "url": "#page-hakkimizda",
+      "location": "footer_corporate",
+      "order": 2,
+      "pageSlug": "hakkimizda",
+      "translations": {
+        "en": {
+          "title": "About Us"
+        },
+        "ru": {
+          "title": "О Нас"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-vizyon",
+      "title": "Vizyon",
+      "url": "#page-vizyon",
+      "location": "footer_corporate",
+      "order": 3,
+      "pageSlug": "vizyon",
+      "translations": {
+        "en": {
+          "title": "Vision"
+        },
+        "ru": {
+          "title": "Видение"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-misyon",
+      "title": "Misyon",
+      "url": "#page-misyon",
+      "location": "footer_corporate",
+      "order": 4,
+      "pageSlug": "misyon",
+      "translations": {
+        "en": {
+          "title": "Mission"
+        },
+        "ru": {
+          "title": "Миссия"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-kariyer",
+      "title": "Kariyer & Uzaktan İş",
+      "url": "#page-kariyer",
+      "location": "footer_corporate",
+      "order": 6,
+      "pageSlug": "kariyer",
+      "translations": {
+        "en": {
+          "title": "Careers & Remote Roles"
+        },
+        "ru": {
+          "title": "Карьера & Удаленная Работа"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-sss",
+      "title": "Sıkça Sorulan Sorular (SSS)",
+      "url": "#page-sss",
+      "location": "footer_corporate",
+      "order": 7,
+      "pageSlug": "sss",
+      "translations": {
+        "en": {
+          "title": "Frequently Asked Questions (FAQ)"
+        },
+        "ru": {
+          "title": "Часто Задаваемые Вопросы (FAQ)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-cat",
+      "title": "Hazır Siteler Kataloğu",
+      "url": "#portfolio-section",
+      "location": "footer_products",
+      "order": 1,
+      "translations": {
+        "en": {
+          "title": "Turnkey Catalog"
+        },
+        "ru": {
+          "title": "Каталог Готовых Сайтов"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-eco",
+      "title": "Ekonomik Paket (Yönetim Bizde)",
+      "url": "#pricing-models",
+      "location": "footer_products",
+      "order": 2,
+      "translations": {
+        "en": {
+          "title": "Economic Package (Managed by Us)"
+        },
+        "ru": {
+          "title": "Эконом-Тариф (Управление на Нас)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-pro",
+      "title": "Profesyonel Paket (Tam Yetkili CMS)",
+      "url": "#pricing-models",
+      "location": "footer_products",
+      "order": 3,
+      "translations": {
+        "en": {
+          "title": "Professional Package (Full CMS)"
+        },
+        "ru": {
+          "title": "Профессиональный Пакет (CMS)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-custom",
+      "title": "Özel Talep & Kurumsal Mimari",
+      "url": "#pricing-models",
+      "location": "footer_products",
+      "order": 4,
+      "translations": {
+        "en": {
+          "title": "Custom Request & Enterprise Architecture"
+        },
+        "ru": {
+          "title": "Спецзапрос и Корпоративная Архитектура"
+        }
+      }
+    },
+    {
+      "id": "nav-f-prod-pay",
+      "title": "Güvenli Ödeme & Havale Portalı",
+      "url": "#payment",
+      "location": "footer_products",
+      "order": 5,
+      "translations": {
+        "en": {
+          "title": "Secure Payment & Wire Portal"
+        },
+        "ru": {
+          "title": "Портал Безопасной Оплаты и Реквизитов"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-kvkk",
+      "title": "KVKK Aydınlatma Metni",
+      "url": "#page-kvkk",
+      "location": "footer_legal",
+      "order": 1,
+      "pageSlug": "kvkk",
+      "translations": {
+        "en": {
+          "title": "KVKK Data Protection Notice"
+        },
+        "ru": {
+          "title": "Уведомление о Защите Данных (KVKK)"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-priv",
+      "title": "Gizlilik Politikası & GDPR",
+      "url": "#page-gizlilik-politikasi",
+      "location": "footer_legal",
+      "order": 2,
+      "pageSlug": "gizlilik-politikasi",
+      "translations": {
+        "en": {
+          "title": "Privacy Policy & GDPR"
+        },
+        "ru": {
+          "title": "Политика Конфиденциальности & GDPR"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-terms",
+      "title": "Kullanım Koşulları & Sözleşme",
+      "url": "#page-kullanim-kosullari",
+      "location": "footer_legal",
+      "order": 3,
+      "pageSlug": "kullanim-kosullari",
+      "translations": {
+        "en": {
+          "title": "Terms of Service & Agreement"
+        },
+        "ru": {
+          "title": "Условия Использования & Соглашение"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-cookie",
+      "title": "Çerez (Cookie) Politikası",
+      "url": "#page-cerez-politikasi",
+      "location": "footer_legal",
+      "order": 4,
+      "pageSlug": "cerez-politikasi",
+      "translations": {
+        "en": {
+          "title": "Cookie Policy"
+        },
+        "ru": {
+          "title": "Политика Файлов Cookie"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-delivery",
+      "title": "48 Saatte Teslim & Hizmet Şartları",
+      "url": "#page-48-saatte-teslim-ve-hizmet-garantisi",
+      "location": "footer_legal",
+      "locations": [
+        "footer_legal"
+      ],
+      "order": 5,
+      "pageSlug": "48-saatte-teslim-ve-hizmet-garantisi",
+      "isOpenNewTab": true,
+      "translations": {
+        "en": {
+          "title": "48-Hour Turnkey Deployment & Service Terms"
+        },
+        "ru": {
+          "title": "Запуск за 48 Часов & Условия Услуг"
+        }
+      }
+    },
+    {
+      "id": "nav-f-leg-mesafeli",
+      "title": "Mesafeli Satış Sözleşmesi",
+      "url": "#page-mesafeli-satis-sozlesmesi",
+      "location": "footer_legal",
+      "locations": [
+        "footer_legal"
+      ],
+      "order": 6,
+      "pageSlug": "mesafeli-satis-sozlesmesi",
+      "isOpenNewTab": true,
+      "translations": {
+        "en": {
+          "title": "Distance Sale Agreement"
+        }
+      }
+    },
+    {
+      "id": "nav-f-corp-ref",
+      "title": "Referanslar & Müşteri Yorumları",
+      "url": "#references-section",
+      "location": "footer_corporate",
+      "locations": [
+        "footer_corporate"
+      ],
+      "order": 5,
+      "translations": {
+        "en": {
+          "title": "References & Client Stories"
+        }
+      }
+    }
+  ],
+  "customPages": [
+    {
+      "id": "page-hakkimizda",
+      "slug": "hakkimizda",
+      "title": "Hakkımızda & Vanguard Studio",
+      "category": "corporate",
+      "summary": "Vanguard Studio, geleneksel yazılım süreçlerinin getirdiği hantal bürokrasiyi, ucu açık teslimat takvimlerini ve fahiş bütçeleri ortadan kaldıran, yeni nesil bir dijital mühendislik ve tasarım stüdyosudur. Türkiye ve küresel pazarda faaliyet gösteren küçük işletmeler, yerel profesyoneller ve KOBİ’ler için yüksek performanslı dijital varlıklar inşa ediyoruz. Sadece bir web sitesi üretmiyor; işletmelerin dijital dünyadaki prestijini, hızını ve siber güvenlik standartlarını küresel ölçeğe taşıyoruz.",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<h3><b>Biz Kimiz?</b></h3>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b>Vanguard Studio</b>, geleneksel yazılım süreçlerinin getirdiği hantal bürokrasiyi, ucu açık teslimat takvimlerini ve fahiş bütçeleri ortadan kaldıran, <b>yeni nesil bir dijital mühendislik ve tasarım stüdyosudur</b>. Türkiye ve küresel pazarda faaliyet gösteren küçük işletmeler, yerel profesyoneller ve KOBİ’ler için yüksek performanslı dijital varlıklar inşa ediyoruz. Sadece bir web sitesi üretmiyor; işletmelerin dijital dünyadaki prestijini, hızını ve siber güvenlik standartlarını küresel ölçeğe taşıyoruz.<o:p></o:p></p>\n\n<h3><b>Neden Kurulduk? (Dijital Ekosistemdeki Devrimimiz)</b></h3>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">Bugün dijital ekosistem, işletmeleri iki verimsiz uç arasında seçim yapmaya zorlamaktadır: Bir yanda teslimatı aylar süren, maliyetleri şeffaf olmayan geleneksel web ajansları; diğer yanda ise ucuz ancak amatör, dönüşüm sağlamayan ve siber güvenlik açıklarıyla dolu hazır şablon yapılar.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b>Vanguard Studio</b>, bu iki uç arasındaki boşluğu kurşun geçirmez bir iş modeliyle doldurmak için kuruldu. Mühendislik odağımızı ve tasarım estetiğimizi şu üç sarsılmaz sütun üzerine konumlandırıyoruz:<o:p></o:p></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Maksimum 10 Seçkin Tasarım Mimarı:</b> Dijital vitrinimizde karmaşaya yer yok. Sektörlerinde bizzat test edilmiş, kullanıcı deneyimi (UX) ve müşteri edinme (lead generation) odaklı, en elit ve dönüşümü en yüksek 10 sektörel altyapıyı titizlikle seçiyor ve optimize ediyoruz.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>48 Saatte Anahtar Teslim Canlı Yayın:</b> Müşterilerimizin kurumsal içerik ve erişim izinleri ekibimize ulaştığı an 48 saatlik (2 iş günü) sayaç resmi olarak başlar. Alan adı DNS yönlendirmelerinden Cloudflare Enterprise SSL güvenlik sertifikasına ve kurumsal e-posta kurulumlarına kadar tüm süreçleri 48 saat içinde anahtar teslim tamamlayarak dijital varlığınızı canlıya alıyoruz.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Gizli Masrafsız, Şeffaf ve Erişilebilir Bütçelendirme:</b> Web sitemizde ilan edilen <b>{{PRICE_10000}} – {{PRICE_20000}}</b> aralığındaki bütçeler tek seferlik yazılım ve kurulum ücretidir. Vanguard Studio bünyesinde sürpriz faturalara, ucu açık ek maliyetlere veya kodlar için ömür boyu süren ikinci bir lisans ücretine asla yer yoktur.<o:p></o:p></li></ul><h3><b>Küresel Çalışma İlkelerimiz</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Sıfır Teknik Zahmet (Managed Ecosystem):</b> İşletme sahiplerinin yönetim panelleriyle, sunucu hatalarıyla veya teknik detaylarla vakit kaybetmesini engelliyoruz. \"Yönetim Bizde\" modelini seçen müşterilerimiz için teknik bakım, sunucu optimizasyonu, siber güvenlik denetimleri ve içerik güncellemeleri tamamen Vanguard Studio güvencesinde ve sorumluluğundadır.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Küresel Dil ve Hitabet Gücü:</b> Sitenizde veya yönetim panelinizde harici otomatik makine çeviri yazılımları (widget'lar) kesinlikle kullanılmaz. Uluslararası pazarda tam prestij sağlamanız amacıyla, tüm içerik yapısı ve kullanıcı deneyimi <b>sadece Türkçe (TR) ve İngilizce (EN)</b> dillerinde, tamamen el işçiliği ve manuel veri girişine uygun mimaride izole olarak saklanır.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Gelecek Nesil Temiz Kod (React &amp; Tailwind Stack):</b> Sitenizi yavaşlatan şişirilmiş hazır eklentiler kullanmıyoruz. Modern <b>React ve Tailwind CSS</b> teknolojilerini harmanlayarak, Google Lighthouse performans skorlarında <b>95+ ve üzeri piko hızlara</b> ulaşıyoruz. Yapay zeka arama motorlarının (Perplexity, ChatGPT, Gemini) sitenizi doğrudan kaynak gösterebilmesi için Answer Engine Optimization (AEO) altyapısını standart olarak sunuyoruz.</li></ul>",
+      "translations": {
+        "en": {
+          "title": "About Vanguard Studio",
+          "summary": "Vanguard Studio is a next-generation digital engineering and design collective that eliminates the bloated bureaucracy, endless delivery delays, and exorbitant budgets of traditional software development. We build high-performance digital storefronts for small businesses, independent professionals, and SMEs operating in domestic and global markets. We don't just launch websites; we elevate your brand’s digital prestige, execution velocity, and cybersecurity benchmarks to global standards.",
+          "content": "<h3><b>Who We Are</b></h3>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b>Vanguard Studio</b> is a next-generation digital engineering and design collective that eliminates the bloated bureaucracy, endless delivery delays, and exorbitant budgets of traditional software development. We build high-performance digital storefronts for small businesses, independent professionals, and SMEs operating in domestic and global markets. We don't just launch websites; we elevate your brand’s digital prestige, execution velocity, and cybersecurity benchmarks to global standards.<o:p></o:p></p>\n\n<h3><b>Why We Were Founded (Our Digital Revolution)</b></h3>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">The current digital landscape forces enterprises to choose between two highly inefficient extremes: traditional creative agencies demanding months of development alongside non-transparent retainers, or low-cost website builders that yield amateur, low-converting templates riddled with security vulnerabilities.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b>Vanguard Studio</b> was engineered to bridge this divide with a bulletproof business model. We align our engineering focus and design aesthetics on three unshakeable pillars:<o:p></o:p></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>A Curated 10-Site Master Portfolio:</b> There is no room for clutter in our ecosystem. We strictly select, engineer, and optimize a maximum of 10 elite sectoral blueprints, battle-tested for user experience (UX) and maximum client conversion.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Guaranteed 48-Hour Turnkey Deployment:</b> The exact moment corporate assets and technical permissions are validated by our team, our 48-hour (2 business days) deployment countdown officially begins. From domain DNS routing and cloud hosting configuration to Cloudflare Enterprise SSL activation and business emails, your full digital asset is deployed live within 48 hours.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Transparent, Accessible Fixed Budgets:</b> The <b>{{PRICE_10000}} – {{PRICE_20000}}</b> ranges announced across our catalog represent fixed, one-time software and setup fees. At Vanguard Studio, there are zero surprise renewal bills, hidden platform expenses, or recurring licensing costs for the source code.<o:p></o:p></li></ul><h3><b>Our Global Operational Core Values</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Zero Technical Headaches (Managed Ecosystem):</b> We eliminate the tech overhead for business owners. Under our \"Agency Managed\" tier, all server maintenance, data security audits, and content updates are fully handled by the Vanguard Studio desk via simple messaging.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Authentic Bilingual Globalization:</b> We strictly reject amateur automatic machine translation widgets. To protect your brand authority in international markets, our entire architecture supports <b>Turkish (TR) and English (EN)</b> languages via pristine, manual client-side data input panels, stored in completely secure systems.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Next-Gen Clean Code (React &amp; Tailwind Stack):</b> We do not deploy bloated third-party plugins that compromise website velocity. Utilizing <b>React and Tailwind CSS</b> web technologies, we consistently hit <b>95+ scores on Google Lighthouse</b> metrics. Our platforms feature native Answer Engine Optimization (AEO) to ensure next-gen AI search utilities (Perplexity, ChatGPT, Gemini) easily index and source your website directly.</li></ul>"
+        }
+      },
+      "locations": [
+        "corporate"
+      ],
+      "menuLocation": "corporate"
+    },
+    {
+      "id": "page-vizyon",
+      "slug": "vizyon",
+      "title": "Vizyonumuz",
+      "category": "corporate",
+      "summary": "Geleneksel yazılım süreçlerinin getirdiği hantallığı reddeden, hız ve siber güvenliği inovasyonla birleştiren küresel ölçekte lider bir dijital ajans olmak.",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<p class=\"text-justify leading-relaxed\"><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Geleneksel yazılım süreçlerinin getirdiği hantallığı reddeden, </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">hız ve siber güvenliği inovasyonla birleştiren küresel ölçekte lider bir dijital ajans olmak.</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> Teknolojik altyapımızla veri kaybı risklerini sıfırladığımız, küresel entegrasyonlarla işletmeleri dünya pazarına taşıdığımız ve dijital mühendislikte 'güven ile sürati' aynı paydada buluşturduğumuz bir gelecek hedefliyoruz. Vanguard Studio imzası taşıyan her projenin, küresel dijital ekosistemde bir kalite ve stabilite referansı olmasını amaçlıyoruz.</span></p>",
+      "translations": {
+        "en": {
+          "title": "Our Vision",
+          "summary": "To be a globally leading digital agency that rejects the sluggishness of traditional software processes, fusing speed and cybersecurity with continuous innovation.",
+          "content": "<p class=\"text-justify leading-relaxed\"><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">To be a globally leading digital agency that rejects the sluggishness of traditional software processes, </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">fusing speed and cybersecurity with continuous innovation</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">. We envision a future where we eliminate data loss risks through advanced technological architecture, carry businesses to the global market via seamless integrations, and unite 'trust and velocity' in digital engineering. We aim for every project bearing the Vanguard Studio signature to serve as a benchmark for quality and stability in the global digital ecosystem.</span></p>"
+        }
+      },
+      "locations": [
+        "corporate"
+      ],
+      "menuLocation": "corporate"
+    },
+    {
+      "id": "page-misyon",
+      "slug": "misyon",
+      "title": "Misyonumuz",
+      "category": "corporate",
+      "summary": "Vanguard Studio olarak misyonumuz; işletmelerin dijital dönüşüm süreçlerindeki zaman, bütçe ve yasal risk karmaşasını ortadan kaldırarak, onlara hızlı, şeffaf ve kurşun geçirmez mühendislik çözümleri sunmaktır.",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<p class=\"text-justify leading-relaxed\"><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Vanguard Studio olarak misyonumuz; işletmelerin dijital dönüşüm süreçlerindeki zaman, bütçe ve yasal risk karmaşasını ortadan kaldırarak, onlara </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">hızlı, şeffaf ve kurşun geçirmez mühendislik çözümleri</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> sunmaktır. Çevrimiçi dünyada var olmayı bir süreç olmaktan çıkarıp bir standarda dönüştürüyor; hazır ekonomik çözümlerden devasa kurumsal mimarilere kadar her ölçekteki projeyi </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">veri güvenliği, yüksek performans ve iki dilli globalizasyon (TR/EN)</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> vizyonuyla inşa ediyoruz. Müşterilerimize sürpriz maliyetler çıkarmadan, taahhüt ettiğimiz sürelerde anahtar teslim dijital varlıklar kazandırmak için çalışıyoruz.</span></p>",
+      "translations": {
+        "en": {
+          "title": "Our Mission",
+          "summary": "At Vanguard Studio, our mission is to eliminate the complexities of time, budget, and legal risks in the digital transformation processes of businesses by delivering fast, transparent, and bulletproof engineering solutions",
+          "content": "<p class=\"text-justify leading-relaxed\"><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">At Vanguard Studio, our mission is to eliminate the complexities of time, budget, and legal risks in the digital transformation processes of businesses by delivering </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">fast, transparent, and bulletproof engineering solutions</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">. We transform online presence from a tedious process into an elevated standard; building projects of all scales—from ready-to-use economic packages to massive enterprise architectures—with a core focus on </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">data security, peak performance, and dual-language globalization (TR/EN)</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">. We strive to provide our clients with turnkey digital assets within our committed timelines, strictly without any hidden costs.</span></p>"
+        }
+      },
+      "locations": [
+        "corporate"
+      ],
+      "menuLocation": "corporate"
+    },
+    {
+      "id": "page-gizlilik-politikasi",
+      "slug": "gizlilik-politikasi",
+      "title": "Gizlilik Politikası & GDPR",
+      "category": "legal",
+      "summary": "\"İşbu Gizlilik Politikası; küresel siber güvenlik ilkeleri, Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR) ve 6698 sayılı Türkiye Cumhuriyeti Kişisel Verilerin Korunması Kanunu (KVKK) ilgili hükümleri uyarınca, sınır ötesi dijital hizmet sağlayıcılığı veri güvenliği standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<div style=\"text-align: center;\"><b>Hukuki Dayanak ve Mevzuata Uyum Beyanı:</b></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"İşbu Gizlilik Politikası; küresel siber güvenlik ilkeleri, <b>Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR)</b> ve <b>6698 sayılı Türkiye Cumhuriyeti Kişisel Verilerin Korunması Kanunu (KVKK)</b> ilgili hükümleri uyarınca, sınır ötesi dijital hizmet sağlayıcılığı veri güvenliği standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"<o:p></o:p></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>1. Gizlilik ve Veri Güvenliği Taahhüdümüz</b></h3>\nVanguard Studio olarak, müşterilerimizin och web sitesi ziyaretçilerimizin gizliliğine en üst düzeyde saygı gösteriyoruz. Bu Gizlilik Politikası, web sitemiz üzerinden toplanan kişisel verilerin hangi amaçlarla işlendiğini, kimlere aktarılabileceğini ve veri sahiplerinin yasal haklarını KVKK ve GDPR standartlarına uygun olarak açıklamaktadır.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<h3><b>2. Hangi Kişisel Verileri ve Nasıl Topluyoruz?</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>İletişim ve Sipariş Verileri:</b> Web sitemizdeki formlar veya resmi WhatsApp hattımız üzerinden bizimle paylaştığınız ad-soyad, kurumsal e-posta adresi, telefon numarası ve fatura bilgileri.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Teknik ve Kurumsal İçerikler:</b> Sitenizin yayına alınması için bize teslim ettiğiniz logo, hizmet metinleri ve panel erişim izinleri.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Finansal Veriler:</b> Sipariş ödemeleriniz doğrudan PCI-DSS korumalı global altyapı ortağımız <b>Stripe</b> üzerinden gerçekleştirilir. Kredi veya banka kartı bilgileriniz hiçbir şekilde Vanguard Studio sunucularında <b>tutulmaz ve depolanmaz.</b><o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>3. Veri İşleme Amaçlarımız ve Yasal Dayanaklar</b></h3>\nToplanan verileriniz; siparişlerinizin başlatılması, 48 saatlik acil teslimat taahhüdümüzün işletilmesi, resmi e-arşiv faturalarınızın düzenlenmesi ve sizlerle kurumsal iletişim kurulması amacıyla <b>\"bir sözleşmenin kurulması ve ifası\"</b> hukuki sebebine dayanarak işlenir. Sitemizde harici otomatik çeviri yazılımları kullanılmadığından, manuel olarak girdiğiniz <b>TR ve EN</b> içerikler tamamen güvenli ve izole sistemlerimizde saklanır.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>4. Verilerin Üçüncü Taraflara Aktarımı</b></h3>\nKişisel verileriniz, yasal yükümlülüklerin yerine getirilmesi (maliye denetimleri, resmi kurum talepleri) veya hizmetin ifası (Cloudflare Enterprise güvenlik altyapısı ve Stripe ödeme modülü) haricinde kesinlikle üçüncü şahıslara satılmaz, kiralanmaz veya ticari amaçla aktarılmaz.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>5. Veri Sahibi Olarak Haklarınız</b></h3>\nKVKK ve GDPR kapsamında; verilerinizin işlenip işlenmediğini öğrenme, işlenme amacına uygun kullanılıp kullanılmadığını bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme ve verilerinizin sistemlerimizden <b>tamamen silinmesini (Unutulma Hakkı)</b> talep etme hakkınız saklıdır. Taleplerinizi info@vanguardstudio.digital adresine iletebilirsiniz.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><i><b>Son Güncelleme Tarihi: 11/10/2026</b></i></p>",
+      "translations": {
+        "en": {
+          "title": "Privacy Policy & GDPR Compliance",
+          "summary": "\"This Privacy Policy is governed by and construed in accordance with global cybersecurity principles, the European Union General Data Protection Regulation (GDPR), and the Turkish Personal Data Protection Law (KVKK) No. 6698, ensuring full compliance with cross-border digital service provider data security standards, and is legally binding upon the parties.\"",
+          "content": "<div style=\"text-align: center;\"><b>Regulatory Compliance and Legal Framework Statement:</b></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"This Privacy Policy is governed by and construed in accordance with global cybersecurity principles, <b>the European Union General Data Protection Regulation (GDPR)</b>, and <b>the Turkish Personal Data Protection Law (KVKK) No. 6698</b>, ensuring full compliance with cross-border digital service provider data security standards, and is legally binding upon the parties.\"<o:p></o:p></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>1. Privacy and Data Security Commitment</b></h3>\nAs Vanguard Studio, we respect the privacy of our clients and website visitors at the highest level. This Privacy Policy explains the purposes of processing personal data collected via our website, to whom it may be transferred, and the legal rights of data subjects in full compliance with KVKK No. 6698 and the General Data Protection Regulation (GDPR).<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<h3><b>2. Which Personal Data Do We Collect and How?</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Contact and Order Data:</b> Name-surname, corporate email address, phone number, and billing information shared via our website forms or official WhatsApp line.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Technical and Corporate Content:</b> Logos, brand identity assets, service texts, and control panel access permissions delivered for your project launch.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Financial Data:</b> Payments are processed directly via our PCI-DSS protected infrastructure partner, <b>Stripe</b>. Your credit or debit card details are <b>never held or stored</b> on Vanguard Studio servers.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>3. Purposes and Legal Bases for Data Processing</b></h3>\nYour collected data is processed based on the legal ground of <b>\"performance of a contract\"</b> to initiate your orders, execute our 48-hour delivery commitment, issue official e-archive invoices, and manage corporate communication. Since no external automatic translation software is used on our platform, the <b>TR and EN</b> contents you enter manually are stored entirely within our secure and isolated systems.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>4. Data Transfers to Third Parties</b></h3>\nYour personal data is strictly never sold, rented, or transferred to third parties for commercial gain, except as required to fulfill legal obligations (tax audits, regulatory requests) or to execute our services (Cloudflare Enterprise security infrastructure and Stripe payment module).<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>5. Your Rights as a Data Subject</b></h3>\nUnder KVKK and GDPR regulations, you retain the right to learn whether your data is processed, request correction of incomplete or inaccurate data, and demand the <b>complete deletion of your data (Right to be Forgotten)</b> from our systems. You can direct your requests to info@vanguardstudio.digital.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<i><span style=\"font-size:11.0pt;line-height:107%;font-family:&quot;Aptos&quot;,sans-serif;\"><b>Last Updated: 11/10/2026</b></span></i>"
+        }
+      },
+      "locations": [
+        "legal"
+      ],
+      "menuLocation": "legal"
+    },
+    {
+      "id": "page-kvkk",
+      "slug": "kvkk",
+      "title": "6698 Sayılı KVKK Aydınlatma Metni",
+      "category": "legal",
+      "summary": "\"İşbu Aydınlatma Metni; uluslararası ticaret hukukunun genel ilkeleri (UNCITRAL) ve Avrupa Birliği E-Ticaret Direktifleri başta olmak üzere; 6698 sayılı Türkiye Cumhuriyeti Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR) ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital veri işleme standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<div style=\"text-align: center;\"><b>Hukuki Dayanak ve Mevzuata Uyum Beyanı:</b></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\n\"İşbu Aydınlatma Metni; uluslararası ticaret hukukunun genel ilkeleri <b>(UNCITRAL)</b> ve <b>Avrupa Birliği E-Ticaret Direktifleri</b> başta olmak üzere; <b>6698 sayılı Türkiye Cumhuriyeti Kişisel Verilerin Korunması Kanunu (KVKK)</b> ve <b>Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR)</b> ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital veri işleme standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"<o:p></o:p></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>1. Veri Sorumlusu ve Genel İlkeler</b></h3>\nVanguard Studio (\"Şirket\") olarak, web sitemiz (https://vanguardstudio.digital) ve içerik yönetim panelimiz (CMS) üzerindeki faaliyetlerimiz kapsamında elde edilen kişisel verilerinizin korunmasına en üst düzeyde önem vermekteyiz. İşbu metin, verilerinizin hangi amaçlarla toplandığı, saklandığı, aktarıldığı ve yasal haklarınız konusunda sizleri bilgilendirmek amacıyla KVKK ve GDPR standartlarına uygun olarak hazırlanmıştır.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>2. İşlenen Kişisel Veriler ve Toplanma Yöntemleri</b></h3>\nKişisel verileriniz, işin doğası gereği ve bir sözleşmenin kurulması/ifası amacıyla; web sitemizdeki sipariş ve talep formları, kurumsal CMS yönetim paneli, resmi WhatsApp destek hattımız ve çağrı merkezimiz kanalıyla tamamen veya kısmen otomatik yöntemlerle toplanmaktadır. Bu kapsamda:<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Kimlik ve İletişim Verileri:</b> Ad, soyad, kurumsal e-posta adresi, telefon numarası, fatura ve kurumsal şirket bilgileri.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Teknik ve İçerik Verileri:</b> Sitenizin yayına alınması için ekibimize teslim ettiğiniz kurumsal logolar, marka kimliği öğeleri, hizmet metinleri ve sunucu/panel erişim izinleri.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Ağ Sunucusu ve Günlük Verileri (Data Log):</b> Sitenin güvenli çalışmasını sağlamak adına tarayıcınız tarafından otomatik aktarılan; IP adresi, giriş tarihi/zamanı, tarayıcı tipi, işletim sistemi ve internet servis sağlayıcısı alan adı bilgileri.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Finansal Veriler:</b> Sipariş ödemeleriniz PCI-DSS korumalı global altyapı ortağımız <b>Stripe</b> üzerinden gerçekleştirilir. Kredi veya banka kartı bilgileriniz hiçbir şekilde Vanguard Studio sunucularına uğramaz, <b>tutulmaz ve depolanmaz</b>.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>3. Kişisel Verilerin İşleme Amaçları ve Hukuki Sebepleri</b></h3>\nKişisel verileriniz, KVKK Madde 5 ve GDPR Madde 6 uyarınca \"sözleşmenin kurulması ve ifası\", \"yasal yükümlülüklerin yerine getirilmesi\" ve \"Şirketimizin meşru menfaatleri\" hukuki sebeplerine dayanılarak şu amaçlarla işlenmektedir:<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">Web sitesi üzerinden sunulan yazılım, tasarım ve mühendislik hizmetlerinin sunulabilmesi ve 48 saatlik teslimat taahhüdümüzün işletilmesi,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Yönetim panelinde (CMS) oturum aşımları ve internet kesintilerinden kaynaklı veri kayıplarını önlemek amacıyla <b>Autosave (otomatik taslak kaydı)</b> ve <b>Yerel Tarayıcı Yedekleme (LocalStorage/IndexedDB)</b> sistemlerinin yürütülmesi,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Resmi e-arşiv faturalarınızın düzenlenmesi, ürün ve hizmet bedellerinin tahsil edilmesi,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Yalnızca onay vermeniz durumunda yeni paketler, promosyonlar ve kampanyalar hakkında bilgilendirme yapılması,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Siber güvenliğin sağlanması ve <b>Cloudflare Enterprise</b> altyapımız üzerinden şüpheli eylemlerin tespiti yoluyla sistem güvenliğinin optimize edilmesi.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>4. Kişisel Verilerin Üçüncü Kişilere ve Yurt Dışına Aktarımı</b></h3>\nKişisel verileriniz, yasal yükümlülüklerin yerine getirilmesi ve hizmet sözleşmesinin ifası amacıyla; hukuk, mali ve vergi danışmanlarımıza, denetçilere, küresel siber güvenlik ve CDN ortağımız <b>Cloudflare Enterprise</b> altyapısına ve PCI-DSS korumalı güvenli ödeme portalımız <b>Stripe</b> sistemlerine veri güvenliği standartlarına uygun olarak aktarılabilecektir. Sitemizde harici otomatik makine çeviri araçları kullanılmadığından, manuel olarak girdiğiniz <b>TR ve EN</b> içerikler tamamen kendi güvenli sunucu altyapımız bünyesinde saklanır.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>5. Kişisel Veri Sahibinin Hakları</b></h3>\nKVKK Madde 11 ve GDPR uyarınca veri sahibi olarak; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme ve sistemlerimizden <b>tamamen silinmesini (Unutulma Hakkı)</b> talep etme haklarına sahipsiniz.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>6. Hakların Kullanımı ve İletişim</b></h3>\nYukarıda belirtilen haklarınızı kullanmak için, kimliğinizi doğrulayan belgelerle birlikte taleplerinizi yazılı olarak bizzat veya noter vasıtasıyla kurumsal adresimize ya da güvenli elektronik posta yoluyla <b>info@vanguardstudio.digital</b> adresine iletebilirsiniz.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Son Güncelleme Tarihi: 11/10/2026</i><br><i>Veri Sorumlusu: Vanguard Studio</i></b></p>",
+      "translations": {
+        "en": {
+          "title": "KVKK Clarification Text & Data Protection Notice",
+          "summary": "\"This Data Protection and Privacy Notice is governed by and construed in accordance with the general principles of international commercial law (UNCITRAL), the European Union E-Commerce Directives, the Turkish Personal Data Protection Law (KVKK) No. 6698, and the European Union General Data Protection Regulation (GDPR), ensuring full compliance with cross-border and domestic digital data processing standards, and is legally binding upon the parties.\"",
+          "content": "<div style=\"text-align: center;\"><b>Regulatory Compliance and Legal Framework Statement:</b></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\n\"This Data Protection and Privacy Notice is governed by and construed in accordance with the general principles of international commercial law <b>(UNCITRAL)</b>, <b>the European Union E-Commerce Directives</b>, <b>the Turkish Personal Data Protection Law (KVKK) No. 6698</b>, and <b>the European Union General Data Protection Regulation (GDPR)</b>, ensuring full compliance with cross-border and domestic digital data processing standards, and is legally binding upon the parties.\"<o:p></o:p></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>1. Data Controller and General Principles</b></h3>\nAs Vanguard Studio (\"Company\"), we attach the highest priority to the security and protection of your personal data processed within the scope of your activities on our website (https://vanguardstudio.digital) and our content management panel (CMS). This notice has been prepared in full compliance with KVKK and GDPR standards to inform you about the purposes for which your data is collected, stored, transferred, and your legal rights.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>2. Processed Personal Data and Methods of Collection</b></h3>\nYour personal data is collected via our website request forms, client CMS panels, official WhatsApp support lines, and corporate communication channels through fully or partially automated methods for the execution and performance of a contract. Within this scope:<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Identity and Contact Data:</b> First name, last name, corporate email address, phone number, billing and corporate company details.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Technical and Content Data:</b> Corporate logos, brand identity assets, service texts, and server/panel access permissions delivered to our team for your project launch.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Network Server and Log Data:</b> Data automatically transmitted by your browser to ensure server stability, including IP address, date/time of access, browser type, operating system, and internet service provider domain.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Financial Data:</b> Order payments are processed securely via our PCI-DSS protected global infrastructure partner, <b>Stripe</b>. Your credit or debit card details are <b>never held, stored, or processed</b> on Vanguard Studio servers.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>3. Purposes and Legal Bases for Data Processing</b></h3>\nYour personal data is processed based on the legal grounds of \"performance of a contract,\" \"compliance with a legal obligation,\" and \"the legitimate interests of the Company\" pursuant to KVKK Article 5 and GDPR Article 6 for the following purposes:<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">To deliver the software, design, and engineering services provided through the website and to execute our 48-hour delivery commitment,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">To run the <b>Autosave (automatic draft registration)</b> and <b>Local Browser Mirroring (LocalStorage/IndexedDB)</b> systems on the management panel to prevent data loss resulting from session timeouts or network disruptions,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">To issue official e-archive invoices and process product and service fees,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">To notify you about new packages, promotions, and campaigns, provided that you have granted your express consent,<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">To ensure cybersecurity and optimize system defense against malicious activities via our <b>Cloudflare Enterprise</b> infrastructure.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>4. Data Transfers to Third Parties and Cross-Border Transfers</b></h3>\nYour personal data may be transferred to our legal, financial, and tax consultants, auditors, our global cybersecurity and CDN partner <b>Cloudflare Enterprise</b>, and our PCI-DSS compliant secure payment gateway <b>Stripe</b> in accordance with data security standards to fulfill legal obligations and perform the service agreement. Since no external automatic translation engines are deployed on our platform, the <b>TR and EN</b> contents you enter manually are stored strictly within our isolated secure server network.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>5. Your Rights as a Data Subject</b></h3>\nUnder KVKK Article 11 and GDPR provisions, you have the right to learn whether your personal data is processed, request information if processed, know the third parties to whom data is transferred domestically or internationally, request correction of incomplete or inaccurate data, and demand the <b>complete deletion of your data (Right to be Forgotten)</b> from our systems.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"></p><h3><b>6. Exercise of Rights and Contact</b></h3>\nTo exercise your rights mentioned above, you may submit your requests along with documents verifying your identity in writing or via notary to our corporate address, or through secure electronic mail to <b>info@vanguardstudio.digital</b>.<o:p></o:p><p class=\"text-justify leading-relaxed\"></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Last Updated: 11/10/2026</i><br><i>Data Controller: Vanguard Studio</i></b></p>"
+        }
+      },
+      "locations": [
+        "legal"
+      ],
+      "menuLocation": "legal"
+    },
+    {
+      "id": "page-kullanim-kosullari",
+      "slug": "kullanim-kosullari",
+      "title": "Kullanım Koşulları & Hizmet Sözleşmesi",
+      "category": "legal",
+      "summary": "\"İşbu Kullanım Koşulları Sözleşmesi; uluslararası ticaret hukukunun genel ilkeleri (UNCITRAL) ve Avrupa Birliği E-Ticaret Direktifleri başta olmak üzere; 6098 sayılı Türkiye Cumhuriyeti Borçlar Kanunu (TBK) ve 6502 sayılı Tüketicinin Korunması Hakkında Kanun ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital hizmet standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<div style=\"text-align: center;\"><b>Hukuki Dayanak ve Mevzuata Uyum Beyanı:</b></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"İşbu Kullanım Koşulları Sözleşmesi; uluslararası ticaret hukukunun genel ilkeleri <b>(UNCITRAL)</b> ve <b>Avrupa Birliği E-Ticaret Direktifleri</b> başta olmak üzere; <b>6098 sayılı Türkiye Cumhuriyeti Borçlar Kanunu (TBK)</b> ve <b>6502 sayılı Tüketicinin Korunması Hakkında Kanun</b> ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital hizmet standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"<o:p></o:p></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>1. Taraflar ve Tanımlar</b></h3>\nİşbu sözleşme, https://vanguardstudio.digital alan adı üzerinden faaliyet gösteren, yasal olarak tescilli bir yazılım ve dijital ajans şirketi olan <b>Vanguard Studio</b> (\"Şirket\") ile web sitesine erişim sağlayan, platformu kullanan, sipariş veren veya içerik yönetim paneline (CMS) giriş yapan tüm gerçek ve tüzel kişiler (\"Kullanıcı\" / \"Müşteri\") arasında akdedilmiştir. Sitenin ve panelin kullanılması, işbu sözleşmenin koşulsuz kabulü anlamına gelir.<o:p></o:p></p>\n\n<h3><b>2. Hizmet Alımı, Fatura ve Ödeme Koşulları</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Mali Mevzuat ve KDV:</b> Web sitesinde ve kataloglarda ilan edilen tüm paket, yazılım ve kurulum bütçeleri net bedeller olup, fiyatlara Katma Değer Vergisi (KDV) dahil değildir; faturalandırma aşamasında yürürlükteki yasal KDV oranı fiyatlara ilave edilir. Sunulan tüm mühendislik ve yazılım hizmetleri için resmi e-arşiv fatura düzenlenerek kurumsal e-posta adresinize gönderilir.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Ödeme Güvenliği ve Altyapı:</b> Ödemeler, PCI-DSS korumalı global altyapı ortağımız <b>Stripe</b> üzerinden tüm uluslararası kredi/banka kartlarıyla veya resmi QNB FinansBank hesaplarımıza 7/24 FAST/Havale yoluyla gerçekleştirilir.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Sipariş Onayı:</b> Havale işlemlerinin ardından dekontun resmi WhatsApp hattımıza ulaştırılmasıyla ödemeniz finans ekibimizce onaylanır ve sipariş süreci başlatılır.<o:p></o:p></li></ul><h3><b>3. 48 Saatte Teslimat Taahhüdü ve Sınırları</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Sayaç Başlangıcı:</b> Gerekli tüm kurumsal içeriklerin (logo, metin, görsel) ve teknik erişim izinlerinin ekibimize eksiksiz teslim edilip onaylanmasıyla <b>yalnızca hazır şablonlu ekonomik paketler için 48 saatlik yayına alım süreci başlar.</b><o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Kapsam Dışı Paketler:</b> Süreç yoğunluğu ve özel mühendislik aşamaları nedeniyle, <b>Profesyonel Paket (Tam Yetkili CMS)</b> ve <b>Özel Talep &amp; Kurumsal Mimari</b> paketleri bu 48 saatlik taahhüdün kesinlikle dışındadır. Bu projelerin teslim takvimi proje bazlı ek sözleşmelerle (SOW) belirlenir.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Gecikme Cezası İfası:</b> Şirket içi teknik süreçlerden kaynaklanan gecikmelerde <b>ilk yıl barındırma (hosting) bedeli firmamızca karşılanır.</b> Bu hediye hizmet, gecikmeden doğabilecek tüm maddi/manevi zararların yerine geçer; nakit iadesi hakkı doğurmaz. Alan adı (domain) aktivasyon gecikmeleri, harici ödeme kapısı onay süreçleri ve müşteri kaynaklı revizyonlarda sayaç durdurulur.<o:p></o:p></li></ul><h3><b>4. Yönetim Paneli (CMS) Veri Güvenliği ve Dil Yapısı</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>İki Dil Standardı:</b> Web sitesi ve yönetim paneli, dışarıdan otomatik çeviri motorları kullanılmaksızın, tamamen manuel veri girişine uygun şekilde <b>sadece Türkçe (TR) ve İngilizce (EN)</b> dillerini destekler.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Veri Kaybı Koruması (Autosave &amp; Yerel Yedek):</b> Panel üzerinde yapılan tüm çalışmalar, oturum aşımları ve internet kesintilerinden kaynaklı veri kayıplarını önlemek amacıyla her 30 saniyede bir otomatik olarak taslak olarak kaydedilir ve eş zamanlı olarak tarayıcı hafızasında (LocalStorage / IndexedDB) yedeklenir.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>5. Fikri Mülkiyet ve Telif Hakları</b></h3>\nWeb sitesinde ve yönetim panelinde yer alan tüm yazılım kodları, algoritmalar, tasarımlar, grafikler, metinler ve kurumsal mimari yapıları Vanguard Studio'ya ait olup telif hakları mevzuatlarınca korunmaktadır. Şirket'in yazılı izni olmaksızın kaynak kodların, şablonların veya içeriklerin kopyalanması, çoğaltılması veya tersine mühendislik işlemlerine tabi tutulması kesinlikle yasaktır ve yasal takibat sebebidir.<o:p></o:p></p>\n\n<h3><b>6. Sorumluluğun Sınırlandırılması ve Mücbir Sebepler</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">Şirket, web sitesini virüs ve kötü amaçlı yazılımlardan arındırmak için endüstri standardı <b>Cloudflare Enterprise</b> altyapısını kullanmaktadır. Ancak sistemlerin tamamen virüssüz olduğu garanti edilemez; kullanıcılar kendi siber güvenlik önlemlerini almakla yükümlüdür.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Doğal afetler, savaş, küresel internet omurgası kesintileri, veri merkezi (data center) yangınları, siber savaş veya hükümet kısıtlamaları gibi mücbir sebepler altında yaşanan kesinti ve gecikmelerden Şirket sorumlu tutulamaz.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>7. Uyuşmazlıkların Çözümü</b></h3>\nİşbu sözleşmenin uygulanmasından, yorumlanmasından veya web sitesi üzerinden alınan hizmetlerden doğabilecek tüm yasal uyuşmazlıkların çözümünde <b>Türkiye Cumhuriyeti Kanunları</b> uygulanacak olup, İstanbul (Çağlayan) Mahkemeleri ve İcra Daireleri münhasıran yetkilidir.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Son Güncelleme Tarihi: 11/10/2026</i><br><i>İletişim ve Destek: info@vanguardstudio.digital</i></b></p>",
+      "translations": {
+        "en": {
+          "title": "Terms of Service & Engagement Agreement",
+          "summary": "\"These Terms of Service are governed by and construed in accordance with the general principles of international commercial law (UNCITRAL), the European Union E-Commerce Directives, the Turkish Code of Obligations (TBK) No. 6098, and the Law on Consumer Protection No. 6502, ensuring full compliance with both cross-border and domestic digital service regulations, and are legally binding upon the parties.\"",
+          "content": "<div style=\"text-align: center;\"><b>Regulatory Compliance and Legal Framework Statement:</b></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"These Terms of Service are governed by and construed in accordance with the general principles of international commercial law <b>(UNCITRAL)</b>, <b>the European Union E-Commerce Directives</b>, <b>the Turkish Code of Obligations (TBK) No. 6098</b>, and <b>the Law on Consumer Protection No. 6502</b>, ensuring full compliance with both cross-border and domestic digital service regulations, and are legally binding upon the parties.\"<o:p></o:p></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>1. Parties and Definitions</b></h3>\nThis Agreement is executed between <b>Vanguard Studio</b> (\"Company\"), a legally registered software and digital agency operating via the domain https://vanguardstudio.digital, and any real or legal persons (\"User\" / \"Client\") who access, use the platform, place orders, or log into the content management panel (CMS). Use of the website and the panel constitutes unconditional acceptance of these terms.<o:p></o:p></p>\n\n<h3><b>2. Service Acquisition, Billing, and Payment Terms</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Tax Regulations and VAT:</b> All package, software, and setup budgets announced on our website and in catalogs are net fees and do not include Value Added Tax (VAT); the applicable statutory VAT rate will be added to the prices at the billing stage. Official e-archive invoices are issued for all engineering and software services and sent to your corporate email address.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Payment Security and Infrastructure:</b> Payments are processed securely via our PCI-DSS protected global infrastructure partner, <b>Stripe</b>, using all international credit/debit cards, or via 24/7 FAST/wire transfer to our official QNB FinansBank accounts.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Order Confirmation:</b> Upon sending your wire transfer receipt to our official WhatsApp line, your payment will be instantly approved by our finance team, and the order process will be initiated.<o:p></o:p></li></ul><h3><b>3. 48-Hour Turnkey Delivery Commitment and Exclusions</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Timer Commencement:</b> Upon the complete delivery and validation of all required corporate content (logos, text, images) and technical access permissions to our team, <b>the 48-hour launch process officially begins solely for our ready-to-use templated economic packages.</b><o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Excluded Packages:</b> Due to workload density and custom engineering phases, the <b>Professional Package (Full-Authority CMS)</b> and <b>Custom Request &amp; Enterprise Architecture</b> packages are <b>strictly excluded from this 48-hour commitment.</b> The schedules for these projects are governed by separate project-based agreements (SOW).<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Liquidated Damages:</b> For delays arising solely from internal technical processes of the Company, <b>the first year of server hosting fees will be fully covered by our company.</b> This complimentary service remedy constitutes the sole satisfaction for delays and excludes any cash refund claims. The timer shall be paused during domain activation latencies, external payment gateway approvals, and client-side revisions.<o:p></o:p></li></ul><h3><b>4. Management Panel (CMS) Data Security and Language Architecture</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Two-Language Standard:</b> The website and its management panel exclusively support <b>Turkish (TR) and English (EN)</b> for manual data entry, utilizing no external automatic machine translation engines to maintain data integrity.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Data Loss Protection (Autosave &amp; Local Mirroring):</b> To prevent data loss caused by session timeouts or network disruptions, all progress on the panel is automatically saved as a draft every 30 seconds and concurrently backed up in the browser storage (LocalStorage / IndexedDB).<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>5. Intellectual Property and Copyrights</b></h3>\nAll software codes, algorithms, designs, graphics, texts, and enterprise architecture models within the website and CMS panel are the exclusive property of Vanguard Studio and are protected under international copyright legislation. Copying, reproducing, or reverse-engineering the source codes, templates, or contents without the express written consent of the Company is strictly prohibited and subject to legal prosecution.<o:p></o:p></p>\n\n<h3><b>6. Limitation of Liability and Force Majeure</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">The Company utilizes industry-standard <b>Cloudflare Enterprise</b> infrastructure to protect the website from viruses and malicious software. However, absolute immunity from cyber threats cannot be guaranteed; users remain responsible for maintaining their own cybersecurity measures.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">The Company shall bear no liability for interruptions or delays resulting from events of Force Majeure, including acts of God, war, regional power grid failures, global or targeted cyber warfare, data center fires, or regulatory interventions.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>7. Dispute Resolution</b></h3>\nAny disputes arising out of or in connection with the implementation, interpretation, or services acquired through this Agreement shall be governed exclusively by the laws of the <b>Republic of Turkey</b>, and the Courts and Execution Offices of Istanbul (Çağlayan) shall have exclusive jurisdiction.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Last Updated: 11/10/2026</i><br><i>Contact and Support: info@vanguardstudio.digital</i></b></p>"
+        }
+      },
+      "locations": [
+        "legal"
+      ],
+      "menuLocation": "legal"
+    },
+    {
+      "id": "page-cerez-politikasi",
+      "slug": "cerez-politikasi",
+      "title": "Çerez (Cookie) Politikası",
+      "category": "legal",
+      "summary": "\"İşbu Çerez Politikası; uluslararası dijital ticaret genel ilkeleri, Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR) ve 6698 sayılı Türkiye Cumhuriyeti Kişisel Verilerin Korunması Kanunu (KVKK) ilgili hükümleri uyarınca, sınır ötesi veri koruma ve yerel e-gizlilik standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<div style=\"text-align: center;\"><span style=\"font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">Hukuki Dayanak ve Mevzuata Uyum Beyanı:</span></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">\"</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">İş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">bu Çerez Politikası; uluslararası dijital ticaret genel ilkeleri, Avrupa Birli</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">i Genel Veri Koruma Yönetmeli</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">i (GDPR) ve 6698 sayılı Türkiye Cumhuriyeti Ki</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">isel Verilerin Korunması Kanunu (KVKK) ilgili hükümleri uyarınca, sınır ötesi veri koruma ve yerel e-gizlilik standartlarına tam uyumlu olarak kaleme alınmı</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> olup taraflar için yasal olarak ba</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">layıcıdır.\"<o:p></o:p></span></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">1. Veri Sorumlusu ve Genel </span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">İ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">lkeler<br></span><span style=\"font-weight: normal;\"><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">Vanguard Studio (\"</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">Ş</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">irket\") tarafından i</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ş</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">letilen web sitesinin ziyareti esnasında kullanılan çerezlerin (cookies) türlerini, kullanım amaçlarını, yasal dayanaklarını ve bu çerezlerin veri sahipleri (kullanıcılar) tarafından nasıl yönetilece</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ğ</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">ini açıklamaktadır. </span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">Ş</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">irketimiz, web sitemiz üzerindeki tüm veri i</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ş</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">leme faaliyetlerinde KVKK ve GDPR standartlarına tam uyumlu hareket etmeyi taahhüt eder.</span></span></h3></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">2. Çerez (Cookie) Nedir?</span></h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> Çerezler, bir web sitesini ziyaret etti</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">inizde bilgisayarınız, akıllı telefonunuz veya di</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">er cihazlarınıza kaydedilen küçük metin dosyalarıdır. Çerezler, web sitesinin güvenli ve stabil çalı</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ması, kullanıcı tercihlerinin (dil, bölge vb.) hatırlanması, site performansının analiz edilmesi ve kullanıcıya özel reklam gösterimi yapılması amacıyla kullanılmaktadır.<o:p></o:p></span></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">3. Kullanılan Çerez Türleri ve Hukuki Sebepleri</span></h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> Web sitemizde kullanılan çerezler, saklama sürelerine (oturum veya kalıcı çerezler) ve mülkiyetlerine (birinci taraf veya üçüncü taraf çerezler) göre sınıflandırılmakta olup, i</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">levlerine göre a</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">a</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ıdaki yasal gerekçelerle i</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">lenmektedir:<o:p></o:p></span></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"><b>Zorunlu / Teknik Çerezler</b>: Web sitesinin temel i</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">levlerini (güvenli ba</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">lantı, sayfa navigasyonu, gizlilik tercihleri yönetimi) yerine getirmesi için zorunlu olan çerezlerdir. Bu çerezler olmadan sitenin stabil çalı</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ması mümkün de</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ildir. Hukuki Sebep: Sözle</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">menin kurulması/ifası ve </span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">Ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">irketimizin me</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ru menfaatidir. Bu çerezler için açık rıza aranmaz.<o:p></o:p></span></li><li class=\"MsoNormal text-justify leading-relaxed\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"><b>Performans ve Analitik Çerezleri</b>: Ziyaretçilerin siteyi nasıl kullandı</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ını, hangi sayfaları daha sık ziyaret etti</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ini ve teknik hata alıp almadıklarını anonim olarak analiz eden çerezlerdir (Örn: Google Analytics). Hukuki Sebep: Kullanıcının siteye adım attı</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ında Çerez Onay Banner'ı (Cookie Banner) üzerinden verece</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">i Açık Rıza'dır.<o:p></o:p></span></li><li class=\"MsoNormal text-justify leading-relaxed\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"><b>Fonksiyonel ve Tercih Çerezleri</b>: Kullanıcının geçmi</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> ziyaretlerindeki dil seçimi, bölge ayarı veya oturum açık kalma tercihlerini hatırlayarak ki</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">iselle</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">tirilmi</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> bir deneyim sunan çerezlerdir. Hukuki Sebep: Kullanıcının Açık Rıza'sıdır.<o:p></o:p></span></li><li class=\"MsoNormal text-justify leading-relaxed\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"><b>Hedefleme ve Reklam Çerezleri</b>: Kullanıcıların internet üzerindeki ilgi alanlarını ve davranı</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">larını analiz ederek, onlara özelle</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">tirilmi</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> reklamlar sunmak amacıyla kullanılan üçüncü taraf çerezleridir (Örn: Stripe ödeme do</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">rulama çerezleri, reklam a</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ları). Hukuki Sebep: Kullanıcının Açık Rıza'sıdır.<o:p></o:p></span></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"><h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">4. Çerezler Vasıtasıyla </span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">İş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">lenen Veriler ve Üçüncü Taraflara Aktarım<br></span><span style=\"font-weight: normal;\"><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">Web sitemizdeki çerezler vasıtasıyla do</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ğ</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">rudan ad-soyad gibi kimlik verileriniz depolanmaz. Ancak cihaz bilgisi, IP adresi, co</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ğ</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">rafi konum verileri, tarayıcı tipi, site içi gezinme yolları ve kullanıcı kimlik belirleyicileri (ID) otomatik yöntemlerle i</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ş</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">lenmektedir. Bu veriler, küresel altyapı ortaklarımız olan Cloudflare Enterprise (güvenlik ve CDN) ve Stripe (PCI-DSS korumalı güvenli ödeme portalı) gibi üçüncü taraf sa</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ğ</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">layıcıların kendi sunucu a</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ğ</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">larında veri güvenli</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ğ</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">i standartlarına uygun olarak i</span><span style=\"font-size: 16px; font-family: Calibri, sans-serif;\">ş</span><span style=\"font-size: 16px; font-family: &quot;Segoe UI Emoji&quot;, sans-serif;\">lenebilir.</span></span></h3></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">5. Çerezlerin Kullanıcı Tarafından Yönetimi ve Silinmesi</span></h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> Ziyaretçilerimiz, web sitemizi ziyaret ettikleri ilk anda kar</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ılarına çıkan Çerez Onay Tercih Paneli üzerinden hangi çerezlere onay vereceklerini serbest iradeleriyle seçebilirler. Zorunlu çerezler dı</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ındaki tüm çerezlerin onay kutucukları varsayılan olarak \"kapalı\" (Opt-in esası) gelmektedir. Ayrıca kullanıcılar, kullandıkları tarayıcının (Google Chrome, Safari, Mozilla Firefox vb.) ayarlar sekmesinden daha önce kaydedilmi</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\"> çerezleri silebilir veya çerezlerin kaydedilmesini tamamen engelleyebilirler.<o:p></o:p></span></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">6. Yürürlük ve Güncelleme</span></h3><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">İş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">bu Politika, Vanguard Studio tarafından yasal mevzuatlardaki veya teknik altyapılardaki de</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ğ</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">i</span><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">ş</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif;\">ikliklere paralel olarak periyodik olarak güncellenir.</span></p><p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Son Güncelleme Tarihi: 11/10/2026</i><br><i>İletişim: info@vanguardstudio.digital</i></b></p>",
+      "translations": {
+        "en": {
+          "title": "Cookie & Tracking Technology Policy",
+          "summary": "\"This Cookie Policy is governed by and construed in accordance with the general principles of international digital commerce, the European Union General Data Protection Regulation (GDPR), and the Turkish Personal Data Protection Law (KVKK) No. 6698, ensuring full compliance with cross-border data protection and local e-privacy regulations, and is legally binding upon the parties.\"",
+          "content": "<div style=\"text-align: center;\"><b>Regulatory Compliance and Legal Framework Statement:</b></div>\n\n\n\n<!--[if gte mso 9]><xml>\n <o:OfficeDocumentSettings>\n  <o:AllowPNG/>\n </o:OfficeDocumentSettings>\n</xml><![endif]-->\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"This Cookie Policy is governed by and construed in accordance with the general principles of international digital commerce, <b>the European Union General Data Protection Regulation (GDPR)</b>, and <b>the Turkish Personal Data Protection Law (KVKK) No. 6698</b>, ensuring full compliance with cross-border data protection and local e-privacy regulations, and is legally binding upon the parties.\"<o:p></o:p></p><hr>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>1. Data Controller and General Principles</b></h3>\nThis Cookie Policy (\"Policy\") explains the types, purposes, legal bases, and management of cookies used during visits to the website operated by Vanguard Studio (\"Company\"). Our Company covenants that all data processing activities on our website are conducted in full compliance with the KVKK and GDPR standards.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>2. What is a Cookie?</b></h3>\nCookies are small text files saved onto your computer, smartphone, or other devices when you visit a website. Cookies are utilized to ensure the secure and stable operation of the website, remember user preferences (language, region, etc.), analyze website performance, and display customized advertisements.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>3. Types of Cookies Used and Legal Grounds</b></h3>\nCookies used on our website are categorized by their retention periods (session or persistent) and ownership (first-party or third-party), and are processed based on the following legal grounds:<o:p></o:p></p>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Strictly Necessary / Technical Cookies:</b> Required for fundamental operations such as secure connection, page navigation, and privacy preference management. The website cannot function stably without them. <b>Legal Basis:</b> Formation/performance of a contract and the legitimate interest of the Company. Explicit consent is not required.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Performance and Analytical Cookies:</b> Anonymously analyze how visitors use the website, which pages are visited most, and technical errors encountered (e.g., Google Analytics). <b>Legal Basis:</b> <b>Explicit Consent</b> provided by the user via the Cookie Consent Banner upon entering the site.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Functional Cookies:</b> Remember user preferences such as language selection or region settings from past visits to offer a personalized experience. <b>Legal Basis:</b> User's <b>Explicit Consent</b>.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Targeting and Advertising Cookies:</b> Third-party cookies used to analyze users' online behavior and display customized advertisements (e.g., Stripe security/verification cookies). <b>Legal Basis:</b> User's <b>Explicit Consent</b>.<o:p></o:p></li></ul><p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>4. Data Processed via Cookies and Third-Party Transfers</b></h3>\nDirect identity data (such as name and surname) are not stored through cookies on our website. However, device information, IP addresses, geographical location data, browser types, clickstream paths, and user identifiers (IDs) are processed automatically. This data may be processed across the secure server networks of our global infrastructure partners, such as <b>Cloudflare Enterprise (security and CDN)</b> and <b>Stripe (PCI-DSS protected secure payment gateway)</b>, in accordance with global data security standards.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>5. Cookie Management and Deletion by the User</b></h3>\nVisitors can freely select which cookies they consent to via the <b>Cookie Consent Preference Panel</b> displayed upon their initial visit. All checkboxes for non-essential cookies are set to \"disabled\" by default (Opt-in principle). Users can also delete previously saved cookies or block them entirely through their browser settings (Google Chrome, Safari, Firefox, etc.). Please note that blocking cookies may affect the optimal performance of certain advanced functions on our website.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><h3><b>6. Enforcement and Updates</b></h3>\nThis Policy is periodically updated by Vanguard Studio to align with legislative or technical infrastructure changes.</p><p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Last Updated: 11/10/2026</i><br><i>Contact: info@vanguardstudio.digital</i></b></p>"
+        }
+      },
+      "locations": [
+        "legal"
+      ],
+      "menuLocation": "legal"
+    },
+    {
+      "id": "page-iletisim",
+      "slug": "iletisim",
+      "title": "İletişim & Teklif Talebi",
+      "category": "corporate",
+      "summary": "Projelerinizi Canlıya Taşımaya Hazırız \"Vanguard Studio ile işletmenizi fahiş ajans bütçelerinden ve ucu açık gecikmelerden kurtarmanın tam zamanı. İhtiyaçlarınıza en uygun hazır sektörel çözümü seçmek, Profesyonel CMS veya firmanıza özel kurumsal mimari projeleriniz için teknik detayları planlamak üzere bizimle iletişime geçebilirsiniz. Aşağıdaki formu doldurarak projeniz hakkında bilgi iletebilir veya 7/24 resmi WhatsApp hattımız üzerinden teknik ekibimizle doğrudan el sıkışarak siparişinizi anında başlatabilirsiniz. Gönderdiğiniz tüm talepler en geç 2 saat içerisinde mühendislik ekibimiz tarafından yanıtlanacaktır.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<p class=\"text-justify leading-relaxed\"><b>Projelerinizi Canlıya Taşımaya Hazırız</b><br>\"Vanguard Studio ile işletmenizi fahiş ajans bütçelerinden ve ucu açık gecikmelerden kurtarmanın tam zamanı. İhtiyaçlarınıza en uygun hazır sektörel çözümü seçmek, Profesyonel CMS veya firmanıza özel kurumsal mimari projeleriniz için teknik detayları planlamak üzere bizimle iletişime geçebilirsiniz. Aşağıdaki formu doldurarak projeniz hakkında bilgi iletebilir veya <b>7/24 resmi WhatsApp hattımız üzerinden</b> teknik ekibimizle doğrudan el sıkışarak siparişinizi anında başlatabilirsiniz. Gönderdiğiniz tüm talepler en geç <b>2 saat içerisinde</b> mühendislik ekibimiz tarafından yanıtlanacaktır.\"</p>",
+      "translations": {
+        "en": {
+          "title": "Contact & Project Inquiries",
+          "summary": "Ready to Deploy Your Digital Presence \"It is time to liberate your business from exorbitant creative agency retainers and chronic delivery delays with Vanguard Studio. Connect with us to select the optimal turnkey sectoral solution for your market entry, or to architect the specifications for your Professional CMS and bespoke enterprise platforms. Submit your project scope using the intake form below, or initiate your countdown instantly by connecting directly with our engineering desk via our 24/7 official WhatsApp line. All inquiries are systematically reviewed and answered by our technical leads within 2 hours guaranteed.\"",
+          "content": "<p class=\"text-justify leading-relaxed\"><b>Ready to Deploy Your Digital Presence</b><br>\"It is time to liberate your business from exorbitant creative agency retainers and chronic delivery delays with Vanguard Studio. Connect with us to select the optimal turnkey sectoral solution for your market entry, or to architect the specifications for your Professional CMS and bespoke enterprise platforms. Submit your project scope using the intake form below, or initiate your countdown instantly by connecting directly with our engineering desk via our <b>24/7 official WhatsApp line</b>. All inquiries are systematically reviewed and answered by our technical leads within <b>2 hours guaranteed</b>.\"</p>"
+        }
+      },
+      "locations": [
+        "corporate"
+      ],
+      "menuLocation": "corporate"
+    },
+    {
+      "id": "page-kariyer",
+      "slug": "kariyer",
+      "title": "Kariyer & Uzaktan İş Başvurusu",
+      "category": "corporate",
+      "summary": "Performans Pazarlama Uzmanları ve Media Buyer'lar için küresel uzaktan (remote) kariyer fırsatları. İngilizce, Türkçe ve Rusça online mülakat süreçleri.",
+      "updatedAt": "2026-10-08",
+      "isPublished": true,
+      "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Performans Pazarlama Uzmanı & Media Buyer (Uzaktan / Remote)</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio bünyesinde, Türkiye, Rusya ve Avrupa pazarlarındaki hazır sektörel web sitelerimiz ve kurumsal müşterilerimiz için dijital büyüme, müşteri edinimi (lead generation) ve performans reklamlarını yönetecek deneyimli <strong>Pazarlama Uzmanları ve Media Buyer'lar</strong> arıyoruz.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Görev Tanımı & Odak Alanları</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>Kanal Yönetimi:</strong> Google Ads (Search, Performance Max), Meta Ads (Instagram & Facebook reklamları), Yandex Direct ve Telegram Ads kampanyalarının uçtan uca kurulumu, A/B testleri ve ölçeklendirilmesi.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Bütçe & ROAS Optimizasyonu:</strong> Kampanya harcamalarını yüksek getiri (ROAS) ve düşük müşteri edinme maliyeti (CPA) prensipleriyle karlı şekilde yönetmek.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Kreatif Yönlendirme:</strong> Dönüşüm odaklı reklam metinleri, görsel/video kreatif briefleri ve açılış sayfası (landing page) optimizasyon önerileri hazırlamak.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Metrik & Analiz:</strong> Google Analytics 4, Meta Pixel ve dönüşüm API'si verilerini düzenli okuyarak haftalık performans raporlaması sunmak.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Çalışma Şartları & Avantajlar</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>%100 Uzaktan (Remote) Çalışma:</strong> Dünyanın neresinde olursanız olun, esnek ve bağımsız çalışma modeli.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Döviz Bazlı Rekabetçi Gelir:</strong> Sabit ücret + yönetilen kampanya bütçeleri ve ciro üzerinden yüksek performans primi.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Büyük Ölçekli Kampanyalar:</strong> Farklı sektörlerde (sağlık klinikleri, hukuk büroları, e-ticaret, mimarlık, gayrimenkul) doğrudan ölçeklenebilir bütçelerle çalışma imkanı.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Online Mülakat & Dil Prosedürü</h3>\n<ul class=\"list-disc pl-5 space-y-1.5 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>Mülakat Süreci:</strong> Seçilen adaylarla online video mülakatlar <strong>İngilizce</strong> veya <strong>Türkçe</strong> olarak yürütülmektedir.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Rusya ve BDT Bölgesinden Başvurular:</strong> Rusya Federasyonu veya BDT ülkelerinden başvurup İngilizce ya da Türkçe bilmeyen yetenekli adaylar için online mülakatlar <strong>Rusça</strong> dilinde gerçekleştirilmektedir.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Aşağıdaki yerleşik formu doldurarak özgeçmişinizi (PDF, DOCX, ZIP) ekleyip hemen başvurabilirsiniz.</p>",
+      "translations": {
+        "en": {
+          "title": "Careers & Remote Opportunities",
+          "summary": "Global remote career opportunities for Performance Marketing Specialists and Media Buyers. Online interviews conducted in English, Turkish, or Russian.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Performance Marketing Specialist & Media Buyer (100% Remote)</h3>\n<p class=\"text-justify leading-relaxed\">Vanguard Studio is expanding its growth collective. We are actively recruiting experienced <strong>Marketing Specialists and Media Buyers</strong> to direct digital acquisition, paid traffic, and performance campaigns across Turkey, Russia, and European markets.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Key Responsibilities & Focus</h3>\n<ul class=\"list-disc pl-5 space-y-1 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>Paid Acquisition Channels:</strong> Hands-on setup, scaling, and A/B optimization of Google Ads, Meta Ads (Instagram/Facebook), Yandex Direct, and Telegram Ads.</li>\n<li class=\"text-justify leading-relaxed\"><strong>ROAS & Budget Scaling:</strong> Driving profitable return on ad spend (ROAS) and lowering cost per acquisition (CPA).</li>\n<li class=\"text-justify leading-relaxed\"><strong>Creative Direction:</strong> Developing high-converting ad copy, visual hooks, and landing page conversion rate optimization (CRO).</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Benefits & Compensation</h3>\n<ul class=\"list-disc pl-5 space-y-1 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>100% Remote Flexibility:</strong> Work autonomously from any location worldwide.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Hard-Currency Compensation:</strong> Competitive base retainer plus generous performance-based bonus tiers.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Diverse High-Ticket Portfolios:</strong> Direct ownership of ad budgets across medical, legal, luxury bistro, architecture, and logistics verticals.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Online Interview & Language Policy</h3>\n<ul class=\"list-disc pl-5 space-y-1 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>Standard Interview Language:</strong> Technical interviews are conducted online via video in <strong>English</strong> or <strong>Turkish</strong>.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Applicants from Russia & CIS:</strong> For talented candidates applying from the Russian Federation or CIS who do not speak English or Turkish, online interviews are conducted in <strong>Russian</strong>.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Please submit your resume (PDF, DOCX, ZIP) using the integrated application form below.</p>"
+        },
+        "ru": {
+          "title": "Карьера & Удаленная Работа (Media Buyer)",
+          "summary": "Удаленная работа для специалистов по интернет-маркетингу и Media Buyer. Онлайн-собеседования на русском, английском или турецком языках.",
+          "content": "<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Специалист по Перформанс-Маркетингу & Media Buyer (100% Удаленно)</h3>\n<p class=\"text-justify leading-relaxed\">Студия Vanguard Studio открывает набор опытных <strong>Маркетологов и Media Buyer'ов</strong> для масштабирования рекламы и привлечения клиентов для готовых отраслевых сайтов в Турции, России и странах СНГ.</p>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Обязанности и Ключевые Задачи</h3>\n<ul class=\"list-disc pl-5 space-y-1 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>Рекламные Каналы:</strong> Настройка, ведение и масштабирование кампаний в Яндекс Директ, Telegram Ads, Google Ads и Meta Ads (Instagram/Facebook).</li>\n<li class=\"text-justify leading-relaxed\"><strong>Оптимизация Бюджетов и ROAS:</strong> Управление бюджетами с фокусом на окупаемость, снижение стоимости заявки (CPA) и максимизацию конверсий.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Креативы и Посадочные Страницы:</strong> Разработка продающих рекламных текстов, ТЗ для дизайнеров и рекомендации по повышению конверсии страниц.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Условия Работы и Преимущества</h3>\n<ul class=\"list-disc pl-5 space-y-1 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>100% Удаленный Формат:</strong> Работайте из любой точки мира с гибким графиком.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Достойная Оплата:</strong> Фиксированный оклад + высокий процент за перевыполнение KPI и конверсий.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Интересные Проекты:</strong> Реальные бюджеты в медицине, юриспруденции, недвижимости, архитектуре и логистике.</li>\n</ul>\n<h3 class=\"text-base sm:text-lg font-bold font-display text-neutral-950 dark:text-white pt-3 pb-1 border-b border-neutral-100 dark:border-neutral-800/80 text-left\">Порядок Онлайн-Собеседований и Языки</h3>\n<ul class=\"list-disc pl-5 space-y-1 my-2\" style=\"text-align: left; list-style-position: inside;\">\n<li class=\"text-justify leading-relaxed\"><strong>Языки Интервью:</strong> Для кандидатов из большинства регионов онлайн-собеседования проходят на <strong>английском</strong> или <strong>турецком</strong> языке.</li>\n<li class=\"text-justify leading-relaxed\"><strong>Для Кандидатов из России и СНГ:</strong> Для специалистов, подающих заявку из Российской Федерации и стран СНГ и не владеющих турецким или английским языком, онлайн-собеседование проводится на <strong>русском</strong> языке.</li>\n</ul>\n<p class=\"text-justify leading-relaxed\">Заполните форму ниже и прикрепите ваше резюме (PDF, DOCX, ZIP). Ваша заявка поступит напрямую ведущему руководителю.</p>"
+        }
+      },
+      "locations": [
+        "corporate"
+      ],
+      "menuLocation": "corporate"
+    },
+    {
+      "id": "page-sss",
+      "slug": "sss",
+      "title": "Sıkça Sorulan Sorular (SSS / FAQ)",
+      "category": "corporate",
+      "summary": "Sıkça Sorulan Sorular (FAQ)  \\n\"Vanguard Studio teslimat modelleri, şeffaf bütçelendirme politikamız, 48 saatlik teslimat sayacı kuralları ve web sitelerinizin gelecek nesil teknik altyapısı hakkında en çok merak edilen soruların ve yasal/teknik yanıtların tamamını aşağıda bulabilirsiniz. Süreçlerimizle ilgili aklınıza takılan farklı bir soru olursa, 7/24 resmi WhatsApp hattımız üzerinden teknik ekibimizle doğrudan arkadaşça bir iletişim kurabilirsiniz.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<div style=\"text-align: center;\"><b>Sıkça Sorulan Sorular (FAQ)</b><br>\"Vanguard Studio teslimat modelleri, şeffaf bütçelendirme politikamız, 48 saatlik teslimat sayacı kuralları ve web sitelerinizin gelecek nesil teknik altyapısı hakkında en çok merak edilen soruların ve yasal/teknik yanıtların tamamını aşağıda bulabilirsiniz. Süreçlerimizle ilgili aklınıza takılan farklı bir soru olursa, 7/24 resmi WhatsApp hattımız üzerinden teknik ekibimizle doğrudan arkadaşça bir iletişim kurabilirsiniz.\"</div>",
+      "translations": {
+        "en": {
+          "title": "Frequently Asked Questions (FAQ)",
+          "summary": "Frequently Asked Questions (FAQ) \"Find transparent, engineered answers regarding our turnkey delivery models, fixed pricing architecture, the mechanics of our 48-hour countdown, and the next-generation performance stack of your website. If you have any further technical or operational inquiries, connect directly with our development desk via our 24/7 official WhatsApp line for immediate assistance.\"",
+          "content": "<div style=\"text-align: center;\"><b>Frequently Asked Questions (FAQ)</b><br>\"Find transparent, engineered answers regarding our turnkey delivery models, fixed pricing architecture, the mechanics of our 48-hour countdown, and the next-generation performance stack of your website. If you have any further technical or operational inquiries, connect directly with our development desk via our 24/7 official WhatsApp line for immediate assistance.\"</div>"
+        }
+      },
+      "locations": [
+        "corporate"
+      ],
+      "menuLocation": "corporate"
+    },
+    {
+      "id": "page-48-saatte-teslim-ve-hizmet-garantisi",
+      "slug": "48-saatte-teslim-ve-hizmet-garantisi",
+      "title": "48 Saatte Teslim & Hizmet Şartları",
+      "category": "legal",
+      "summary": "\"İşbu hizmet ve teslimat koşulları; uluslararası ticaret hukukunun genel ilkeleri (UNCITRAL) ve Avrupa Birliği E-Ticaret Direktifleri başta olmak üzere; 6098 sayılı Türkiye Cumhuriyeti Borçlar Kanunu (TBK) ve 6502 sayılı Tüketicinin Kurunması Hakkında Kanun ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital hizmet standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<div style=\"text-align: center;\"><b>Hukuki Dayanak ve Mevzuata Uyum Beyanı</b></div><p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"İşbu hizmet ve teslimat koşulları; uluslararası ticaret hukukunun genel ilkeleri <b>(UNCITRAL)</b> ve <b>Avrupa Birliği E-Ticaret Direktifleri</b> başta olmak üzere; <b>6098 sayılı Türkiye Cumhuriyeti Borçlar Kanunu (TBK)</b> ve <b>6502 sayılı Tüketicinin Kurunması Hakkında Kanun</b> ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital hizmet standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"<o:p></o:p></p><hr><h2><b>48 Saatte Anahtar Teslim Taahhüdü ve Uygulama Esasları</b></h2><h3><b>1. Taahhüdün Kapsamı ve Koşulları (Scope of Commitment):</b></h3><ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">Vanguard Studio tarafından taahhüt edilen <b>48 saatlik yayına alım (teslimat) süreci</b>, yalnızca standart özellikleri önceden belirlenmiş olan <b>\"Hazır Şablonlu Ekonomik Paketler\"</b> için geçerlidir.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">İşbu taahhüdün resmi olarak başlayabilmesi için; Hizmet Alan (Müşteri) tarafından projeye ait tüm kurumsal içeriklerin (logo, kurumsal kimlik öğeleri, hizmet metinleri, görseller vb.) ve projenin hayata geçirilmesi için gereken tüm teknik erişim izinlerinin (panel bilgileri, yetkilendirmeler vb.) Vanguard Studio teknik ekibine <b>eksiksiz, kusursuz ve doğrulanmış olarak teslim edilmesi</b> zorunludur. Süreç, bu bilgi ve izinlerin Vanguard Studio tarafından yazılı/dijital olarak onaylandığı an başlar.<o:p></o:p></li></ul><h3><b>2. Kapsam Dışı Projeler ve Özel Geliştirmeler (Exclusions):</b></h3><ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">Yazılım mimarisi, tasarım süreçleri ve entegrasyon yoğunluğu değişkenlik gösteren <b>\"Profesyonel Paket (Tam Yetkili CMS)\"</b> ve <b>\"Özel Talep &amp; Kurumsal Mimari\"</b> paketleri işbu 48 saatlik acil teslimat taahhüdünün <b>kesinlikle kapsamı dışındadır</b>.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Bu nitelikteki gelişmiş ve özel tasarım/yazılım projelerinin teslim süreleri; uluslararası yazılım standartları ve proje dinamikleri dikkate alınarak, taraflar arasında akdedilecek <b>proje bazlı ek sözleşmeler veya iş emirleri (Statement of Work - SOW)</b> ile müstakilen belirlenir ve takvime bağlanır.<o:p></o:p></li></ul><h3><b>3. Cezai Şart ve Sorumluluğun Sınırlandırılması (Limitation of Liability):</b></h3><ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">Hazır paketlerin tesliminde, <b>tamamen Vanguard Studio’nun iç teknik süreçlerinden ve mühendislik hatalarından kaynaklanan</b> bir gecikme yaşanması durumunda; Vanguard Studio, Hizmet Alan’a <b>ilk yıl bulut sunucu barındırma (hosting) hizmetini tamamen ücretsiz olarak sağlamayı</b> taahhüt eder.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">İşbu ücretsiz hosting sağlama edimi, gecikmeden doğabilecek tüm maddi, manevi, dolaylı veya doğrudan zararların (kâr kaybı, ticari itibar kaybı vb.) tazmini yerine geçer ve Hizmet Alan, Vanguard Studio’dan bunun dışında herhangi bir nakit iadesi, tazminat veya hak talebinde bulunamayacağını gayrikabili rücu kabul, beyan ve taahhüt eder.<o:p></o:p></li></ul><h3><b>4. Sayacın Durdurulması ve Mücbir Sebepler (Suspension of the Commitment):</b></h3><ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">Vanguard Studio’nun doğrudan kontrolü altında olmayan; alan adı (domain) tescil ve DNS aktivasyon süreleri, harici ödeme kuruluşları (pay-gate / Stripe vb.) onay ve entegrasyon süreçleri ile müşteriden kaynaklanan son dakika revizyonları, ek bilgi/belge talepleri durumunda <b>48 saatlik teslimat sayacı resmi olarak durdurulur.</b> İlgili engel ortadan kalktığı an sayaç kaldığı yerden devam eder.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Yerel ve uluslararası hukukta kabul edilen mücbir sebepler (doğal afetler, savaş, genel internet ve enerji altyapısı kesintileri, küresel siber saldırılar, veri merkezi yangınları veya hükümet kısıtlamaları) süresince taahhüt askıya alınır ve bu dönemde meydana gelen gecikmelerden dolayı Vanguard Studio sorumlu tutulamaz.</li></ul>",
+      "translations": {
+        "en": {
+          "title": "48-Hour Turnkey Deployment & Service Guarantee",
+          "summary": "\"These terms of service and delivery commitments are governed by and construed in accordance with the general principles of international commercial law (UNCITRAL), the European Union E-Commerce Directives, the Turkish Code of Obligations (TBK) No. 6098, and the Law on Consumer Protection No. 6502, ensuring full compliance with both cross-border and domestic digital service regulations.\"",
+          "content": "<div style=\"text-align: center;\"><b>Regulatory Compliance and Legal Framework Statement</b></div>\n\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"These terms of service and delivery commitments are governed by and construed in accordance with the general principles of international commercial law <b>(UNCITRAL)</b>, <b>the European Union E-Commerce Directives</b>, <b>the Turkish Code of Obligations (TBK) No. 6098</b>, and <b>the Law on Consumer Protection No. 6502</b>, ensuring full compliance with both cross-border and domestic digital service regulations.\"<o:p></o:p></p><hr>\n\n<h2><b>48-Hour Turnkey Deployment Commitment and Implementation Terms</b></h2>\n\n<h3><b>1. Scope of Commitment and Conditions Precedent:</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">The <b>48-hour deployment (delivery) process</b> guaranteed by Vanguard Studio is exclusively applicable to <b>\"Ready-to-Use Templated Economic Packages\"</b> with pre-defined technical specifications.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">For this commitment to officially commence, the Client must deliver all corporate content (logos, brand identity assets, service texts, imagery, etc.) and all necessary technical access permissions (control panel credentials, API keys, authorizations) to the Vanguard Studio technical team in a <b>complete, flawless, and verified manner</b>. The countdown shall officially begin at the exact moment Vanguard Studio confirms the receipt and validation of these assets in writing or via digital notification.<o:p></o:p></li></ul><h3><b>2. Exclusions (Advanced &amp; Custom Systems):</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">Due to complex software architecture, dedicated development phases, and integration density, the <b>\"Professional Package (Full-Authority CMS)\"</b> and <b>\"Custom Request &amp; Enterprise Architecture\"</b> packages are <b>strictly excluded from the scope of this 48-hour delivery commitment</b>.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">The delivery schedules for these bespoke, enterprise, or high-tier software projects shall be independently governed by project-specific addendums, specifications, or <b>Statements of Work (SOW)</b> executed mutually between the parties based on international agile/waterfall development practices.<o:p></o:p></li></ul><h3><b>3. Liquidated Damages and Limitation of Liability:</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">In the event of a delay in the delivery of ready-to-use packages arising <b>solely from Vanguard Studio’s internal technical processes or engineering failures</b>, Vanguard Studio covenants to provide <b>the first year of cloud server hosting services to the Client entirely free of charge</b>.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">This complimentary provision of hosting services shall constitute the sole and exclusive remedy for the said delay. The Client explicitly waives any right to claim cash refunds, direct, indirect, punitive, incidental, or consequential damages (including loss of profits or commercial reputation) and accepts this service remedy as full satisfaction of liability.<o:p></o:p></li></ul><h3><b>4. Suspension of Time and Force Majeure:</b></h3>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\">The 48-hour delivery timer <b>shall be automatically paused</b> during events beyond the direct control of Vanguard Studio. These events include, but are not limited to: domain registration and DNS propagation latencies, third-party payment gateway approvals (e.g., Stripe, local banks), and client-side revision requests or delayed information delivery. The timer will resume immediately once the blocking event is resolved.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\">Furthermore, the commitment shall be suspended during any event of Force Majeure as recognized under international law standards (including acts of God, war, regional power grid failures, global or targeted cyberwarfare/DDOS attacks, data center fires, or regulatory/governmental interventions). Vanguard Studio shall incur no liability for delays during such periods.</li></ul>"
+        }
+      },
+      "locations": [
+        "legal"
+      ],
+      "menuLocation": "legal"
+    },
+    {
+      "id": "page-mesafeli-satis-sozlesmesi",
+      "slug": "mesafeli-satis-sozlesmesi",
+      "title": "Mesafeli Satış Sözleşmesi",
+      "category": "legal",
+      "summary": "\"İşbu Mesafeli Satış Sözleşmesi; uluslararası ticaret hukukunun genel ilkeleri (UNCITRAL) ve Avrupa Birliği E-Ticaret Direktifleri başta olmak üzere; 6098 sayılı Türkiye Cumhuriyeti Borçlar Kanunu (TBK), 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital hizmet standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"",
+      "updatedAt": "2026-10-11",
+      "isPublished": true,
+      "content": "<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\"><b>Hukuki Dayanak ve Mevzuata Uyum Beyanı:<o:p></o:p></b></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"İşbu Mesafeli Satış Sözleşmesi; uluslararası ticaret hukukunun genel ilkeleri <b>(UNCITRAL)</b> ve <b>Avrupa Birliği E-Ticaret Direktifleri</b> başta olmak üzere; <b>6098 sayılı Türkiye Cumhuriyeti Borçlar Kanunu (TBK)</b>, <b>6502 sayılı Tüketicinin Korunması Hakkında Kanun</b> ve <b>Mesafeli Sözleşmeler Yönetmeliği</b> ilgili hükümleri uyarınca, sınır ötesi ve yerel dijital hizmet standartlarına tam uyumlu olarak kaleme alınmış olup taraflar için yasal olarak bağlayıcıdır.\"<o:p></o:p></p><hr>\n\n<h2><b>MADDE 1 - TARAFLAR</b></h2>\n\n<h3><b>1.1. SATICI (Hizmet Sağlayıcı):</b></h3><ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><ul class=\"list-disc pl-6 space-y-1 my-2\" style=\"margin-top: 0cm; list-style-position: inside;; text-align: left;\" type=\"circle\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Ticari Unvan:</b> Vanguard Studio<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Web Adresi:</b> https://vanguardstudio.digital<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>E-posta:</b> info@vanguardstudio.digital<o:p></o:p></li></ul></ul><h3><b>1.2. ALICI (Müşteri):</b></h3> Şirkete ait web sitesi üzerinden sunulan dijital paketleri, hazır şablonları, yazılım veya mühendislik hizmetlerini satın alan, ödeme sayfasındaki bilgileri dolduran gerçek veya tüzel kişidir.<br><h2><b>MADDE 2 - SÖZLEŞMENİN KONUSU VE KAPSAMI</b></h2>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">İşbu Sözleşme’nin konusu, Alıcı'nın Satıcı'ya ait web sitesi üzerinden elektronik ortamda siparişini verdiği, nitelikleri ve satış fiyatı web sitesinde belirtilen dijital ajans, web tasarım, yazılım geliştirme ve mühendislik hizmetlerinin satışı ve teslimi ile ilgili olarak tarafların hak ve yükümlülüklerinin belirlenmesidir.<o:p></o:p></p>\n\n<h2><b>MADDE 3 - FİYATLANDIRMA VE ÖDEME ESASLARI</b></h2>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.1. Net Bütçe ve KDV:</b> Web sitesinde ilan edilen tüm bütçeler tek seferlik yazılım/kurulum bedeli olup yasal vergi mevzuatı gereği net bedellerdir. Fiyatlara Katma Değer Vergisi (KDV) dahil değildir; faturalandırma aşamasında yürürlükteki yasal KDV oranı fiyatlara ilave edilir. Resmi e-arşiv fatura Alıcı'nın kurumsal e-posta adresine iletilir.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.2. Ödeme Altyapısı:</b> Ödemeler PCI-DSS korumalı global <b>Stripe</b> altyapısı üzerinden kredi/banka kartıyla veya Satıcı'nın resmi banka hesaplarına FAST/Havale yoluyla yapılır. Havale sonrası dekont resmi WhatsApp hattına ulaştığında finans ekibince ödeme onaylanır ve sipariş başlatılır.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.3. Periyodik Maliyetler:</b> Satın alınan yazılımların kaynak kodları için ömür boyu ikinci bir ücret talep edilmez. Sitenin açık kalması için gereken tek periyodik maliyet, yıllık olarak şeffafça faturalandırılan bulut sunucu (hosting) ve kurumsal e-posta barındırma masrafıdır.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.4. Güvenlik Sertifikası (SSL):</b> Cloudflare Enterprise altyapısıyla sağlanan 256-Bit SSL sertifikası, Alıcı'nın yıllık hosting hizmeti Satıcı bünyesinde aktif olduğu dönemlerde paket kapsamında ücretsiz yenilenir; harici sertifika bedeli alınmaz.<o:p></o:p></li></ul><h2><b>MADDE 4 - TESLİMAT VE OPERASYON ESASLARI</b></h2>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.1. 48 Saat Taahhüdü:</b> Gerekli tüm kurumsal içeriklerin (logo, metin, görsel) ve teknik erişim izinlerinin Satıcı teknik ekibine eksiksiz teslim edilip onaylanmasıyla <b>yalnızca hazır şablonlu ekonomik paketler için 48 saatlik (2 iş günü) yayına alım süreci başlar.</b><o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.2. Gelişmiş Paket İstisnası:</b> Süreç yoğunluğu ve özel mühendislik aşamaları nedeniyle, <b>Profesyonel Paket (Tam Yetkili CMS)</b> ve <b>Özel Talep &amp; Kurumsal Mimari</b> paketleri bu 48 saatlik taahhüdün kesinlikle kapsamı dışındadır. Bu projelerin teslim takvimi proje bazlı ek sözleşmelerle (Statement of Work - SOW) belirlenir.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.3. Gecikme Cezası İfası:</b> Satıcı iç teknik süreçlerinden kaynaklanan gecikmelerde <b>ilk yıl barındırma (hosting) bedeli Satıcı tarafından karşılanır.</b> Bu hediye hizmet, gecikmeden doğabilecek tüm doğrudan veya dolaylı zararların yerine geçer; Alıcı nakit iadesi hakkı doğurmadığını kabul eder. Harici alan adı aktivasyon süreleri, ödeme kapısı onayları ve müşteri kaynaklı bilgi/revizyon gecikmelerinde sayaç durdurulur.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.4. Revizyon ve Kabul:</b> Site canlıya alındığı an <b>7 günlük ücretsiz revizyon süreci</b> başlar. Bu sürede metin, görsel yerleşimi ve iletişim güncellemeleri ücretsiz yapılır. 7. günün sonunda proje eksiksiz kabul edilmiş sayılır. Sonraki talepler yıllık teknik destek sözleşmesine tabidir.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.5. Panel Dil ve Veri Güvenliği:</b> Panel, dışarıdan otomatik çeviri motoru içermeksizin <b>sadece manuel olarak girilecek TR ve EN dillerini destekler.</b> Veri kaybını önlemek amacıyla panelde 30 saniyede bir otomatik taslak kaydı (Autosave) ve tarayıcı yerel hafıza (LocalStorage/IndexedDB) yedeklemesi çalışır.<o:p></o:p></li></ul><h2><b>MADDE 5 - CAYMA HAKKI İSTİSNASI (İADE KOŞULLARI)</b></h2>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">İşbu Sözleşme konusu hizmet; Alıcı'nın istekleri ve kişisel/kurumsal ihtiyaçları doğrultusunda hazırlanan, elektronik ortamda anında ifa edilen ve Alıcı’ya anında teslim edilen <b>gayri maddi (dijital) nitelikte bir yazılım ve tasarım hizmetidir.</b> 6502 sayılı Kanun ve Mesafeli Sözleşmeler Yönetmeliği Madde 15/ğ bendi ile AB Tüketici Hakları Direktifi (Directive 2011/83/EU) uyarınca, <i>elektronik ortamda anında ifa edilen hizmetler ve tüketiciye anında teslim edilen gayri maddi mallara ilişkin sözleşmelerde</i> <b>cayma hakkı kullanılamaz.</b> Alıcı, sipariş ve ödeme onayının ardından iade ve iptal talebinde bulunamayacağını gayrikabili rücu kabul ve beyan eder.<o:p></o:p></p>\n\n<h2><b>MADDE 6 - UYUŞMAZLIKLARIN ÇÖZÜMÜ</b></h2>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">İşbu Sözleşme’nin uygulanmasından ve yorumlanmasından doğacak tüm hukuki uyuşmazlıklarda <b>Türkiye Cumhuriyeti Kanunları</b> uygulanacak olup, uyuşmazlıkların çözümünde Satıcı'nın tescilli merkezinin bulunduğu yerdeki <b>İstanbul (Çağlayan) Mahkemeleri ve İcra Daireleri</b> münhasıran yetkilidir.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Sözleşme Tarihi: Kullanıcının dijital onay verdiği tarih.</i><br><i>Son Güncelleme Tarihi: 11/10/2026</i></b></p>",
+      "translations": {
+        "en": {
+          "title": "Distance Sales Agreement",
+          "summary": "\"This Distance Sales Agreement is governed by and construed in accordance with the general principles of international commercial law (UNCITRAL), the European Union E-Commerce Directives, the Turkish Code of Obligations (TBK) No. 6098, and the Law on Consumer Protection No. 6502, ensuring full compliance with both cross-border and domestic digital service regulations, and is legally binding upon the parties.\"",
+          "content": "<div style=\"text-align: center;\"><b>Regulatory Compliance and Legal Framework Statement</b></div>\n\n<p class=\"MsoNormal text-justify leading-relaxed\" style=\"text-align: center;\">\"This Distance Sales Agreement is governed by and construed in accordance with the general principles of international commercial law <b>(UNCITRAL)</b>, <b>the European Union E-Commerce Directives</b>, <b>the Turkish Code of Obligations (TBK) No. 6098</b>, and <b>the Law on Consumer Protection No. 6502</b>, ensuring full compliance with both cross-border and domestic digital service regulations, and is legally binding upon the parties.\"<o:p></o:p></p><hr>\n\n<h2><b>ARTICLE 1 - PARTIES</b></h2>\n\n<h3><b>1.1. SELLER (Service Provider):</b></h3><ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><ul class=\"list-disc pl-6 space-y-1 my-2\" style=\"margin-top: 0cm; list-style-position: inside;; text-align: left;\" type=\"circle\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>Commercial Title:</b> Vanguard Studio<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Website:</b> https://vanguardstudio.digital<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>Email:</b> info@vanguardstudio.digital<o:p></o:p></li></ul></ul><h3><b>1.2. BUYER (Client):</b></h3> Any real or legal person who purchases digital packages, ready-to-use templates, software, or engineering services offered through the Company's website and fills out the information at the billing stage.<br><h2><b>ARTICLE 2 - SUBJECT AND SCOPE OF THE AGREEMENT</b></h2>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">The subject of this Agreement is to determine the rights and obligations of the parties regarding the sale and delivery of digital agency, web design, software development, and engineering services ordered electronically by the Buyer through the Seller's website, the specifications and sales prices of which are stated on the website.<o:p></o:p></p>\n\n<h2><b>ARTICLE 3 - PRICING AND PAYMENT TERMS</b></h2>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.1. Net Budgets and VAT:</b> All budgets announced on the website are one-time software/setup fees and represent net amounts pursuant to tax legislation. Prices do not include Value Added Tax (VAT); the statutory VAT rate in force will be added at the billing stage. Official e-archive invoices are sent to the Buyer's corporate email address.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.2. Payment Infrastructure:</b> Payments are processed securely via our PCI-DSS protected global infrastructure partner, <b>Stripe</b>, using international credit/debit cards, or via 24/7 FAST/wire transfer to the Seller's official bank accounts. Orders are initiated once the finance team validates the wire transfer receipt via the official WhatsApp line.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.3. Recurring Costs:</b> No secondary fees are charged for the software source codes life-long. The only recurring cost required to keep the website active is the annual cloud server hosting and corporate email hosting fee, which is billed transparently.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>3.4. Security Certificate (SSL):</b> The 256-Bit SSL certificate provided through Cloudflare Enterprise is renewed free of charge within the package scope during the periods when the annual server hosting service is actively maintained under the Seller; no separate certificate fee is charged.<o:p></o:p></li></ul><h2><b>ARTICLE 4 - DELIVERY AND OPERATIONAL TERMS</b></h2>\n\n<ul class=\"list-disc pl-6 space-y-1 my-2\" type=\"disc\" style=\"margin-top: 0cm; text-align: left; list-style-position: inside;\"><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.1. 48-Hour Commitment:</b> Upon the complete delivery and validation of all required corporate content (logos, text, images) and technical access permissions to the Seller's technical team, <b>the 48-hour (2 business days) deployment process officially commences exclusively for our ready-to-use templated economic packages.</b><o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.2. Advanced Package Exclusion:</b> Due to architecture complexity and dedicated engineering phases, the <b>Professional Package (Full-Authority CMS)</b> and <b>Custom Request &amp; Enterprise Architecture</b> packages are <b>strictly excluded from this 48-hour delivery commitment.</b> These projects are independently governed by project-specific Statements of Work (SOW).<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.3. Liquidated Damages:</b> For delays arising solely from internal technical processes of the Seller, <b>the first year of server hosting fees will be fully covered by the Seller.</b> This complimentary service remedy constitutes the sole satisfaction for delays and explicitly excludes any cash refund claims. The timer shall be paused during domain activation latencies, external payment gateway approvals, and client-side revisions.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.4. Revision and Acceptance:</b> A <b>7-day complimentary revision period</b> initiates immediately when the website is launched live. Corrections regarding texts, image layouts, and contact updates are performed free of charge. Upon the expiration of the 7th day, the project is deemed fully accepted, and subsequent requests are subject to the annual technical support contract.<o:p></o:p></li><li class=\"MsoNormal text-justify leading-relaxed\"><b>4.5. Panel Language &amp; Security:</b> The CMS panel exclusively supports <b>Turkish (TR) and English (EN)</b> for manual data entry, deploying no external automatic machine translation engines. To prevent data loss, an automatic draft registration system (Autosave every 30 seconds) and local browser mirroring (LocalStorage/IndexedDB) are executed.<o:p></o:p></li></ul><h2><b>ARTICLE 5 - EXCLUSION OF THE RIGHT OF WITHDRAWAL (REFUND POLICY)</b></h2>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">The service subject to this Agreement constitutes a <b>digital, intangible software and design service</b> customized in accordance with the Buyer's requests and corporate needs, executed instantly in an electronic environment, and delivered to the Buyer immediately. Pursuant to Article 15/ğ of the Distance Contracts Regulation and the European Union Consumer Rights Directive (Directive 2011/83/EU) regarding <i>contracts for the supply of digital content and services executed instantly online</i>, <b>the right of withdrawal cannot be exercised.</b> The Buyer irrevocably accepts and declares that no return or cancellation requests can be submitted following the order and payment confirmation.<o:p></o:p></p>\n\n<h2><b>ARTICLE 6 - DISPUTE RESOLUTION</b></h2>\n\n<p class=\"MsoNormal text-justify leading-relaxed\">Any legal disputes arising out of the implementation or interpretation of this Agreement shall be exclusively governed by the laws of the <b>Republic of Turkey</b>, and the <b>Courts and Execution Offices of Istanbul (Çağlayan)</b> shall have exclusive jurisdiction.<o:p></o:p></p>\n\n<p class=\"MsoNormal text-justify leading-relaxed\"><b><i>Agreement Date: The date on which the user grants digital approval.</i><br><i>Last Updated: 11/10/2026</i></b></p>"
+        }
+      },
+      "locations": [
+        "legal"
+      ],
+      "menuLocation": "legal"
+    }
+  ],
   "faqs": [
     {
       "id": "faq-1",
@@ -1502,6 +2316,10 @@
         "en": {
           "question": "Can I take delivery of the source code and full ownership of the website I purchased?",
           "answer": "<span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">This depends entirely on your chosen service model. Clients who select the </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Professional Tier (Full-Access CMS)</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> can download their full source codes and independent web bundle with a single click, taking over complete ownership rights. In the </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Economic Tier (Managed by Us)</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">, the ownership of the software, design, and source codes remains entirely under Vanguard Studio framework; independent source code delivery is not provided.</span>"
+        },
+        "ru": {
+          "question": "Как быстро сдаются готовые сайты и как проходит процесс?",
+          "answer": "<p style=\"text-align: justify;\">В зависимости от выбранной конфигурации готовый веб-сайт запускается в течение <strong>от 24 до 48 часов</strong>. После привязки вашего домена сайт публикуется с полной адаптивностью и активным SSL-шифрованием. Доступы к панели управления передаются вам по e-mail или WhatsApp.</p>"
         }
       }
     },
@@ -1515,6 +2333,10 @@
         "en": {
           "question": "How does the 48-hour turnkey delivery guarantee work, and what happens if there is a delay?",
           "answer": "Upon the complete delivery and validation of all required corporate content and technical access permissions to our team, the <b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">48-hour deployment process officially begins solely for our ready-to-use economic packages.</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> Professional CMS and Custom Enterprise projects are excluded from this timeline. In the event of internal technical delays on our part (excluding force majeure), </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">the first year of hosting fees will be fully covered by our company.</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> This service remedy constitutes full satisfaction for delays and excludes cash refund claims. The timer is paused during domain activation latencies and third-party payment gateway approvals.</span>"
+        },
+        "ru": {
+          "question": "В чем основная разница между Эконом и Профессиональным тарифом?",
+          "answer": "<p style=\"text-align: justify;\">В модели <strong>Эконом</strong> серверы, обновления безопасности, SSL и техническое обслуживание находятся под управлением экспертов Vanguard Studio; вы просто направляете нам материалы. В <strong>Профессиональном</strong> пакете вы получаете доступ к CMS для независимого редактирования контента, фото, товаров и меню.</p>"
         }
       }
     },
@@ -1527,20 +2349,28 @@
       "translations": {
         "en": {
           "question": "Is there an annual fee, a hidden renewal cost, or any additional expense?",
-          "answer": "\n\n\n\n<span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">No, there are no hidden costs or surprise bills at Vanguard Studio. The prices listed across our platform cover one-time software and setup fees; meaning you never pay recurring fees for the code itself. The only recurring cost required to keep your site online is for cloud server hosting and corporate email hosting, which is billed transparently on an annual basis. </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Thanks to our Cloudflare Enterprise infrastructure, the 256-Bit SSL certificate is renewed free of charge as part of your package for as long as your annual hosting service remains active</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">, and no separate fee is charged for the certificate.</span>"
+          "answer": "<span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">No, there are no hidden costs or surprise bills at Vanguard Studio. The prices listed across our platform cover one-time software and setup fees; meaning you never pay recurring fees for the code itself. The only recurring cost required to keep your site online is for cloud server hosting and corporate email hosting, which is billed transparently on an annual basis. </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Thanks to our Cloudflare Enterprise infrastructure, the 256-Bit SSL certificate is renewed free of charge as part of your package for as long as your annual hosting service remains active</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">, and no separate fee is charged for the certificate.</span>"
+        },
+        "ru": {
+          "question": "Какие способы оплаты вы принимаете? Выдаются ли чеки и договоры?",
+          "answer": "<p style=\"text-align: justify;\">Для платежей из Турции используются <strong>Банковский перевод / FAST</strong>. Для клиентов из РФ и СНГ доступна оплата через <strong>СБП (Система быстрых платежей)</strong> и Т-Банк. Все сделки сопровождаются официальными договорами и закрывающими документами.</p>"
         }
       }
     },
     {
       "id": "faq-4",
       "question": "Sitenin içeriğinde fiyat, fotoğraf veya iletişim bilgilerini değiştirmek istediğimde ne yapacağım?",
-      "answer": "<p class=\"text-justify leading-relaxed\"><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Ekonomik Paket (Yönetim Bizde) modelini seçtiyseniz, panel şifreleriyle vakit kaybetmezsiniz. Değişiklik talebinizi WhatsApp üzerinden ilettiğinizde teknik ekibimiz revizyonu aynı gün sitenize işler. Profesyonel Paket (Tam Yetkili CMS) modelinde ise, sitenizin altına entegre edilen modern ve sadeleştirilmiş </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Müşteri CMS Paneline</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> şifrenizle giriş yaparak; hiçbir kod bilgisine veya ajans koordinasyonuna ihtiyaç duymadan hizmetlerinizi, fiyatlarınızı ve çalışma saatlerinizi saniyeler içinde kendiniz güncelleyebilirsiniz.</span></p>",
+      "answer": "<p class=\"text-justify leading-relaxed\"><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Ekonomik Paket (Yönetim Bizde) modelini seçtiyseniz, panel şifreleriyle vakit kaybetmezsiniz. Değişiklik talebinizi WhatsApp üzerinden ilettiğinizde teknik ekibimiz revizyonu aynı gün sitenize işler. Profesyonel Paket (Tam Yetkili CMS) modelinde ise, sitenizin altına entegre edilen modern ve sadeleştirilmiş </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Müşteri CMS Paneline</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> şifrenizle giriş yaparak; hiçbir kod bilgisine veya ajans koordinasyonuna ihtiyaç duymağan hizmetlerinizi, fiyatlarınızı ve çalışma saatlerinizi saniyeler içinde kendiniz güncelleyebilirsiniz.</span></p>",
       "order": 4,
       "active": true,
       "translations": {
         "en": {
           "question": "What should I do if I want to change the prices, photos, or contact information on the site?",
-          "answer": "\n\n\n\n<span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">If you choose the Economic Tier (Managed by Us), you won't lose time dealing with web panel access. Simply forward your request via WhatsApp, and our technical crew implements the revision live on the same business day. If you select the Professional Tier (Full-Access CMS), you can log into the intuitive, simplified </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Client CMS Panel</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> integrated into your footer using your private password to update your services, pricing, and business hours within seconds entirely by yourself, requiring zero technical expertise.</span>"
+          "answer": "<span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">If you choose the Economic Tier (Managed by Us), you won't lose time dealing with web panel access. Simply forward your request via WhatsApp, and our technical crew implements the revision live on the same business day. If you select the Professional Tier (Full-Access CMS), you can log into the intuitive, simplified </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Client CMS Panel</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> integrated into your footer using your private password to update your services, pricing, and business hours within seconds entirely by yourself, requiring zero technical expertise.</span>"
+        },
+        "ru": {
+          "question": "Могу ли я привязать свой существующий домен к веб-сайту?",
+          "answer": "<p style=\"text-align: justify;\">Да, вы можете привязать свой собственный домен (например, <em>yourcompany.com</em>). Наша команда инженеров предоставляет бесплатную помощь по настройке DNS и привязке домена.</p>"
         }
       }
     },
@@ -1553,7 +2383,11 @@
       "translations": {
         "en": {
           "question": "Is there any optimization in place to help the site rank higher on Google and next-generation AI search engines?",
-          "answer": "\n\n\n\n<span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Yes, our web systems are engineered from the ground up with </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO)</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> architectures, tailored specifically for next-generation AI search utilities (Perplexity, ChatGPT Search, Gemini) as well as classic Google crawlers. Because your platform is delivered with a structured, atomic paragraph layout designed for direct AI source attribution and paired with a </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">95+ Google Lighthouse speed score</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">, you will seamlessly outperform your industry competitors.</span>"
+          "answer": "<span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Yes, our web systems are engineered from the ground up with </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO)</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"> architectures, tailored specifically for next-generation AI search utilities (Perplexity, ChatGPT Search, Gemini) as well as classic Google crawlers. Because your platform is delivered with a structured, atomic paragraph layout designed for direct AI source attribution and paired with a </span><b style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">95+ Google Lighthouse speed score</b><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">, you will seamlessly outperform your industry competitors.</span>"
+        },
+        "ru": {
+          "question": "Оптимизирован ли сайт для поисковых систем Google и Yandex (SEO/GEO)?",
+          "answer": "<p style=\"text-align: justify;\">Все готовые веб-сайты по умолчанию оптимизированы согласно стандартам <strong>GEO (Generative Engine Optimization)</strong> и традиционному SEO. Код настроен на максимальные показатели Google PageSpeed, включая метатеги, карты OpenGraph и микроразметку Schema.org.</p>"
         }
       }
     }

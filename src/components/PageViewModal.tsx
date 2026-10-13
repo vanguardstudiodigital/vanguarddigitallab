@@ -48,38 +48,47 @@ export const PageViewModal: React.FC = () => {
 
   const page = customPages.find(p => p.slug === activePageSlug) || customPages[0];
 
-  // Grouping pages for vertical sidebar
-  const corporatePages = customPages.filter(p =>
-    ['hakkimizda', 'vizyonumuz', 'misyonumuz', 'kariyer'].includes(p.slug) ||
-    p.category === 'corporate' ||
-    p.locations?.includes('corporate') ||
-    p.locations?.includes('mega_corporate') ||
-    p.locations?.includes('footer_corporate')
-  );
+  // Grouping pages for vertical sidebar - Kesin Çift Sayfa Önleyici (Disjoint Sets)
+  const corporateSlugs = ["hakkimizda", "vizyon", "vizyonumuz", "misyon", "misyonumuz", "kariyer"];
+  const supportSlugs = ["sss", "faq", "yardim-merkezi", "iletisim"];
 
-  const supportPages = customPages.filter(p =>
-    ['sss', 'faq', 'yardim-merkezi', 'iletisim'].includes(p.slug) ||
-    p.category === 'support' ||
-    p.category === 'info' ||
-    p.locations?.includes('support') ||
-    p.locations?.includes('info') ||
-    p.locations?.includes('mega_support')
-  );
+  const seenSlugs = new Set<string>();
 
-  const legalPages = customPages.filter(p =>
-    p.category === 'legal' ||
-    p.locations?.includes('legal') ||
-    p.locations?.includes('footer_legal') ||
-    ['gizlilik-sozlesmesi', 'kullanim-kosullari', 'cerez-politikasi', 'kvkk'].includes(p.slug)
-  );
+  // 1. Destek Grubu (İletişim ve SSS buraya atanır, kurumsalda mükerrer basılmaz)
+  const supportPages = customPages.filter(p => {
+    if (supportSlugs.includes(p.slug) || p.category === "support" || p.category === "info" || p.locations?.includes("support") || p.locations?.includes("mega_support")) {
+      if (!seenSlugs.has(p.slug)) {
+        seenSlugs.add(p.slug);
+        return true;
+      }
+    }
+    return false;
+  });
 
-  // Other pages not captured in main categories
-  const mappedSlugs = new Set([
-    ...corporatePages.map(p => p.slug),
-    ...supportPages.map(p => p.slug),
-    ...legalPages.map(p => p.slug),
-  ]);
-  const otherPages = customPages.filter(p => !mappedSlugs.has(p.slug));
+  // 2. Kurumsal Grubu (Hakkımızda, Vizyon, Misyon, Kariyer)
+  const corporatePages = customPages.filter(p => {
+    if (corporateSlugs.includes(p.slug) || p.category === "corporate" || p.locations?.includes("corporate") || p.locations?.includes("mega_corporate") || p.locations?.includes("footer_corporate")) {
+      if (!seenSlugs.has(p.slug)) {
+        seenSlugs.add(p.slug);
+        return true;
+      }
+    }
+    return false;
+  });
+
+  // 3. Yasal Bildirimler Grubu (Gizlilik, KVKK, Kullanım Koşulları vb.)
+  const legalPages = customPages.filter(p => {
+    if (p.category === "legal" || p.locations?.includes("legal") || p.locations?.includes("footer_legal") || ["gizlilik-politikasi", "gizlilik-sozlesmesi", "kullanim-kosullari", "cerez-politikasi", "kvkk", "48-saatte-teslim-ve-hizmet-garantisi", "mesafeli-satis-sozlesmesi"].includes(p.slug)) {
+      if (!seenSlugs.has(p.slug)) {
+        seenSlugs.add(p.slug);
+        return true;
+      }
+    }
+    return false;
+  });
+
+  // 4. Kalan Diğer Sayfalar
+  const otherPages = customPages.filter(p => !seenSlugs.has(p.slug));
 
   // Helper for icons
   const getPageIcon = (slug: string, category?: string) => {

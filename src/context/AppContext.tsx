@@ -48,6 +48,7 @@ interface AppContextType {
   currentLang: string;
   setLanguage: (lang: string) => void;
   languages: LanguageDef[];
+  activeLanguages: LanguageDef[];
   translations: TranslationDictionary;
   t: (key: string, fallback?: string) => string;
   addLanguage: (lang: LanguageDef) => void;
@@ -312,7 +313,17 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
           const langMerged: Record<string, string> = { ...defaultDict };
           Object.keys(userDict).forEach(k => {
             if (typeof userDict[k] === 'string' && userDict[k].trim() !== '') {
-              langMerged[k] = userDict[k];
+              // If in English userDict has an outdated exact copy of Turkish default while English default exists, prefer the fresh English translation
+              if (
+                lang === 'en' &&
+                userDict[k] === DEFAULT_TRANSLATIONS['tr']?.[k] &&
+                DEFAULT_TRANSLATIONS['en']?.[k] &&
+                DEFAULT_TRANSLATIONS['en'][k] !== DEFAULT_TRANSLATIONS['tr'][k]
+              ) {
+                langMerged[k] = DEFAULT_TRANSLATIONS['en'][k];
+              } else {
+                langMerged[k] = userDict[k];
+              }
             }
           });
           merged[lang] = langMerged;
@@ -368,7 +379,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const t = (key: string, fallback?: string): string => {
     let rawText = '';
-    // 1. Current language from user/saved translations
+    // 1. Current language from user/saved translations (edited in Admin Panel)
     if (translations[currentLang]?.[key] && translations[currentLang][key].trim() !== '') {
       rawText = translations[currentLang][key];
     }
@@ -376,8 +387,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     else if (DEFAULT_TRANSLATIONS[currentLang]?.[key] && DEFAULT_TRANSLATIONS[currentLang][key].trim() !== '') {
       rawText = DEFAULT_TRANSLATIONS[currentLang][key];
     }
-    // 3. Explicit fallback provided by component when language is not Turkish
-    else if (currentLang !== 'tr' && fallback) {
+    // 3. Explicit fallback provided by component (if caller passed a language-aware fallback)
+    else if (fallback && fallback.trim() !== '') {
       rawText = fallback;
     }
     // 4. Turkish from user/saved translations
@@ -990,7 +1001,14 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       if (data.references) setReferences(data.references);
       if (data.languages) setLanguages(data.languages);
       if (data.translations) {
-        const trans = { ...data.translations };
+        const trans: TranslationDictionary = {};
+        const allLangs = Array.from(new Set([...Object.keys(DEFAULT_TRANSLATIONS), ...Object.keys(data.translations)]));
+        allLangs.forEach(lang => {
+          trans[lang] = {
+            ...(DEFAULT_TRANSLATIONS[lang] || {}),
+            ...(data.translations[lang] || {}),
+          };
+        });
         if (trans.en) {
           if (trans.en['services.sectionTitle'] === 'Ajans Hizmetleri') {
             trans.en['services.sectionTitle'] = 'Agency Services';
@@ -1053,7 +1071,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   // Auto-sync backup from public folder when updated
   useEffect(() => {
     const tryAutoImportBackup = async () => {
-      const SYNC_KEY = 'vanguard_backup_sync_20261012_v8';
+      const SYNC_KEY = 'vanguard_backup_sync_20261013_v12';
       if (localStorage.getItem(SYNC_KEY) === 'true') return;
 
       const backupCandidates = [
@@ -1782,6 +1800,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         currentLang,
         setLanguage,
         languages,
+        activeLanguages: languages.filter(l => l.active),
         translations,
         t,
         addLanguage,

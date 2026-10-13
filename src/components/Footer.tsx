@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
             <div className="pt-1 flex items-center gap-2 text-xs">
               <span className="w-2 h-2 rounded-full bg-emerald-500" />
               <span className="text-neutral-700 dark:text-neutral-300 font-medium">
-                {t('footer.acceptingClients', 'Yeni Müşteri Kabulü Açık')}
+                {t('footer.acceptingClients', currentLang === 'en' ? 'Accepting New Clients' : 'Yeni Müşteri Kabulü Açık')}
               </span>
             </div>
 
@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
               {/* Türkiye & Genel Hub */}
               <div className="space-y-1">
                 <div className="text-[10px] uppercase font-bold tracking-wider text-amber-500">
-                  🇹🇷 {t('footer.hubTurkey', 'Türkiye & Genel')}:
+                  🇹🇷 {t('footer.hubTurkey', currentLang === 'en' ? 'Turkey & Global Hub' : 'Türkiye & Genel')}:
                 </div>
                 <div className="flex items-center gap-2">
                   <MessageCircle className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
@@ -93,13 +93,13 @@ export const Footer: React.FC = () => {
                   >
                     {settings.whatsappTR || settings.whatsapp || '+90 505 703 0194'}{' '}
                     <span className="text-[10px] text-neutral-400 font-sans">
-                      ({t('footer.whatsappNote', t('contact.onlyWhatsapp', 'Sadece WhatsApp'))})
+                      ({t('footer.whatsappNote', currentLang === 'en' ? 'WhatsApp Only' : (t('contact.onlyWhatsapp', 'Sadece WhatsApp')))})
                     </span>
                   </a>
                 </div>
                 <div className="flex items-center gap-2 text-neutral-500 dark:text-neutral-400 text-[11px]">
                   <MapPin className="w-3 h-3 text-neutral-400 shrink-0" />
-                  <span>{t('footer.locationTR', settings.locationTR || 'Antalya, Türkiye')}</span>
+                  <span>{t('footer.locationTR', currentLang === 'en' ? 'Antalya, Turkey' : (settings.locationTR || 'Antalya, Türkiye'))}</span>
                 </div>
               </div>
 
@@ -119,7 +119,7 @@ export const Footer: React.FC = () => {
           {/* Col 2: KURUMSAL */}
           <div className="space-y-3">
             <div className="text-xs font-semibold text-neutral-950 dark:text-white tracking-wider">
-              {t('footer.corporateTitle', 'KURUMSAL')}
+              {t('footer.corporateTitle', currentLang === 'en' ? 'CORPORATE' : 'KURUMSAL')}
             </div>
             <div className="text-xs space-y-2.5 flex flex-col">
               {corporateLinks.length > 0 ? (
@@ -151,40 +151,46 @@ export const Footer: React.FC = () => {
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
                   >
-                    {t('nav.home', 'Ana Sayfa')}
+                    {t('nav.home', currentLang === 'en' ? 'Home' : 'Ana Sayfa')}
                   </button>
                   <button
                     onClick={() => openPageModal('hakkimizda')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer font-medium text-neutral-800 dark:text-neutral-200"
                   >
-                    {t('nav.about', 'Hakkımızda')}
+                    {t('nav.about', currentLang === 'en' ? 'About Us' : 'Hakkımızda')}
                   </button>
                   <button
                     onClick={() => openPageModal('vizyon')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
                   >
-                    {t('corporate.vision', 'Vizyon')}
+                    {t('corporate.vision', currentLang === 'en' ? 'Our Vision' : 'Vizyon')}
                   </button>
                   <button
                     onClick={() => openPageModal('misyon')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
                   >
-                    {t('corporate.mission', 'Misyon')}
+                    {t('corporate.mission', currentLang === 'en' ? 'Our Mission' : 'Misyon')}
+                  </button>
+                  <button
+                    onClick={() => handleLinkClick('#references-section')}
+                    className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
+                  >
+                    {t('nav.references', currentLang === 'en' ? 'References & Testimonials' : 'Referanslar & Yorumlar')}
                   </button>
                   <button
                     onClick={() => openPageModal('kariyer')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer font-medium text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5"
                   >
-                    <span>{t('corporate.careers', 'Kariyer & Uzaktan İş')}</span>
+                    <span>{t('corporate.careers', currentLang === 'en' ? 'Careers & Remote Roles' : 'Kariyer & Uzaktan İş')}</span>
                     <span className="px-1 py-0.5 rounded bg-emerald-500/10 text-emerald-500 text-[9px] font-bold">
-                      {t('footer.badgeHiring', 'İlan')}
+                      {t('footer.badgeHiring', currentLang === 'en' ? 'Hiring' : 'İlan')}
                     </span>
                   </button>
                   <button
                     onClick={() => openPageModal('iletisim')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer font-medium text-amber-600 dark:text-amber-400"
                   >
-                    {t('nav.contactLink', 'İletişim & Teklif')}
+                    {t('nav.contactLink', currentLang === 'en' ? 'Contact & Quote' : 'İletişim & Teklif')}
                   </button>
                 </>
               )}
@@ -194,7 +200,7 @@ export const Footer: React.FC = () => {
           {/* Col 3: HAZIR SİTELER & PAKETLER */}
           <div className="space-y-3">
             <div className="text-xs font-semibold text-neutral-950 dark:text-white tracking-wider">
-              {t('footer.modelsTitle', 'HAZIR SİTELER & PAKETLER')}
+              {t('footer.modelsTitle', currentLang === 'en' ? 'TURNKEY SITES & TIERS' : 'HAZIR SİTELER & PAKETLER')}
             </div>
             <div className="text-xs space-y-2.5 flex flex-col">
               {productLinks.length > 0 ? (
@@ -221,31 +227,31 @@ export const Footer: React.FC = () => {
                     onClick={() => handleLinkClick('#portfolio-section')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
                   >
-                    {t('footer.catalogLink', 'Hazır Siteler Kataloğu')}
+                    {t('footer.catalogLink', currentLang === 'en' ? 'Turnkey Sites Catalog' : 'Hazır Siteler Kataloğu')}
                   </button>
                   <button
                     onClick={() => handleLinkClick('#pricing-models')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
                   >
-                    {t('models.economic.title', 'Ekonomik Paket (Yönetim Bizde)')}
+                    {t('models.economic.title', currentLang === 'en' ? 'Economic Tier (Managed by Us)' : 'Ekonomik Paket (Yönetim Bizde)')}
                   </button>
                   <button
                     onClick={() => handleLinkClick('#pricing-models')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
                   >
-                    {t('models.pro.title', 'Profesyonel Paket (Tam Yetkili CMS)')}
+                    {t('models.pro.title', currentLang === 'en' ? 'Professional Tier (Full-Access CMS)' : 'Profesyonel Paket (Tam Yetkili CMS)')}
                   </button>
                   <button
                     onClick={() => handleLinkClick('#pricing-models')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer"
                   >
-                    {t('models.custom.title', 'Özel Talep & Kurumsal Mimari')}
+                    {t('models.custom.title', currentLang === 'en' ? 'Custom Architecture & Enterprise' : 'Özel Talep & Kurumsal Mimari')}
                   </button>
                   <button
                     onClick={() => openPaymentModal(null, 'economic')}
                     className="text-left hover:text-neutral-950 dark:hover:text-white transition-colors cursor-pointer text-amber-600 dark:text-amber-400 font-medium"
                   >
-                    {t('nav.paymentPortal', 'Güvenli Ödeme & Havale Portalı')}
+                    {t('nav.paymentPortal', currentLang === 'en' ? 'Secure Payment & Wire Transfer' : 'Güvenli Ödeme & Havale Portalı')}
                   </button>
                 </>
               )}
@@ -256,7 +262,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-3">
             <div className="text-xs font-semibold text-neutral-950 dark:text-white tracking-wider flex items-center gap-1.5">
               <Shield className="w-3.5 h-3.5 text-amber-500" />
-              <span>{t('footer.legalTitle', 'YASAL BİLDİRİMLER')}</span>
+              <span>{t('footer.legalTitle', currentLang === 'en' ? 'LEGAL & COMPLIANCE' : 'YASAL BİLDİRİMLER')}</span>
             </div>
             <div className="text-xs space-y-2.5 flex flex-col">
               {legalLinks.length > 0 ? (
