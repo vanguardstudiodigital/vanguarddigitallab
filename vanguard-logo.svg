@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="45%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="hGoldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left: Hexagonal Mark (scaled to 100x100) -->
+  <g transform="translate(10, 10) scale(0.166667)">
+    <polygon
+      points="300,20 542,160 542,440 300,580 58,440 58,160"
+      fill="#0A0B0E"
+      stroke="url(#hGold)"
+      stroke-width="16"
+      stroke-linejoin="round"
+    />
+    <g stroke="url(#hGold)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <line x1="300" y1="185" x2="300" y2="70" />
+      <line x1="300" y1="415" x2="300" y2="530" />
+      <polyline points="250,214 200,185 200,118" />
+      <polyline points="350,214 400,185 400,118" />
+      <polyline points="200.4,280 150,280 150,185 102,185" />
+      <polyline points="399.6,280 450,280 450,185 498,185" />
+      <line x1="200.4" y1="310" x2="100" y2="310" />
+      <line x1="399.6" y1="310" x2="500" y2="310" />
+      <line x1="200.4" y1="345" x2="110" y2="412" />
+      <line x1="399.6" y1="345" x2="490" y2="412" />
+      <polyline points="250,386 200,415 200,482" />
+      <polyline points="350,386 400,415 400,482" />
+      <polygon points="300,185 399.6,242.5 300,300 200.4,242.5" fill="#0A0B0E" />
+      <polygon points="200.4,242.5 300,300 300,415 200.4,357.5" fill="#0A0B0E" />
+      <polygon points="300,300 399.6,242.5 399.6,357.5 300,415" fill="#0A0B0E" />
+    </g>
+    <g stroke="url(#hGold)" stroke-width="6" fill="#0A0B0E">
+      <circle cx="300" cy="70" r="14" />
+      <circle cx="300" cy="530" r="14" />
+      <circle cx="200" cy="118" r="13" />
+      <circle cx="400" cy="118" r="13" />
+      <circle cx="102" cy="185" r="13" />
+      <circle cx="498" cy="185" r="13" />
+      <circle cx="100" cy="310" r="13" />
+      <circle cx="500" cy="310" r="13" />
+      <circle cx="110" cy="412" r="13" />
+      <circle cx="490" cy="412" r="13" />
+      <circle cx="200" cy="482" r="13" />
+      <circle cx="400" cy="482" r="13" />
+      <circle cx="300" cy="300" r="12" />
+      <circle cx="300" cy="185" r="12" />
+      <circle cx="300" cy="415" r="12" />
+      <circle cx="200.4" cy="242.5" r="12" />
+      <circle cx="399.6" cy="242.5" r="12" />
+      <circle cx="200.4" cy="357.5" r="12" />
+      <circle cx="399.6" cy="357.5" r="12" />
+    </g>
+  </g>
+
+  <!-- Right: VANGUARD STUDIO Typography -->
+  <g transform="translate(130, 0)">
+    <text x="0" y="58" fill="url(#hGoldText)" font-family="'Roboto', 'Montserrat', 'Inter', -apple-system, sans-serif" font-size="34" font-weight="800" letter-spacing="5">VANGUARD</text>
+    <g transform="translate(0, 84)">
+      <line x1="0" y1="-8" x2="32" y2="-8" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+      <text x="42" y="-1" fill="#FDE047" font-family="'Roboto', 'Montserrat', 'Inter', -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="8">STUDIO</text>
+      <line x1="168" y1="-8" x2="280" y2="-8" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    </g>
+    <text x="0" y="106" fill="#A3A3A3" font-family="'Roboto', 'Montserrat', 'Inter', -apple-system, sans-serif" font-size="9" font-weight="600" letter-spacing="4">DIGITAL WEB SOLUTIONS</text>
+  </g>
+</svg>
