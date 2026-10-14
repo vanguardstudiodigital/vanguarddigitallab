@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useApp } from '../context/AppContext.tsx';
-import { ArrowUpRight, ArrowDownRight, Globe2, TrendingUp, CheckCircle2 } from 'lucide-react';
+import { ArrowUpRight, ArrowDownRight, Globe2, TrendingUp, CheckCircle2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { CurrencyCode } from '../types/index.ts';
 
 interface StockMarketIndex {
@@ -20,8 +20,21 @@ interface StockMarketIndex {
 export const CurrencyTicker: React.FC = () => {
   const { centralBankRates, currentCurrency, setCurrency, t, currentLang } = useApp();
   const [clickedFeedback, setClickedFeedback] = useState<string | null>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   const isEN = currentLang === 'en';
+
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: -240, behavior: 'smooth' });
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: 240, behavior: 'smooth' });
+    }
+  };
 
   // Global Stock Indices (TR, ABD, Euronext)
   const stockIndices: StockMarketIndex[] = [
@@ -153,91 +166,116 @@ export const CurrencyTicker: React.FC = () => {
           </span>
         </div>
 
-        {/* Center: Scrollable Ticker Items (FX + Stock Indices) */}
-        <div className="flex items-center gap-5 overflow-x-auto scrollbar-none py-0.5 max-w-full">
-          {/* FX Rates */}
-          <div className="flex items-center gap-4 shrink-0">
-            {extendedRates.map((item, idx) => {
-              const isPositive = item.change.startsWith('+');
-              const sourceDisplay = getSourceDisplay(item.source);
-              return (
-                <button
-                  key={`fx-${idx}`}
-                  type="button"
-                  onClick={() => handlePairClick(item.pair)}
-                  className="group flex items-center gap-1.5 hover:bg-neutral-900/80 px-1.5 py-0.5 rounded transition-all cursor-pointer shrink-0"
-                  title={getCurrencyTooltip(item.pair, item.source)}
-                >
-                  <span className="text-neutral-400 group-hover:text-amber-400 transition-colors font-medium">
-                    {item.pair}:
-                  </span>
-                  <span className="font-bold text-white font-mono-numbers">
-                    {item.rate.toFixed(item.rate < 2 ? 3 : 2)}
-                  </span>
-                  <span
-                    className={`text-[10px] font-mono-numbers flex items-center ${
-                      isPositive ? 'text-emerald-400' : 'text-red-400'
-                    }`}
+        {/* Center: Scrollable Ticker Items (FX + Stock Indices) with quick navigation controls */}
+        <div className="relative flex-1 min-w-0 flex items-center">
+          <button
+            type="button"
+            onClick={scrollLeft}
+            aria-label="Scroll left"
+            className="hidden sm:flex items-center justify-center w-5 h-5 rounded-full bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-700 text-neutral-400 hover:text-white transition-all cursor-pointer shrink-0 mr-1.5"
+            title={isEN ? "Scroll left" : "Sola kaydır"}
+          >
+            <ChevronLeft className="w-3 h-3" />
+          </button>
+
+          <div
+            ref={scrollRef}
+            className="flex items-center gap-4 overflow-x-auto scrollbar-none py-0.5 scroll-smooth w-full"
+          >
+            {/* FX Rates */}
+            <div className="flex items-center gap-3.5 shrink-0">
+              {extendedRates.map((item, idx) => {
+                const isPositive = item.change.startsWith('+');
+                const sourceDisplay = getSourceDisplay(item.source);
+                return (
+                  <button
+                    key={`fx-${idx}`}
+                    type="button"
+                    onClick={() => handlePairClick(item.pair)}
+                    className="group flex items-center gap-1.5 hover:bg-neutral-900/80 px-1.5 py-0.5 rounded transition-all cursor-pointer shrink-0"
+                    title={getCurrencyTooltip(item.pair, item.source)}
                   >
-                    {isPositive ? (
-                      <ArrowUpRight className="w-3 h-3 inline" />
-                    ) : (
-                      <ArrowDownRight className="w-3 h-3 inline" />
-                    )}
-                    {item.change}
-                  </span>
-                  <span className="text-[9px] px-1 py-0.2 rounded bg-neutral-800 text-neutral-400 uppercase font-mono group-hover:bg-neutral-700">
-                    {sourceDisplay}
-                  </span>
-                </button>
-              );
-            })}
+                    <span className="text-neutral-400 group-hover:text-amber-400 transition-colors font-medium">
+                      {item.pair}:
+                    </span>
+                    <span className="font-bold text-white font-mono-numbers">
+                      {item.rate.toFixed(item.rate < 2 ? 3 : 2)}
+                    </span>
+                    <span
+                      className={`text-[10px] font-mono-numbers flex items-center ${
+                        isPositive ? 'text-emerald-400' : 'text-red-400'
+                      }`}
+                    >
+                      {isPositive ? (
+                        <ArrowUpRight className="w-3 h-3 inline" />
+                      ) : (
+                        <ArrowDownRight className="w-3 h-3 inline" />
+                      )}
+                      {item.change}
+                    </span>
+                    <span className="text-[9px] px-1 py-0.2 rounded bg-neutral-800 text-neutral-400 uppercase font-mono group-hover:bg-neutral-700">
+                      {sourceDisplay}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Thin Divider */}
+            <div className="h-3.5 w-px bg-neutral-800 shrink-0 hidden sm:block" />
+
+            {/* Stock Indices (TR, ABD, Euronext) */}
+            <div className="flex items-center gap-3.5 shrink-0">
+              {stockIndices.map((stk) => {
+                const region = isEN ? stk.regionEN : stk.regionTR;
+                const market = isEN ? stk.marketEN : stk.marketTR;
+                return (
+                  <button
+                    key={stk.id}
+                    type="button"
+                    onClick={() => handleStockClick(stk)}
+                    className="group flex items-center gap-1.5 hover:bg-neutral-900/80 px-1.5 py-0.5 rounded transition-all cursor-pointer shrink-0"
+                    title={getStockTooltip(stk)}
+                  >
+                    <span className="text-[9px] font-bold px-1 py-0.2 rounded bg-neutral-900 border border-neutral-700/80 text-amber-400 font-mono">
+                      {region}
+                    </span>
+                    <span className="text-neutral-300 font-medium group-hover:text-white transition-colors">
+                      {stk.code}:
+                    </span>
+                    <span className="font-bold text-white font-mono-numbers">
+                      {stk.value}
+                    </span>
+                    <span
+                      className={`text-[10px] font-mono-numbers flex items-center ${
+                        stk.isPositive ? 'text-emerald-400' : 'text-red-400'
+                      }`}
+                    >
+                      {stk.isPositive ? (
+                        <ArrowUpRight className="w-3 h-3 inline" />
+                      ) : (
+                        <ArrowDownRight className="w-3 h-3 inline" />
+                      )}
+                      {stk.change}
+                    </span>
+                    <span className="text-[9px] px-1 py-0.2 rounded bg-neutral-800/90 text-neutral-400 uppercase font-mono">
+                      {market}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
-          {/* Thin Divider */}
-          <div className="h-3 w-px bg-neutral-800 shrink-0 hidden sm:block" />
-
-          {/* Stock Indices (TR, ABD, Euronext) */}
-          <div className="flex items-center gap-4 shrink-0">
-            {stockIndices.map((stk) => {
-              const region = isEN ? stk.regionEN : stk.regionTR;
-              const market = isEN ? stk.marketEN : stk.marketTR;
-              return (
-                <button
-                  key={stk.id}
-                  type="button"
-                  onClick={() => handleStockClick(stk)}
-                  className="group flex items-center gap-1.5 hover:bg-neutral-900/80 px-1.5 py-0.5 rounded transition-all cursor-pointer shrink-0"
-                  title={getStockTooltip(stk)}
-                >
-                  <span className="text-[9px] font-bold px-1 py-0.2 rounded bg-neutral-900 border border-neutral-700/80 text-amber-400 font-mono">
-                    {region}
-                  </span>
-                  <span className="text-neutral-300 font-medium group-hover:text-white transition-colors">
-                    {stk.code}:
-                  </span>
-                  <span className="font-bold text-white font-mono-numbers">
-                    {stk.value}
-                  </span>
-                  <span
-                    className={`text-[10px] font-mono-numbers flex items-center ${
-                      stk.isPositive ? 'text-emerald-400' : 'text-red-400'
-                    }`}
-                  >
-                    {stk.isPositive ? (
-                      <ArrowUpRight className="w-3 h-3 inline" />
-                    ) : (
-                      <ArrowDownRight className="w-3 h-3 inline" />
-                    )}
-                    {stk.change}
-                  </span>
-                  <span className="text-[9px] px-1 py-0.2 rounded bg-neutral-800/90 text-neutral-400 uppercase font-mono">
-                    {market}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
+          <button
+            type="button"
+            onClick={scrollRight}
+            aria-label="Scroll right"
+            className="hidden sm:flex items-center justify-center w-5 h-5 rounded-full bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-700 text-neutral-400 hover:text-white transition-all cursor-pointer shrink-0 ml-1.5"
+            title={isEN ? "Scroll right" : "Sağa kaydır"}
+          >
+            <ChevronRight className="w-3 h-3" />
+          </button>
         </div>
 
         {/* Right: Active Currency & Notification */}
