@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
   const bgImageUrl =
     t('hero.bgImage', '') ||
     settings.heroBgImage ||
-    'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=65&fm=webp';
+    '/uploads/modern-vanguard-studio-digital-hero-bg.avif';
 
   const handlePrimaryClick = () => {
     if (primaryUrl.startsWith('#')) {
